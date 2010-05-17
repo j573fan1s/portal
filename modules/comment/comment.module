@@ -918,7 +918,8 @@ function comment_links($comment, $return = 1) {
  * spoil the reverse ordering, "ORDER BY thread ASC" -- here, we do not need
  * to consider the trailing "/" so we use a substring only.
  */
-function comment_render($node, $cid = 0) {
+
+/* "j573fan1s"  function comment_render($node, $cid = 0) {
   global $user;
 
   $output = '';
@@ -929,6 +930,7 @@ function comment_render($node, $cid = 0) {
     if (empty($nid)) {
       $nid = 0;
     }
+
 
     $mode = _comment_get_display_setting('mode', $node);
     $order = _comment_get_display_setting('sort', $node);
@@ -1058,6 +1060,8 @@ function comment_render($node, $cid = 0) {
 
   return $output;
 }
+
+"j573fan1s"  */
 
 /**
  * Comment operations. We offer different update operations depending on
