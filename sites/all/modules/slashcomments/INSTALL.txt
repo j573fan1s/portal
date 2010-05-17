@@ -1,0 +1,9 @@
+/* $Id: INSTALL.txt,v 1.1 2009/09/10 12:47:49 mukhsim Exp $ */
+INSTALLATION
+1. Enable module.
+2. Comment out function "comment_render" from core comment module (/modules/comment/comment.module).
+3. Copy comment.tpl.php from this module's folder to your theme's folder.
+4. Configure comment viewing options at /admin/content/node-type/page (or your node_type). Make sure to save settings, otherwise comments will not show.
+5. Set permissions for moderating comments at /admin/user/permissions.
+
+That's it! As a note: clicking on comment headers toggles comment content.

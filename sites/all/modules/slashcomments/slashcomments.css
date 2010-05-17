@@ -1,0 +1,112 @@
+/* $Id: slashcomments.css,v 1.1 2009/09/10 12:47:49 mukhsim Exp $ */
+div.toggle_area,
+div.non_toggle_area {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  clear: both;
+  margin: 5px 0;
+  padding: 0;
+}
+
+div.toggle_area {
+  background: #eee;  
+}
+
+div.non_toggle_area {
+  background: #FEFFAF;  
+}
+
+div.toggle_label,
+div.non_toggle_label,
+div.toggle_label .own,
+div.non_toggle_label .own{
+  border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+
+  border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  line-height: 1.7em;
+  margin: 0;
+  padding: 2px 5px;
+}
+
+div.toggle_label {
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;    
+  cursor: pointer;
+}
+
+div.toggle_label,
+div.toggle_label * {
+  color: #999;
+}
+
+div.non_toggle_label {
+  background: #FEFFAF;
+}
+
+div.own,
+div.non_toggle_area .own,
+div.non_toggle_label .own,
+div.toggle_label .own{
+  background: #BFD6FF;
+}
+
+div.toggle_content {
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px; 
+  border-top: 1px solid #ddd;      
+  min-height: 80px; 
+  height:auto !important;
+  height: 100px;  
+}
+
+div.author {
+  float: left;
+  height:auto !important;
+  height: 80px;  
+  min-height: 80px; 
+  width: 120px;
+  padding: 20px 0px 10px 20px;  
+}
+
+div.author img {
+  border: 1px solid #ddd;
+}
+
+div.comment-content {
+  background: #fff;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;    
+  border-left: 0px solid #ddd;
+  height:auto !important;
+  height: 80px;  
+  margin-left: 140px;
+  min-height: 80px; 
+  padding: 0 10px 10px 0;
+}
+
+span.comment-name {
+  font-weight: bold;
+}
+
+.clearfloat {
+  clear: both;
+  height: 0px;
+}
+

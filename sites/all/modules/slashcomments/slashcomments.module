@@ -1,0 +1,397 @@
+<?php
+// $Id: slashcomments.module,v 1.1 2009/09/10 12:47:49 mukhsim Exp $
+/**
+ * @file
+ * Module to emulate Slashdot comment system
+ */
+
+/**
+ * Define new comments display modes
+ */
+define('COMMENT_MODE_FLAT', 1);
+define('COMMENT_MODE_THREADED', 2);
+
+/**
+ * Implemenatation of hook_init()
+ */
+function slashcomments_init() {
+  if (function_exists('comment_render')) {
+    drupal_set_message(t('Please read INSTALL.TXT file in Slashcomments module folder in order to install module properly.'), 'error');
+  }
+  else {
+    module_load_include('inc', 'slashcomments', 'slashcomments');
+  }
+}
+
+/**
+ * Implementation of hook_perm()
+ */ 
+function slashcomments_perm() {
+  return array('moderate comments');
+}
+
+/**
+ * Implementation of hook_theme_registry_alter()
+ * Overrides default theme_comment_view function
+ */ 
+function slashcomments_theme_registry_alter($theme_registry) {
+  if (!empty($theme_registry['comment_view'])) {
+      $theme_registry['comment_view']['function'] = 'slashcomments_comment_view';
+  }  
+}
+
+/**
+ * Provides implementation for theme_comment_view() override
+ */ 
+function slashcomments_comment_view($comment, $node, $links = array(), $visible = TRUE) {
+  static $first_new = TRUE;
+  $output = '';
+  $comment->new = node_mark($comment->nid, $comment->timestamp);
+  if ($first_new && $comment->new != MARK_READ) {
+    // Assign the anchor only for the first new comment. This avoids duplicate
+    // id attributes on a page.
+    $first_new = FALSE;
+    $output .= "<a id=\"new\"></a>\n";
+  }
+
+  $output .= "<a id=\"comment-$comment->cid\"></a>\n";
+  $comment->comment = check_markup($comment->comment, $comment->format, FALSE);
+  // Comment API hook
+  comment_invoke_comment($comment, 'view');
+  $output .= theme('comment', $comment, $node, $links);
+  return $output;
+}
+
+/**
+ * Implementation of hook_comment()
+ */
+function slashcomments_comment($comment, $op) {
+  switch ($op) {
+    case 'view':
+      drupal_add_js(drupal_get_path('module', 'slashcomments') .'/collapsible.js');              
+      drupal_add_css(drupal_get_path('module', 'slashcomments') .'/slashcomments.css');              
+      global $user;
+      $rating = slashcomments_get_comment_rating($comment->cid, $comment->uid);
+      if (isset($rating['description'])) {
+        $description = ' (' . $rating['description'] . ')';
+      }
+      else {
+        $description = '';
+      }
+      $comment->score = sprintf("%+d", $rating['rating']);
+      $comment->rating = sprintf("%+d", $rating['rating']) . $description; 
+      if (slashcomments_user_can_vote($user->uid, $comment->cid)) {
+        $comment->comment = $comment->comment . drupal_get_form('slashcomments_moderation_form', $comment->cid);
+      }
+      if ($user->uid == $comment->uid && $user->uid != 0) {
+        $comment->own = "own";
+      }
+    break;  
+  }
+}
+
+/**
+ * Add threshold to comments control form
+ */
+function slashcomments_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'comment_form') {
+    unset($form['comment_filter']['comment']['#title']);
+  }
+  
+  if ($form_id == 'node_type_form' && isset($form['identity']['type'])) {
+    $form['comment']['comment_default_threshold'] = array(
+      '#type' => 'select',
+      '#title' => t('Default comments threshold'),
+      '#default_value' => variable_get('comment_default_threshold_'. $form['#node_type']->type, 1),
+      '#options' => _slashcomments_thresholds(),
+      '#description' => t('Default threshold for comments. Comments with lower score will be collapsed.'),
+      '#weight' => -5,
+    );
+    $form['comment']['comment_default_mode'] = array(
+      '#type' => 'select',
+      '#title' => t('Default display mode'),
+      '#default_value' => variable_get('comment_default_mode_'. $form['#node_type']->type, COMMENT_MODE_FLAT),
+      '#options' => _slashcomments_modes(),
+      '#description' => t('The default view for comments.'),
+      '#weight' => -4,
+    );
+    $form['comment']['comment_default_per_page']['#weight'] = -3;
+        //order is always oldest first
+    unset($form['comment']['comment_default_order']);
+  }
+  if ($form_id == 'comment_controls') {
+    // WARNING: we cannot get node type from form info, so, we have to load from arg(1)
+    $node = node_load(arg(1));
+    $form['threshold'] = array(
+      '#type' => 'select',
+      '#title' => t('Threshold'),
+      '#options' => _slashcomments_thresholds($node),
+      '#default_value' => _slashcomments_get_display_setting('threshold', $node) + 1,
+      '#weight' => 0,
+    );
+    
+    $form['mode'] = array(
+      '#type' => 'select',
+      '#default_value' => _slashcomments_get_display_setting('mode', $node),
+      '#options' => _slashcomments_modes(),
+      '#weight' => 1,
+    );
+    
+    //order is always oldest first
+    $form['order'] = array(
+      '#type' => 'hidden',
+      '#value' => COMMENT_ORDER_OLDEST_FIRST,
+    );    
+    
+    $form['comments_per_page'] = array(
+      '#type' => 'select',
+      '#default_value' => _slashcomments_get_display_setting('comments_per_page', $node),
+      '#options' => _slashcomments_per_page(),
+      '#weight' => 3,
+    );
+    
+    $form['#submit'][] = 'slashcomments_comment_control_submit';
+  }
+}
+
+/**
+ * Submit function for comment control form
+ */
+function slashcomments_comment_control_submit($form, &$form_state) {
+  global $user;
+  $threshold = $form_state['values']['threshold']-1;
+  $mode = $form_state['values']['mode'];
+  $order = $form_state['values']['order'];
+  $comments_per_page = $form_state['values']['comments_per_page'];
+
+  if ($user->uid) {
+    $account = user_save($user, array('threshold' => $threshold, 'mode' => $mode, 'sort' => $order, 'comments_per_page' => $comments_per_page));
+    // Terminate if an error occured during user_save().
+    if (!$account) {
+      drupal_set_message(t("Error saving user account."), 'error');
+      return;
+    }
+  }
+
+  $_SESSION['comment_threshold'] = $threshold;
+  $_SESSION['comment_mode'] = $mode;
+  $_SESSION['comment_sort'] = $order;
+  $_SESSION['comment_comments_per_page'] = $comments_per_page;
+}
+
+/**
+ * Get display settings for a given content
+ */
+function _slashcomments_get_display_setting($setting, $node) {
+  global $user;
+
+  if (isset($_GET[$setting])) {
+    $value = $_GET[$setting];
+  }
+  else {
+    // get the setting's site default
+    switch ($setting) {
+      case 'threshold':
+        $default = variable_get('comment_default_threshold_'. $node->type, 2) - 1;
+        break;      
+      case 'mode':
+        $default = variable_get('comment_default_mode_'. $node->type, COMMENT_MODE_THREADED_EXPANDED);
+        break;
+      case 'sort':
+        $default = variable_get('comment_default_order_'. $node->type, COMMENT_ORDER_NEWEST_FIRST);
+        break;
+      case 'comments_per_page':
+        $default = variable_get('comment_default_per_page_'. $node->type, 50);
+    }
+    if (variable_get('comment_controls_'. $node->type, COMMENT_CONTROLS_HIDDEN) == COMMENT_CONTROLS_HIDDEN) {
+      // if comment controls are disabled use site default
+      $value = $default;
+    }
+    else {
+      // otherwise use the user's setting if set
+      if (isset($user->$setting) && $user->$setting) {
+        $value = $user->$setting;
+      }
+      else if (isset($_SESSION['comment_'. $setting]) && $_SESSION['comment_'. $setting]) {
+        $value = $_SESSION['comment_'. $setting];
+      }
+      else {
+        $value = $default;
+      }
+    }
+  }
+  return $value;  
+}
+
+/**
+ * Determine whether a given user can vote on a given comment
+ */
+function slashcomments_user_can_vote($uid, $cid) {
+  $can_vote = FALSE;
+  if (user_access('moderate comments')) {
+    if (!votingapi_select_votes(array('content_type' => 'comment', 'content_id' => $cid, 'uid' => $uid))) {
+      $can_vote = !slashcomments_user_participating_in_discussion($uid, $cid);
+    }
+  }
+  return $can_vote;
+}
+
+/**
+ * Check whether user is participating in a given discussion
+ */
+function slashcomments_user_participating_in_discussion($uid, $cid){
+  // get nid of the discussion 
+  $nid = db_result(db_query("SELECT nid FROM {comments} WHERE cid=%d AND uid=%d", $cid, $uid));
+  // get user's comments with nid
+  $user_cid = db_result(db_query("SELECT cid FROM {comments} WHERE nid=%d AND uid=%d", $nid, $uid));
+  if ($user_cid) {
+    return TRUE;
+  }
+  else {
+    return FALSE;
+  }
+}
+
+/**
+ * FAPI definition for the comment moderation form.
+ *
+ * @ingroup forms
+ * @see slashcomments_moderation_form_submit()
+ */
+function slashcomments_moderation_form($form_state, $cid) {
+  $form['cid'] = array('#type' => 'hidden', '#default_value' => $cid);
+  
+  $form['vote'] = array(
+    '#title' => '', 
+    '#type' => 'select',
+    '#options' => _slashcomments_moderation_options(),
+    '#default_value' => 0,
+    '#weight' => 30,
+    '#prefix' => '<div class="container-inline">'
+  );
+  
+  $form['submit'] = array(
+    '#type' => 'submit', 
+    '#value' => t('Moderate'),
+    '#weight' => 50,
+    '#suffix' => '</div>',
+  );
+  
+  $form['#submit'][] = 'slashcomments_moderation_form_submit';
+  
+  return $form;
+}
+
+/**
+ * Submit function for comment moderation form
+ */
+function slashcomments_moderation_form_submit($form, &$form_state) {
+  $vote  = array(
+    'content_type'    => 'comment',
+    'content_id'      => $form_state['values']['cid'],
+    'value_type'      => 'option',
+    'value'           => $form_state['values']['vote'],
+  );
+  votingapi_add_votes($vote);
+  votingapi_recalculate_results('comment', $form_state['values']['cid'], TRUE);
+}
+
+/**
+ * Retrieve comment rating
+ */
+function slashcomments_get_comment_rating($cid ,$uid) {
+  $results  = votingapi_select_results(array('content_type'=>'comment', 'content_id'=>$cid));
+  $max = $results['0'];
+  $rating = $uid ? 1 : 0;
+  foreach ($results as $vote) {
+    if ($vote['value'] > $max['value']) {
+      $max = $vote;
+    }
+    $func = drupal_substr($vote['function'], 7);
+    if(($func >= 1 && $func <= 4) || $func == 9){
+      $rating -= $vote['value'];
+    }
+    if(($func >= 5 && $func <= 8) || $func == 10){
+      $rating += $vote['value'];
+    }
+  }
+
+  $descriptions = _slashcomments_moderation_options();
+  if ($descriptions[drupal_substr($max['function'], 7)]) {
+    $description = $descriptions[drupal_substr($max['function'], 7)];
+  }
+  return array('rating' => $rating, 'description' => $description);
+}
+
+
+function _slashcomments_moderation_options() {
+  return array(
+    0 => t('Normal'), 
+    1 => t('Offtopic'), 
+    //2 => t('Flamebait'),  
+    3 => t('Trolling'), 
+    //4 => t('Redundant'), 
+    5 => t('Insightful'), 
+    6 => t('Interesting'), 
+    7 => t('Informative'), 
+    8 => t('Funny'), 
+    //9 => t('Overrated'), 
+    //10 => t('Underrated'),   
+  );
+}
+
+function _slashcomments_thresholds($node = NULL) {
+  // TODO: display number of comments per each threshold
+  
+  $thresholds = array(0, 2, 3, 4, 5, 6);
+  $options = array();
+  if (!$node) {
+    foreach ($thresholds as $i) {
+      $options[$i] = t('Threshold: !n', array('!n' => sprintf("%+d", $i - 1)));
+    }
+  }  
+  else {
+    // get all comments for this node, run slashcomments_get_comment_rating($cid)
+    $comments_per_rating = array(
+      0 => 0,
+      2 => 0,
+      3 => 0,
+      4 => 0,
+      5 => 0,
+      6 => 0,
+    );
+    
+    $result = db_query("SELECT cid, uid FROM {comments} WHERE nid=%d", $node->nid);
+    while ($data = db_fetch_object($result)) {
+      $rating = slashcomments_get_comment_rating($data->cid, $data->uid);
+      $comments_per_rating[$rating['rating']] = 1 + $comments_per_rating[$rating['rating']];
+    }
+    
+    $comments_per_rating[-1] = $node->comment_count;
+    for ($i = 6; $i>0; $i--) {
+      $comments_per_rating[$i - 1] = $comments_per_rating[$i - 1] + $comments_per_rating[$i];
+    }
+    
+    foreach ($thresholds as $i) {
+      $options[$i] = t('!n: !s comments', array('!n' => sprintf("%+d", $i - 1), '!s' => $comments_per_rating[$i - 1]));
+    }
+
+  }
+  return $options;
+}
+ 
+function _slashcomments_modes() {
+  return array(
+    COMMENT_MODE_FLAT => t('Display: flat'),
+    COMMENT_MODE_THREADED => t('Display: threaded'),
+  );
+}
+
+function _slashcomments_per_page() {
+  $per_page = array(10, 30, 50, 70, 90, 150, 200, 250, 300, 1000);
+  $options = array();
+  foreach ($per_page as $i) {
+      $options[$i] = t('!a per page', array('!a' => $i));
+  }
+  return $options;
+}

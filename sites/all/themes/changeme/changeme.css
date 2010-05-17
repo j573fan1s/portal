@@ -1,0 +1,90 @@
+/* $Id$  */
+/* 
+  * The idea is that this is the stylesheet where you'd make simple changes
+  * to this theme...so go nuts!
+*/
+
+
+/* Overall Settings for text colors, sizes and fonts */
+body	{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+
+/* Unvisited Links */
+a:link {
+	color: #333;
+	text-decoration: underline;
+}
+/* Visited Links */
+a:visited {
+	color: #666;
+}
+/* Hover Links */
+a:hover {
+	color: #000;
+}
+
+/* Header Links (including main navigation) */
+#header-section a:link,
+#header-section a:visited	{
+	color: #fff;
+	}
+
+/* SubNav Link Color */
+#subnav a	{
+	color: #999;
+}
+
+/* Page Titles Color and Size */
+h1	{
+	color: #000;
+	font-size: 250%;
+}
+
+/* Teaser Titles Color and Size */
+h2 {
+	color: #333;
+	font-size: 200%;
+}
+
+/* Header Background Color */
+#wrapper #header-section {
+	background-color: 	#333;
+}
+
+/* Site Name Color */
+#site-name {
+	color: #fff;
+}
+
+/* Slogan Color */
+#site-slogan	{
+	color: #666;
+}
+
+/* Submitted Information in nodes and comments */
+.submitted	{
+	color: #999;
+	font-size: .85em;
+}
+
+
+/* Node Links */
+.node-links	,
+.node-links	 a	{
+	color: #999;
+}
+
+/* Footer Text */
+#footer	{
+	font-size: .9em;
+	color: #999;
+}
+
+/* Footer Links */
+#footer a:link,
+#footer a:visited {
+	color: #999;
+}

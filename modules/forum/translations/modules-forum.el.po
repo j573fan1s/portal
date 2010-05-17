@@ -1,0 +1,474 @@
+# translation of modules-forum.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: modules-forum\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:37+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "Θέματα"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "Καταχωρίσεις"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "Τελευταία καταχώρηση"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "πριν από @time<br />από τον/την !author"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "Προηγούμενο θέμα συζήτησης"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "Επόμενο θέμα συζήτησης"
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "Όνομα φόρουμ"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "Σύντομο αλλά περιεκτικό όνομα για αυτές τις σχετικές συζητήσεις."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "Περιγραφή και οδηγίες για τις συζητήσεις σε αυτό το φόρουμ."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"Τα φόρουμ παρουσιάζονται σε αύξουσα σειρά με βάση το \"βάρος\" τους (τα "
+"φόρουμ με ίδιο βάρος παρουσιάζονται αλφαβητικά)."
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "φάκελος φόρουμ"
+
+#: modules/forum/forum.admin.inc:79
+msgid "forum"
+msgstr "φόρουμ"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "Δημιουργήθηκε νέο @type, το %term."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "Το @type %term: ενημερώθηκε."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "Όνομα φακέλου"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr ""
+"Σύντομο αλλά περιεκτικό όνομα για τον προσδιορισμό σχετιζόμενων φόρουμ."
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "Περιγραφή και οδηγίες για τα φόρουμ σε αυτόν το φάκελο."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"Οι φάκελοι παρουσιάζονται σε αύξουσα σειρά με βάση το \"βάρος\" (οι φάκελοι "
+"με το ίδιο βάρος παρουσιάζονται αλφαβητικά)."
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "Θέλετε σίγουρα να διαγράψετε το φόρουμ με όνομα: %name;"
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"Με τη διαγραφή ενός φόρουμ ή φακέλου διαγράφονται επίσης όλα τα υπο-φόρουμ "
+"και οι καταχωρίσεις που περιέχουν. Η ενέργεια αυτή είναι μη αντιστρέψιμη."
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr ""
+"Το φόρουμ %term και όλα τα υπο-φόρουμ και οι καταχωρίσεις που περιέχουν "
+"διαγράφηκαν."
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "Όριο χαρακτηρισμού ενός θέματος σαν \"καυτό\""
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr ""
+"Ο αριθμός των καταχωρίσεων που πρέπει να έχει ένα θέμα για να θεωρηθεί "
+"\"καυτό\"."
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "Θέματα ανά σελίδα"
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr ""
+"Ο προεπιλεγμένος αριθμός των στοιχείων που θα περιλαμβάνονται σε μια σελίδα."
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "Καταχωρίσεις - πρώτα τα περισσότερο ενεργά θέματα"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "Καταχωρίσεις - πρώτα τα λιγότερο ενεργά θέματα"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "Προεπιλεγμένη σειρά"
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "Προεπιλεγμένη σειρά παρουσίασης των θεμάτων."
+
+#: modules/forum/forum.admin.inc:229
+msgid "edit container"
+msgstr "επεξεργασία φακέλου"
+
+#: modules/forum/forum.admin.inc:232
+msgid "edit forum"
+msgstr "επεξεργασία φόρουμ"
+
+#: modules/forum/forum.admin.inc:244
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"Δεν υπάρχει κανένας φάκελος ή φόρουμ. Φάκελοι ή φόρουμ μπορούν να προστεθούν "
+"από τις σελίδες <a href=\"@container\">νέος φάκελος</a> ή <a href=\"@forum"
+"\">νέο φόρουμ</a>."
+
+#: modules/forum/forum.admin.inc:285
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"Τα container τοποθετούνται συνήθως στο επίπεδο της κορυφής (ρίζα), αλλά "
+"μπορούν επίσης να τοποθετηθούν μέσα σε άλλα container ή φόρουμ."
+
+#: modules/forum/forum.admin.inc:288
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr ""
+"Τα φόρουμ μπορούν να τοποθετούνται στο επίπεδο της κορυφής (ρίζα), ή μέσα σε "
+"άλλα container ή φόρουμ."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr ""
+"φόρουμ: διαγράφηκε το %term και όλα τα υπο-φόρουμ και οι περιεχόμενες "
+"καταχωρίσεις τους."
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"Η μονάδα φόρουμ σάς επιτρέπει να δημιουργείτε συζητήσεις σε φόρουμ γύρω από "
+"συγκεκριμένα θέματα. Η δυνατότητα αυτή είναι παρόμοια με τα συστήματα πίνακα "
+"μηνυμάτων. Τα φόρουμ είναι πολύ χρήσιμα επειδή επιτρέπουν στα μέλη της "
+"κοινότητας να συζητούν θέματα μεταξύ τους, τα οποία και αρχειοθετούνται για "
+"μελλοντική αναφορά. Το μενού της <a href=\"@create-topic\">δημιουργίας "
+"καινούργιου θέματος</a>  (κάτω από την <em>Υποβολή ύλης</em> στο μενού "
+"πλοήγησης) δημιουργεί μια αρχική δημοσίευση πάνω στο συγκεκριμένο θέμα."
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"Μια συζήτηση δημιουργείται όταν οι χρήστες δημιουργούν σχόλια πάνω σε ένα "
+"θέμα συζήτησης (ή πάνω σε άλλα ήδη υπάρχοντα σχόλια στο θέμα). Ένα θέμα "
+"συζήτησης περιέχεται μέσα σε ένα φόρουμ, που μπορεί να περιέχει πολλά "
+"παρόμοια ή σχετικά θέματα. Τα φόρουμ είναι (προαιρετικά) τοποθετημένα μέσα "
+"σε ένα φάκελο, που μπορεί να περιέχει πολλά παρόμοια ή σχετικά φόρουμ. Τόσο "
+"οι φάκελοι όσο και τα φόρουμ μπορεί να τοποθετηθούν μέσα σε άλλους φακέλου ή "
+"θέματα, δημιουργώντας μια ιεραρχική δομή στις συζητήσεις. Με προσεκτικό "
+"σχεδιασμό της ιεραρχικής δομής, διευκολύνετε τους χρήστες να βρουν και να "
+"σχολιάσουν θέματα συγκεκριμένων συζητήσεων."
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "Όταν διαχειρίζεστε το φόρουμ, σημειώστε ότι:"
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr ""
+"το θέμα του φόρουμ (και όλα τα σχόλιά του) μπορεί να μεταφερθεί από το ένα "
+"φόρουμ στο άλλο κατά την επεξεργασία του."
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"όταν μεταφέρετε ένα θέμα αυζήτησης από το ένα φόρουμ στο άλλο η επιλογή "
+"<em>Αφήστε σκιώδες αντίγραφο</em> δημιουργεί μια παραπομπή στην αρχική "
+"συζήτηση στη νέα της θέση."
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"επιλέγοντας <em>Μόνο ανάγνωση</em> κάτω από τις <em>Ρυθμίσεις σχολίων</em> "
+"κατά την επεξεργασία του θέματος του φόρουμ, θα κλειδώσει (απαγορεύσει νέα "
+"σχόλια) σε αυτή τη συζήτηση."
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"επιλέγοντας <em>Ανενεργό</em> κάτω από το  <em>Ρυθμίσεις σχολίων</em> κατά "
+"τη διάρκεια επεξεργασίας του φόρουμ θα κρύψει όλα τα υπάρχοντα σχόλια και θα "
+"απαγορεύσει τη δημιουργία καινούργιων."
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο της <a href=\"@forum"
+"\">μονάδας Φόρουμ</a>."
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Αυτή η σελίδα παρουσιάσει μια λίστα από υπάρχοντα φόρουμ και φακέλους. Οι "
+"φάκελοι (που είναι προαιρετικοί) μπορούν να περιέχουν φόρουμ και τα φόρουμ "
+"μπορούν να περιέχουν θέματα συζήτησης (για κάθε ένα θέμα συζήτησης "
+"απαιτείται μια αρχική καταχώρηση). Οι φάκελοι και τα φόρουμ μπορούν να "
+"τοποθετηθούν μέσα σε άλλους φακέλους και φόρουμ δίνοντας τη δυνατότητα "
+"δομημένων φόρουμ. Για να αλλάξετε τη σειρά των φόρουμ και των φακέλων "
+"χρησιμοποιείστε το ποντίκι: πατήστε το αριστερό κουμπί και κρατήστε πατημένο "
+"(drag-and-drop) κάτω από τη στήλη <em>Όνομα</em>, έπειτα τραβήξτε το ποντίκι "
+"σας στο φόρουμ ή τον φάκελο στον οποίο θέλετε να το μεταφέρετε. Να θυμάστε "
+"ότι οι αλλαγές σας δεν θα αποθηκευθούν αν δεν πατήσετε το κουμπί "
+"<em>Αποθήκευση</em> στο κάτω μέρος της σελίδας."
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"Με την ομαδοποίηση σχετιζόμενων ή παρόμοιων φόρουμ, τα container βοηθούν "
+"στην οργάνωση των φόρουμ. Για παράδειγμα, ένα container με όνομα \"Τροφή\" "
+"μπορεί να περιέχει δύο φόρουμ με ονόματα \"Φρούτα\" και \"Λαχανικά\", "
+"αντίστοιχα."
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"Ένα φόρουμ περιέχει σχετιζόμενα ή παρόμοια θέματα συζητήσεων (ένα θέμα "
+"συζήτησης είναι η αρχική καταχώρηση σε μια συζήτηση με τη μορφή νημάτων). "
+"Για παράδειγμα, ένα φόρουμ με όνομα \"Φρούτα\" μπορεί να περιέχει συζητήσεις "
+"με τίτλους \"Μήλα\" και \"Μπανάνες\" αντίστοιχα."
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr ""
+"Αυτές οι ρυθμίσεις επιτρέπουν την αλλαγή της άποψης των θεμάτων του φόρουμ "
+"σας. Οι τύποι ύλης που είναι διαθέσιμοι στο φόρουμ μπορούν να επιλεχθούν "
+"στο  <em>Τύποι ύλης</em> της <a href=\"@forum-vocabulary\">σελίδας "
+"λεξιλογίου του φόρουμ</a>."
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr ""
+"Η επιλογή %forum είναι μόνο ένας φάκελος για φόρουμ. Επιλέξτε ένα από τα "
+"φόρουμ που περιλαμβάνει."
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "Θέμα φόρουμ"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr ""
+"Ένα <em>θέμα του φόρουμ</em> είναι η αρχική καταχώρηση μιας νέας συζήτησης "
+"σε ένα φόρουμ."
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr ""
+"Αυτό είναι το προκαθορισμένο λεξιλόγιο των φόρουμ. Μερικές από τις κανονικές "
+"επιλογές των λεξιλογίων έχουν αφαιρεθεί."
+
+#: modules/forum/forum.module:409;425
+msgid "Active forum topics"
+msgstr "Ενεργά θέματα συζήτησης"
+
+#: modules/forum/forum.module:410;432
+msgid "New forum topics"
+msgstr "Νέα θέματα συζήτησης"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "Αριθμός θεμάτων"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "Ανάγνωση των τελευταίων θεμάτων συζήτησης."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "Δημιουργία σκιώδους αντιγράφου"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr ""
+"Αν μετακινήσετε αυτό το θέμα, μπορείτε να αφήσετε στο παλιό φόρουμ μια "
+"παραπομπή προς το νέο."
+
+#: modules/forum/forum.module:559
+msgid "Topic"
+msgstr "Θέμα"
+
+#: modules/forum/forum.module:561
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: modules/forum/forum.module:562
+msgid "Last reply"
+msgstr "Τελευταία απάντηση"
+
+#: modules/forum/forum.module:675
+msgid "Post new @node_type"
+msgstr "Υποβολή νέου υλικού τύπου: @node_type"
+
+#: modules/forum/forum.module:682
+msgid "You are not allowed to post new content in the forum."
+msgstr "Δεν έχετε το δικαίωμα να δημοσιεύσετε νέα ύλη στο φόρουμ."
+
+#: modules/forum/forum.module:686
+msgid "<a href=\"@login\">Login</a> to post new content in the forum."
+msgstr ""
+"Πρέπει να <a href=\"@login\">εισέλθετε στο σύστημα</a> για να δημοσιεύσετε "
+"νέα ύλη στο φόρουμ."
+
+#: modules/forum/forum.module:724
+msgid "No forums defined"
+msgstr "Κανένα φόρουμ δεν έχει οριστεί."
+
+#: modules/forum/forum.module:810
+msgid "This topic has been moved"
+msgstr "Αυτό το θέμα έχει μετακινηθεί"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "δημιουργία θεμάτων συζήτησης"
+
+#: modules/forum/forum.module:328
+msgid "delete own forum topics"
+msgstr "διαγραφή δικών τους θεμάτων συζήτησης"
+
+#: modules/forum/forum.module:328
+msgid "delete any forum topic"
+msgstr "διαγραφή οποιουδήποτε θέματος συζήτησης"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "τροποποίηση δικών τους θεμάτων συζήτησης"
+
+#: modules/forum/forum.module:328
+msgid "edit any forum topic"
+msgstr "τροποποίηση οποιονδήποτε θεμάτων συζήτησης"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "διαχείριση φόρουμ"
+
+#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;115
+msgid "Forums"
+msgstr "Φόρουμ"
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr ""
+"Έλεγχος των φόρουμ και της ιεραρχίας τους και τροποποίηση των ρυθμίσεών τους."
+
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "Προσθήκη φακέλου"
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "Προσθήκη φόρουμ"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "Επεξεργασία φακέλου"
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "Επεξεργασία φόρουμ"

@@ -1,0 +1,268 @@
+/* $Id$ */
+
+
+/* Layout */
+
+body 	{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+#wrapper div	{
+	padding: 0px 20px;
+}
+
+#wrapper div div	{
+	padding: 0;
+}
+
+#right-sidebar,
+#body-section,
+#left-sidebar {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#left-sidebar,
+#right-sidebar {
+  width: 16%;
+  font-size: .9em;
+}
+
+#wrapper #left-sidebar {
+	padding-right: 4%;
+}
+
+#wrapper #right-sidebar {
+	padding-left: 4%;
+}
+
+body.one-sidebar #body-section {
+  width: 80%;
+}
+
+body.two-sidebars #body-section {
+  width: 60%;
+}
+
+
+
+#wrapper #header-section	{
+	background-color: 	#333;
+	color: #fff;
+	border-bottom: 4px solid #efefef;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#header-left {
+	width: 60%;
+	float: left;
+}
+
+#header-right {
+	width: 40%;
+	float: right;
+}
+
+#logo,
+#site-name,
+#site-slogan 	{
+	display: inline;
+	margin-right: 10px;
+}
+
+#site-name,
+#site-slogan	{
+	font-size: 220%;
+  position: relative;
+  top: -.5em;
+	
+}
+
+#site-slogan	{
+	color: #666;
+	font-size: 150%;
+	top: -.75em;
+}
+
+#search-box	{
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+}
+
+#search-box div	{
+	margin: 0;
+}
+
+#nav	{
+	clear: both;
+	text-align: right;
+	font-size: 130%;
+}
+
+#subnav	{
+	text-align: right;
+	font-size: .9em;
+	margin: 5px 0px 10px 0px;
+
+}
+
+#body-section	{
+	line-height: 1.5em;
+}
+
+#footer	{
+	margin: 20px 0px;
+	text-align: center;
+	font-size: .9em;
+	color: #999;
+}
+
+#footer a:link,
+#footer a:visited {
+	color: #999;
+}
+
+#footer a:hover	{
+	text-decoration: underline;
+}
+
+/* Links */
+
+a:link	{
+	color: #333;
+	text-decoration: underline;
+	}
+a:visited	{
+	color: #666;
+	}
+a:hover	{
+	color: #000;
+}
+
+#header-section a:link,
+#header-section a:visited	{
+	color: #fff;
+	text-decoration: none;
+	}
+	
+#header-section a:hover	{
+	text-decoration: underline;	
+}
+
+#subnav a	{
+	color: #999;
+	text-decoration: underline;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5	{
+	font-weight: normal;
+	margin-bottom: .3em;
+}
+
+h1	 {
+	color: #000;
+	font-size: 250%;
+}
+
+h2 {
+	color: #333;
+	font-size: 200%
+}
+
+h3, h4, h5 {
+	color: #666;
+	font-size: 150%;
+}
+
+h4 	{
+	font-size: 120%;
+}
+
+h5 {
+	font-size: 110%;
+}
+
+#left-sidebar h2,
+#right-sidebar h2	{
+	margin-top: 0px;
+}
+
+/* Blocks */
+
+#left-sidebar .block,
+#right-sidebar .block	{
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	
+}
+
+/* Nodes */
+
+#body-section .teaser 	{
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+#body-section .teaser h2 {
+	margin-top: 0;
+}
+
+.node-links	{
+	font-size: .9em;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.node-links	,
+.node-links	 a	{
+	color: #999;
+}
+
+.submitted	{
+	color: #999;
+	font-size: .85em;
+}
+
+/* Comments */
+
+#comments {
+	margin-top: 30px;
+	font-size: .9em;
+}
+
+#comments .comment {
+	padding: 10px;
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+#comments .comment h3	{
+	margin-top: 0;
+}
+
+#comments .comment .links {
+	font-size: .9em;
+	text-align: right;
+}
+
+/* Rounded Corners via CSS....Take THAT Internet Explorer! */
+
+#right-sidebar .block,
+#left-sidebar .block,
+#comments .comment,
+#body-section .teaser		{
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}

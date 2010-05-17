@@ -1,0 +1,1396 @@
+# translation of general.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:27+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: includes/actions.inc:47;277;299;331;339
+#: modules/trigger/trigger.admin.inc:87
+msgid "actions"
+msgstr "ενέργειες"
+
+#: includes/common.inc:344 modules/system/system.admin.inc:1645
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank you "
+"for your patience."
+msgstr ""
+"Το @site είναι αυτή τη στιγμή κλειστό για συντήρηση. Θα επανέλθουμε σύντομα. "
+"Ευχαριστούμε για την κατανόησή σας."
+
+#: includes/common.inc:1211 modules/blogapi/blogapi.module:739;749
+#: modules/upload/upload.admin.inc:98;107;136;145
+msgid "MB"
+msgstr "MB"
+
+#: includes/common.inc:3588 modules/dblog/dblog.admin.inc:41;41
+msgid "emergency"
+msgstr "επείγον"
+
+#: includes/common.inc:3589 modules/dblog/dblog.admin.inc:40;40
+msgid "alert"
+msgstr "συναγερμός"
+
+#: includes/common.inc:3590 modules/dblog/dblog.admin.inc:39;39
+msgid "critical"
+msgstr "κρίσιμο"
+
+#: includes/common.inc:3591 modules/dblog/dblog.admin.inc:38;38
+#: modules/system/system.module:1666;1700
+#: modules/update/update.report.inc:59;59
+msgid "error"
+msgstr "σφάλμα"
+
+#: includes/common.inc:3592 modules/dblog/dblog.admin.inc:37;37
+#: modules/update/update.report.inc:53;53;65;65
+msgid "warning"
+msgstr "προειδοποίηση"
+
+#: (duplicate) includes/file.inc:109 modules/system/system.install:198
+msgid "The directory %directory does not exist."
+msgstr "Ο φάκελος %directory δεν υπάρχει."
+
+#: includes/file.inc:122;226 modules/system/system.module:1232
+msgid "file system"
+msgstr "σύστημα αρχείων"
+
+#: includes/file.inc:136 modules/user/user.pages.inc:274;343
+#: modules/user/user.module:1798;2307
+msgid "security"
+msgstr "ασφάλεια"
+
+#: includes/form.inc:575 modules/upload/upload.module:571
+msgid ""
+"Validation error, please try again. If this error persists, please contact "
+"the site administrator."
+msgstr ""
+"Σφάλμα επαλήθευσης, δοκιμάστε πάλι. Αν το σφάλμα εξακολουθήσει, απευθυνθείτε "
+"στο διαχειριστή του ιστοτόπου."
+
+#: includes/form.inc:1598 modules/user/user.module:659;1256
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: (duplicate) includes/form.inc:698 ;704 modules/filter/filter.module:537
+msgid ""
+"An illegal choice has been detected. Please contact the site administrator."
+msgstr ""
+"Μια μη έγκυρη επιλογή εντοπίστηκε. Απευθυνθείτε στο διαχειριστή του "
+"ιστοτόπου."
+
+#: (duplicate) includes/form.inc:2445 modules/node/node.admin.inc:357
+msgid "Processing"
+msgstr "Επεξεργασία"
+
+#: includes/form.inc:699;705 modules/filter/filter.module:538
+msgid "form"
+msgstr "φόρμα"
+
+#: includes/form.inc:705 modules/filter/filter.module:538
+msgid "Illegal choice %choice in %name element."
+msgstr "Μη επιτρεπτή επιλογή %choice στο στοιχείο %name."
+
+#: includes/locale.inc:58 modules/filter/filter.admin.inc:155;351
+#: modules/menu/menu.admin.inc:50 modules/profile/profile.admin.inc:44
+#: modules/system/system.admin.inc:253;276;768
+#: modules/system/system.module:1024
+msgid "Save configuration"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: includes/locale.inc:86;2051 modules/aggregator/aggregator.admin.inc:30;41
+#: modules/book/book.admin.inc:237 modules/comment/comment.admin.inc:71
+#: modules/comment/comment.module:830;841 modules/contact/contact.admin.inc:16
+#: modules/menu/menu.admin.inc:97 modules/node/content_types.inc:28
+#: modules/node/node.admin.inc:496 modules/path/path.admin.inc:44
+#: modules/profile/profile.admin.inc:30
+#: modules/taxonomy/taxonomy.admin.inc:203;207;401;769;773
+#: modules/translation/translation.pages.inc:38
+#: modules/user/user.admin.inc:185;890 modules/user/user.module:1420;2329
+msgid "edit"
+msgstr "επεξεργασία"
+
+#: includes/locale.inc:86;2052 modules/block/block.admin.inc:85
+#: modules/book/book.admin.inc:238 modules/comment/comment.module:826
+#: modules/contact/contact.admin.inc:16 modules/filter/filter.admin.inc:35
+#: modules/menu/menu.admin.inc:100 modules/node/content_types.inc:32
+#: modules/node/node.pages.inc:560 modules/path/path.admin.inc:44
+#: modules/profile/profile.admin.inc:31 modules/system/system.module:1334
+#: modules/user/user.admin.inc:890
+msgid "delete"
+msgstr "διαγραφή"
+
+#: (duplicate) includes/locale.inc:90 modules/comment/comment.module:553
+#: modules/locale/locale.module:264 modules/menu/menu.admin.inc:176;293
+#: modules/statistics/statistics.admin.inc:185
+#: modules/system/system.admin.inc:1293;1325;1333;1509;1663;2018;2207
+#: modules/system/system.install:282 modules/upload/upload.module:215
+#: modules/user/user.admin.inc:412;430
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: includes/locale.inc:90 modules/filter/filter.admin.inc:69
+#: modules/system/system.admin.inc:2207
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: includes/locale.inc:90 modules/block/block-admin-display-form.tpl.php:43
+#: modules/book/book.admin.inc:218 modules/book/book.module:387
+#: modules/contact/contact.admin.inc:58 modules/filter/filter.admin.inc:362
+#: modules/forum/forum.admin.inc:52;134 modules/menu/menu.admin.inc:178;320
+#: modules/menu/menu.module:417 modules/node/node.module:1322
+#: modules/profile/profile.admin.inc:150;265
+#: modules/taxonomy/taxonomy.admin.inc:90;171;705
+#: modules/upload/upload.module:517
+msgid "Weight"
+msgstr "Βάρος"
+
+#: includes/locale.inc:90;2037 modules/aggregator/aggregator.admin.inc:27;38
+#: modules/block/block-admin-display-form.tpl.php:47
+#: modules/book/book.admin.inc:17;218 modules/comment/comment.admin.inc:58
+#: modules/contact/contact.admin.inc:18 modules/dblog/dblog.admin.inc:62;170
+#: modules/filter/filter.admin.inc:69 modules/menu/menu.admin.inc:179
+#: modules/node/content_types.inc:15 modules/node/node.admin.inc:561
+#: modules/node/node.pages.inc:530 modules/openid/openid.pages.inc:42
+#: modules/path/path.admin.inc:32 modules/profile/profile.admin.inc:152
+#: modules/statistics/statistics.admin.inc:17;82
+#: modules/statistics/statistics.pages.inc:16;48
+#: modules/system/system.admin.inc:2207 modules/system/system.module:1325
+#: modules/taxonomy/taxonomy.admin.inc:93;612
+#: modules/translation/translation.pages.inc:27
+#: modules/user/user.admin.inc:139;885;912;949
+msgid "Operations"
+msgstr "Λειτουργίες"
+
+#: includes/locale.inc:166 modules/locale/locale.module:88
+msgid "Add language"
+msgstr "Προσθήκη γλώσσας"
+
+#: includes/locale.inc:403;922
+#: modules/aggregator/aggregator.admin.inc:102;142;275;306
+#: modules/block/block.admin.inc:334 modules/comment/comment.admin.inc:248
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
+#: modules/forum/forum.admin.inc:10;60;148;168
+#: modules/menu/menu.admin.inc:265;393;460 modules/node/content_types.inc:393
+#: modules/node/node.admin.inc:120 modules/node/node.pages.inc:250;508;594
+#: modules/node/node.module:1506;1536 modules/openid/openid.pages.inc:47
+#: modules/profile/profile.admin.inc:375 modules/system/system.module:1525
+#: modules/taxonomy/taxonomy.admin.inc:187;220;720;749;842;877
+#: modules/upload/upload.module:517 modules/user/user.admin.inc:869
+#: modules/user/user.pages.inc:257;324 modules/user/user.module:1070
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: includes/locale.inc:403;922 modules/aggregator/aggregator.admin.inc:191
+#: modules/block/block.admin.inc:334 modules/comment/comment.admin.inc:190;249
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
+#: modules/forum/forum.admin.inc:168 modules/node/node.admin.inc:73;613
+#: modules/node/node.pages.inc:509;574;594
+#: modules/profile/profile.admin.inc:375 modules/search/search.admin.inc:14
+#: modules/system/system.admin.inc:845;1082
+#: modules/system/system.module:1143;1525
+#: modules/taxonomy/taxonomy.admin.inc:843;878;913
+#: modules/trigger/trigger.admin.inc:77 modules/user/user.admin.inc:870
+#: modules/user/user.pages.inc:324 modules/user/user.module:1879
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: includes/locale.inc:458 modules/comment/comment.module:1629
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: includes/locale.inc:489;557;2037 modules/locale/locale.module:230;249;276
+#: modules/node/node.admin.inc:559 modules/path/path.admin.inc:36
+#: modules/translation/translation.pages.inc:27
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: includes/locale.inc:503 modules/blogapi/blogapi.module:259
+#: modules/filter/filter.module:466 modules/forum/forum-submitted.tpl.php:27
+#: modules/translation/translation.pages.inc:48
+msgid "n/a"
+msgstr "δεν υφίσταται"
+
+#: includes/locale.inc:546;573 modules/locale/locale.module:132
+#: modules/search/search.module:159;1053;1073;169 modules/search/search.info:0
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: includes/locale.inc:559 modules/locale/locale.module:250
+msgid "All languages"
+msgstr "Όλες οι γλώσσες"
+
+#: includes/locale.inc:636 modules/locale/locale.module:140
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: includes/locale.inc:720;739 modules/locale/locale.module:148
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: includes/locale.inc:2037 modules/locale/locale.module:583;76
+msgid "Languages"
+msgstr "Γλώσσες"
+
+#: includes/locale.inc:423;662;855;997;1054;1883;1887;2228;2231;2234;2237
+#: modules/locale/locale.module:508
+msgid "locale"
+msgstr "προσαρμογή κατά τόπο"
+
+#: includes/mail.inc:134 modules/contact/contact.admin.inc:115;121;148
+#: modules/contact/contact.pages.inc:146;231
+msgid "mail"
+msgstr "ταχυδρομείο"
+
+#: includes/menu.inc:1516 modules/blog/blog.module:109
+#: modules/book/book.module:625 modules/comment/comment.pages.inc:53
+#: modules/forum/forum.module:198;647
+#: modules/system/maintenance-page.tpl.php:34;35;42
+#: modules/system/page.tpl.php:95;96;103
+#: modules/taxonomy/taxonomy.pages.inc:40
+#: themes/bluemarine/page.tpl.php:19;19;20
+#: themes/chameleon/chameleon.theme:42;42
+#: themes/pushbutton/page.tpl.php:21;21;27
+msgid "Home"
+msgstr "Αρχική"
+
+#: includes/pager.inc:396 modules/book/book-navigation.tpl.php:40
+msgid "Go to previous page"
+msgstr "Προηγούμενη σελίδα"
+
+#: includes/pager.inc:397 modules/book/book-navigation.tpl.php:46
+msgid "Go to next page"
+msgstr "Επόμενη σελίδα"
+
+#: includes/theme.inc:1436 modules/comment/comment.module:1690;1715
+msgid "new"
+msgstr "νέο"
+
+#: includes/theme.inc:1614 modules/user/user.module:821
+msgid "View user profile."
+msgstr "Προβολή προσωπικού προφίλ."
+
+#: includes/theme.inc:1635 modules/comment/comment.module:1345;1354;1456
+#: modules/node/node.pages.inc:186 modules/system/system.admin.inc:1162
+#: modules/system/system.module:1768 modules/user/user.module:818
+msgid "Anonymous"
+msgstr "Ανώνυμος"
+
+#: modules/aggregator/aggregator.admin.inc:27;38;63;263
+#: modules/book/book.admin.inc:218 modules/filter/filter.module:220
+#: modules/menu/menu.admin.inc:413 modules/node/content_types.inc:58
+#: modules/node/node.admin.inc:557 modules/node/node.module:584
+#: modules/profile/profile.admin.inc:147;221
+#: modules/statistics/statistics.admin.inc:150
+#: modules/translation/translation.pages.inc:27
+msgid "Title"
+msgstr "Τίτλος"
+
+#: modules/aggregator/aggregator.admin.inc:30
+#: modules/aggregator/aggregator.pages.inc:482
+#: modules/comment/comment.module:396
+#: modules/statistics/statistics.admin.inc:125 modules/user/user.admin.inc:184
+msgid "@time ago"
+msgstr "πριν από @time"
+
+#: modules/aggregator/aggregator.admin.inc:30;30
+#: modules/aggregator/aggregator.pages.inc:485 modules/user/user.admin.inc:184
+msgid "never"
+msgstr "ποτέ"
+
+#: modules/aggregator/aggregator.admin.inc:70
+#: modules/profile/profile.module:42;550
+#: modules/statistics/statistics.admin.inc:144
+#: modules/system/system.module:1824
+msgid "URL"
+msgstr "URL"
+
+#: modules/aggregator/aggregator.admin.inc:99;113;272;286
+#: modules/comment/comment.module:1392;1393
+#: modules/contact/contact.admin.inc:72 modules/forum/forum.admin.inc:58;145
+#: modules/menu/menu.admin.inc:325;424 modules/node/node.pages.inc:237
+#: modules/system/system.module:1474
+#: modules/taxonomy/taxonomy.admin.inc:37;185;414;715;760
+#: modules/user/user.pages.inc:253
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: modules/aggregator/aggregator.admin.inc:174;338
+#: modules/blogapi/blogapi.module:238;300 modules/book/book.admin.inc:130;236
+#: modules/comment/comment.admin.inc:111
+#: modules/comment/comment.module:708;771
+#: modules/contact/contact.admin.inc:115;121
+#: modules/node/content_types.inc:335 modules/node/node.pages.inc:457
+#: modules/profile/profile.admin.inc:346;388
+#: modules/update/update.fetch.inc:82;85
+msgid "view"
+msgstr "προβολή"
+
+#: modules/aggregator/aggregator.admin.inc:189
+#: modules/comment/comment.admin.inc:189 modules/contact/contact.admin.inc:138
+#: modules/menu/menu.admin.inc:459 modules/node/content_types.inc:391
+#: modules/node/node.admin.inc:612 modules/node/node.pages.inc:507;594
+#: modules/system/system.module:1134 modules/user/user.admin.inc:868
+#: modules/user/user.module:1878
+msgid "This action cannot be undone."
+msgstr "Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/aggregator/aggregator.admin.inc:224
+#: modules/block/block.admin.inc:39 modules/book/book.module:412
+#: modules/system/system.admin.inc:1281
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "none"
+msgstr "κανένα"
+
+#: modules/aggregator/aggregator.admin.inc:228
+#: modules/filter/filter.module:678
+msgid "Allowed HTML tags"
+msgstr "Επιτρεπτές ετικέτες HTML"
+
+#: modules/aggregator/aggregator.admin.inc:269
+#: modules/forum/forum.admin.inc:45;126 modules/menu/menu.admin.inc:286;419
+#: modules/node/content_types.inc:15;103
+#: modules/system/system.admin.inc:1751;2024;2108
+#: modules/system/system.module:1324;1445
+#: modules/taxonomy/taxonomy.admin.inc:129;670
+#: modules/upload/upload.module:517
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: modules/aggregator/aggregator.pages.inc:363 modules/node/node.module:1715
+msgid "read more"
+msgstr "διαβάστε περισσότερα"
+
+#: modules/aggregator/aggregator.module:99 modules/contact/contact.module:59
+msgid "Add category"
+msgstr "Προσθήκη κατηγορίας"
+
+#: modules/aggregator/aggregator.module:124 modules/block/block.module:128
+#: modules/book/book.module:86 modules/contact/contact.module:53
+#: modules/filter/filter.module:79 modules/forum/forum.module:101
+#: modules/locale/locale.module:83 modules/node/node.module:1419;1450
+#: modules/path/path.module:62 modules/system/system.module:283;321;325
+#: modules/taxonomy/taxonomy.module:121;179 modules/update/update.module:137
+#: modules/upload/upload.module:517 modules/user/user.module:957;1009
+msgid "List"
+msgstr "Λίστα"
+
+#: modules/aggregator/aggregator.module:129 modules/book/book.module:90
+#: modules/contact/contact.module:84 modules/forum/forum.module:124
+#: modules/menu/menu.module:71 modules/taxonomy/taxonomy.admin.inc:152
+#: modules/update/update.module:144
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: modules/aggregator/aggregator.module:157 modules/node/node.module:1476
+msgid "RSS feed"
+msgstr "Ροή RSS"
+
+#: modules/aggregator/aggregator.module:180;209 modules/node/node.module:1522
+#: modules/user/user.module:1064
+msgid "View"
+msgstr "Προβολή"
+
+#: modules/aggregator/aggregator.module:193;222
+#: modules/filter/filter.module:122 modules/locale/locale.module:96
+#: modules/system/system.module:289
+msgid "Configure"
+msgstr "Ρύθμιση"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregator"
+msgstr "Συλλέκτης"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
+msgstr "Συλλέγει ανεξάρτητη ύλη (ροές RSS, RDF και Atom)."
+
+#: modules/aggregator/aggregator.info:0 modules/blog/blog.info:0
+#: modules/blogapi/blogapi.info:0 modules/book/book.info:0
+#: modules/color/color.info:0 modules/comment/comment.info:0
+#: modules/contact/contact.info:0 modules/dblog/dblog.info:0
+#: modules/forum/forum.info:0 modules/help/help.info:0
+#: modules/locale/locale.info:0 modules/menu/menu.info:0
+#: modules/openid/openid.info:0 modules/path/path.info:0
+#: modules/php/php.info:0 modules/ping/ping.info:0 modules/poll/poll.info:0
+#: modules/profile/profile.info:0 modules/search/search.info:0
+#: modules/statistics/statistics.info:0 modules/syslog/syslog.info:0
+#: modules/taxonomy/taxonomy.info:0 modules/throttle/throttle.info:0
+#: modules/tracker/tracker.info:0 modules/translation/translation.info:0
+#: modules/trigger/trigger.info:0 modules/update/update.info:0
+#: modules/upload/upload.info:0
+msgid "Core - optional"
+msgstr "Πυρήνας - προαιρετικές μονάδες"
+
+#: modules/block/block-admin-display-form.tpl.php:41
+#: modules/block/block.info:0
+msgid "Block"
+msgstr "Μπλοκ"
+
+#: modules/block/block-admin-display-form.tpl.php:45
+#: modules/system/system.admin.inc:2020 modules/throttle/throttle.module:11
+#: modules/throttle/throttle.info:0
+msgid "Throttle"
+msgstr "Απόπνιξη"
+
+#: modules/block/block.admin.inc:83 modules/filter/filter.admin.inc:34
+#: modules/system/system.admin.inc:219 modules/system/system.module:1333
+msgid "configure"
+msgstr "ρύθμιση"
+
+#: (duplicate) modules/block/block.admin.inc:363
+#: modules/comment/comment.module:501;553;585 modules/locale/locale.module:264
+#: modules/statistics/statistics.admin.inc:185
+#: modules/statistics/statistics.module:255
+#: modules/system/system.admin.inc:1276;1293;1307;1325;1333;1509;1663
+#: modules/system/system.install:60 modules/upload/upload.module:215
+#: modules/user/user.admin.inc:412;430
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: modules/block/block.info:0
+msgid "Controls the boxes that are displayed around the main content."
+msgstr ""
+"Ελέγχει τα πλαίσια πρόσθετης ύλης που εμφανίζονται γύρω από την κύρια ύλη."
+
+#: modules/block/block.info:0 modules/filter/filter.info:0
+#: modules/node/node.info:0 modules/system/system.info:0
+#: modules/user/user.info:0
+msgid "Core - required"
+msgstr "Πυρήνας - απαιτούμενες μονάδες"
+
+#: modules/blog/blog.module:51 modules/blog/blog.info:0
+msgid "Blog"
+msgstr "Ιστολόγιο"
+
+#: modules/blog/blog.info:0
+msgid "Enables keeping easily and regularly updated user web pages or blogs."
+msgstr ""
+"Επιτρέπει την εύκολη και τακτική ενημέρωση των ιστοσελίδων ή των ιστολογίων "
+"των χρηστών."
+
+#: modules/blogapi/blogapi.module:726 modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr "Προεπιλεγμένες επιτρεπτές επεκτάσεις ονομάτων αρχείων"
+
+#: modules/blogapi/blogapi.module:729 modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a space "
+"and do not include the leading dot."
+msgstr ""
+"Προεπιλεγμένες επεκτάσεις ονομάτων αρχείων που μπορούν να αποστέλλουν οι "
+"χρήστες. Διαχωρίστε τις επεκτάσεις με ένα διάστημα, χωρίς την τελεία από "
+"μπροστά."
+
+#: modules/blogapi/blogapi.module:734 modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr "Προεπιλεγμένο ανώτατο μέγεθος αρχείου ανά αποστολή"
+
+#: modules/blogapi/blogapi.module:744 modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr "Το προεπιλεγμένο συνολικό μέγεθος αρχείων ανά χρήστη"
+
+#: modules/blogapi/blogapi.module:748 modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr ""
+"Το προεπιλεγμένο μέγιστο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να "
+"έχει αποστείλει στον ιστοτόπο."
+
+#: modules/blogapi/blogapi.module:752 modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"Οι ρυθμίσεις της PHP περιορίζουν το μέγιστο μέγεθος αρχείου προς αποστολή "
+"στο %size."
+
+#: modules/blogapi/blogapi.module:760 modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "Ρυθμίσεις για το @role"
+
+#: modules/blogapi/blogapi.module:766 modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "Επιτρεπόμενες επεκτάσεις ονομάτων αρχείων"
+
+#: modules/blogapi/blogapi.module:769 modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"Επεκτάσεις ονομάτων αρχείων που μπορούν να αποστέλλουν οι χρήστες με αυτό το "
+"ρόλο. Διαχωρίστε τις επεκτάσεις με ένα διάστημα, χωρίς την τελεία από "
+"μπροστά."
+
+#: modules/blogapi/blogapi.module:773 modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "Μέγιστο μέγεθος αρχείου ανά αποστολή"
+
+#: modules/blogapi/blogapi.module:781 modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "Συνολικό μέγεθος αρχείων ανά χρήστη"
+
+#: modules/blogapi/blogapi.module:238;300 modules/book/book.admin.inc:130
+#: modules/comment/comment.admin.inc:111;280;286
+#: modules/comment/comment.module:708;771;793
+#: modules/forum/forum.admin.inc:177
+#: modules/node/node.pages.inc:462;466;587;601 modules/node/node.module:978
+msgid "content"
+msgstr "ύλη"
+
+#: modules/blogapi/blogapi.module:800 modules/blogapi/blogapi.info:0
+msgid "Blog API"
+msgstr "Blog API"
+
+#: modules/blogapi/blogapi.info:0
+msgid ""
+"Allows users to post content using applications that support XML-RPC blog "
+"APIs."
+msgstr ""
+"Επιτρέπει στους χρήστες να υποβάλλουν ύλη χρησιμοποιώντας εφαρμογές που "
+"υποστηρίζουν API ιστολογίων XML-RPC."
+
+#: modules/book/book.admin.inc:17 modules/book/book.module:418
+#: modules/book/book.info:0
+msgid "Book"
+msgstr "Βιβλίο"
+
+#: modules/book/book.admin.inc:218 modules/forum/forum.admin.inc:50;131
+msgid "Parent"
+msgstr "Γονικό"
+
+#: modules/book/book.module:349 modules/menu/menu.admin.inc:312
+#: modules/menu/menu.module:407
+msgid "Parent item"
+msgstr "Γονικό στοιχείο"
+
+#: modules/book/book.info:0
+msgid "Allows users to structure site pages in a hierarchy or outline."
+msgstr ""
+"Επιτρέπει τους χρήστες να δομούν τις ιστοσελίδες ιεραρχικά ή περιληπτικά."
+
+#: modules/color/color.module:230 modules/comment/comment.pages.inc:60
+#: modules/comment/comment.module:1392;1396;1399
+#: modules/node/node.pages.inc:243;405
+msgid "Preview"
+msgstr "Δοκιμή εμφάνισης"
+
+#: modules/color/color.module:286
+#: modules/node/content_types.inc:208;279;306;325
+#: modules/system/system.admin.inc:257;547
+#: modules/system/system.module:1025;1048;1058
+#: modules/update/update.settings.inc:94
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις προεπιλεγμένες ρυθμίσεις"
+
+#: modules/color/color.info:0
+msgid "Color"
+msgstr "Χρώμα"
+
+#: modules/color/color.info:0
+msgid "Allows the user to change the color scheme of certain themes."
+msgstr ""
+"Επιτρέπει στον χρήστη να αλλάξει τα χρώματα συγκεκριμένων θεματικών "
+"παραλλαγών."
+
+#: modules/comment/comment.admin.inc:40 modules/node/node.admin.inc:464
+#: modules/user/user.admin.inc:149
+msgid "Update options"
+msgstr "Επιλογές ενημέρωσης"
+
+#: modules/comment/comment.admin.inc:48 modules/node/node.admin.inc:479
+#: modules/user/user.admin.inc:114;164
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: modules/comment/comment.admin.inc:54 modules/comment/comment.module:1362
+#: modules/contact/contact.pages.inc:55;187 modules/forum/forum.module:305
+#: modules/system/system.module:1595
+#: modules/user/user.admin.inc:257;277;297;317;342;367;392
+msgid "Subject"
+msgstr "Θέμα"
+
+#: modules/comment/comment.admin.inc:55 modules/node/node.admin.inc:557
+#: modules/tracker/tracker.pages.inc:65
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: modules/comment/comment.admin.inc:57
+#: modules/statistics/statistics.pages.inc:13
+msgid "Time"
+msgstr "Ώρα"
+
+#: modules/comment/comment.admin.inc:115 modules/node/node.admin.inc:372;424
+#: modules/user/user.admin.inc:214
+msgid "The update has been performed."
+msgstr "Η ενημέρωση έγινε."
+
+#: modules/comment/comment.module:560 modules/node/node.admin.inc:54
+msgid "Optional"
+msgstr "Προαιρετικό"
+
+#: modules/comment/comment.module:560 modules/node/node.admin.inc:54
+#: modules/taxonomy/taxonomy.admin.inc:166
+msgid "Required"
+msgstr "Υποχρεωτικό"
+
+#: modules/comment/comment.module:1193 modules/node/node.module:803
+msgid "You have to specify a valid date."
+msgstr "Πρέπει να δώσετε έγκυρη ημερομηνία."
+
+#: modules/comment/comment.module:1293;1309 modules/node/node.pages.inc:181
+msgid "Authored by"
+msgstr "Συντάχθηκε από τον/την"
+
+#: modules/comment/comment.module:1317;1348;1356
+#: modules/user/user.admin.inc:745;801
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/comment/comment.module:1321;1348;1356
+#: modules/profile/profile.module:341
+msgid ""
+"The content of this field is kept private and will not be shown publicly."
+msgstr ""
+"Το περιεχόμενο αυτού του πεδίου παραμένει ιδιωτικό και δε θα εμφανίζεται "
+"δημόσια."
+
+#: modules/comment/comment.module:1333 modules/node/node.pages.inc:190
+msgid "Authored on"
+msgstr "Συντάχθηκε στις"
+
+#: modules/comment/comment.module:1335 modules/node/node.admin.inc:557
+#: modules/translation/translation.pages.inc:27
+#: modules/user/user.admin.inc:135;908 modules/user/user.module:1476
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: modules/comment/comment.module:1335 modules/node/content_types.inc:157
+#: modules/node/node.pages.inc:210
+#: modules/translation/translation.pages.inc:40
+msgid "Published"
+msgstr "Δημοσιευμένο"
+
+#: modules/comment/comment.module:1335
+#: modules/translation/translation.pages.inc:40
+msgid "Not published"
+msgstr "Μη δημοσιευμένο"
+
+#: modules/comment/comment.module:1339;1345;1354
+#: modules/contact/contact.pages.inc:43
+msgid "Your name"
+msgstr "Το όνομά σας"
+
+#: modules/comment/comment.module:1374 modules/comment/comment.info:0
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: modules/comment/comment.module:1665 modules/openid/openid.module:421
+#: modules/user/user.module:1416;2323
+msgid "Error saving user account."
+msgstr "Σφάλμα κατά την αποθήκευση του λογαριασμού χρήστη."
+
+#: modules/comment/comment.module:1863 modules/forum/forum.admin.inc:204
+msgid "Date - newest first"
+msgstr "Ημερομηνία - πρώτα τα νεώτερα"
+
+#: modules/comment/comment.module:1864 modules/forum/forum.admin.inc:204
+msgid "Date - oldest first"
+msgstr "Ημερομηνία - πρώτα τα παλιότερα"
+
+#: modules/comment/comment.module:2075 modules/node/node.module:2734
+msgid "Keywords"
+msgstr "Λέξεις κλειδιά"
+
+#: modules/comment/comment.module:2065;2105
+#: modules/node/node.module:2615;2624;2633;2642;2651;2660;2669;2679;2759
+#: modules/system/system.module:1697 modules/user/user.module:2265;2275
+msgid "action"
+msgstr "Ενέργεια"
+
+#: modules/comment/comment.module:419;625 modules/node/node.module:138
+msgid "1 comment"
+msgid_plural "@count comments"
+msgstr[0] "1 σχόλιο"
+msgstr[1] "@count σχόλια"
+
+#: modules/comment/comment.module:198 modules/trigger/trigger.module:67
+#: themes/garland/template.php:48
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: modules/comment/comment.info:0
+msgid "Allows users to comment on and discuss published content."
+msgstr ""
+"Επιτρέπει στους χρήστες να σχολιάζουν και να συζητούν για τη δημοσιευμένη "
+"ύλη."
+
+#: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
+#: modules/user/user.module:2189
+msgid "Yes"
+msgstr "Ναι"
+
+#: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
+#: modules/user/user.module:2190
+msgid "No"
+msgstr "Όχι"
+
+#: modules/contact/contact.admin.inc:18;40
+#: modules/contact/contact.pages.inc:67
+#: modules/profile/profile.admin.inc:149;214
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: modules/contact/contact.admin.inc:18;63
+#: modules/system/system.admin.inc:2149
+msgid "Selected"
+msgstr "Επιλεγμένο"
+
+#: modules/contact/contact.admin.inc:83 modules/profile/profile.admin.inc:302
+msgid "You must enter a category."
+msgstr "Πρέπει να ορίσετε κατηγορία."
+
+#: modules/contact/contact.pages.inc:63 modules/forum/forum.module:387
+#: modules/taxonomy/taxonomy.module:421
+msgid "- Please choose -"
+msgstr "- Παρακαλώ επιλέξτε -"
+
+#: modules/contact/contact.pages.inc:81;192
+#: modules/dblog/dblog.admin.inc:60;108;158
+#: modules/system/system.module:1602;1748
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: modules/contact/contact.pages.inc:95;200 modules/system/system.module:1277
+msgid "Send e-mail"
+msgstr "Αποστολή e-mail"
+
+#: modules/contact/contact.module:93;100 modules/contact/contact.info:0
+msgid "Contact"
+msgstr "Επαφή"
+
+#: modules/contact/contact.info:0
+msgid "Enables the use of both personal and site-wide contact forms."
+msgstr ""
+"Επιτρέπει να χρησιμοποιούνται φόρμες επικοινωνίας, προσωπικές ή κεντρικές, "
+"για ολόκληρο τον ιστοτόπο."
+
+#: modules/dblog/dblog.admin.inc:58;138;223
+#: modules/node/content_types.inc:15;81;95 modules/node/node.admin.inc:557
+#: modules/profile/profile.admin.inc:147
+#: modules/taxonomy/taxonomy.admin.inc:88 modules/tracker/tracker.pages.inc:65
+msgid "Type"
+msgstr "Τύπος"
+
+#: modules/dblog/dblog.admin.inc:59;142
+#: modules/statistics/statistics.admin.inc:158
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: modules/dblog/dblog.admin.inc:61;146
+#: modules/statistics/statistics.admin.inc:16;162
+#: modules/statistics/statistics.pages.inc:15 modules/user/user.info:0
+msgid "User"
+msgstr "Χρήστης"
+
+#: modules/dblog/dblog.admin.inc:154
+#: modules/statistics/statistics.admin.inc:154
+#: modules/statistics/statistics.pages.inc:14
+msgid "Referrer"
+msgstr "Παραπέμφθηκε από"
+
+#: modules/dblog/dblog.admin.inc:166
+#: modules/statistics/statistics.admin.inc:166 modules/user/user.admin.inc:812
+msgid "Hostname"
+msgstr "Όνομα παροχέα"
+
+#: modules/dblog/dblog.admin.inc:290;306;318 modules/filter/filter.info:0
+#: modules/node/node.admin.inc:247;312 modules/path/path.admin.inc:206
+#: modules/user/user.admin.inc:73;98
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: modules/dblog/dblog.admin.inc:295;325 modules/menu/menu.admin.inc:584
+#: modules/node/node.admin.inc:250;328 modules/path/path.admin.inc:212
+#: modules/user/user.admin.inc:82;111
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: modules/dblog/dblog.module:46 modules/dblog/dblog.info:0
+msgid "Database logging"
+msgstr "Βάση δεδομένων συμβάντων"
+
+#: modules/dblog/dblog.module:79 modules/statistics/statistics.module:127
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: modules/dblog/dblog.info:0
+msgid "Logs and records system events to the database."
+msgstr "Καταγράφει και αποθηκεύει συμβάντα του συστήματος."
+
+#: modules/filter/filter.admin.inc:69;102;362
+#: modules/node/content_types.inc:15;72 modules/profile/profile.admin.inc:147
+#: modules/system/system.admin.inc:1129;2022;2107;2149;2207
+#: modules/taxonomy/taxonomy.admin.inc:88;612
+#: modules/trigger/trigger.admin.inc:238 modules/user/user.admin.inc:949
+msgid "Name"
+msgstr "Όνομα"
+
+#: modules/filter/filter.admin.inc:69;110 modules/user/user.admin.inc:136;909
+#: modules/user/user.module:1501;987
+msgid "Roles"
+msgstr "Ρόλοι"
+
+#: modules/filter/filter.module:220;221;222;223;224;225
+#: modules/system/system.module:0
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: modules/filter/filter.module:116 modules/node/node.module:1502;1526
+#: modules/user/user.module:1080
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: modules/filter/filter.info:0
+msgid "Handles the filtering of content in preparation for display."
+msgstr ""
+"Χειρίζεται το φιλτράρισμα της ύλης κατά την προετοιμασία για παρουσίαση."
+
+#: modules/forum/forum-list.tpl.php:37 modules/forum/forum.info:0
+msgid "Forum"
+msgstr "Φόρουμ"
+
+#: modules/forum/forum.admin.inc:276 modules/taxonomy/taxonomy.admin.inc:695
+msgid "root"
+msgstr "ρίζα"
+
+#: modules/forum/forum.module:560 modules/tracker/tracker.pages.inc:65
+msgid "Replies"
+msgstr "Απαντήσεις"
+
+#: modules/forum/forum.module:761;823 modules/tracker/tracker.pages.inc:48
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "1 νέα"
+msgstr[1] "@count νέες"
+
+#: modules/forum/forum.info:0
+msgid "Enables threaded discussions about general topics."
+msgstr "Επιτρέπει συζητήσεις πάνω σε γενικά θέματα."
+
+#: modules/help/help.module:14 modules/help/help.info:0
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: modules/help/help.info:0
+msgid "Manages the display of online help."
+msgstr "Διαχειρίζεται την εμφάνιση online βοήθειας."
+
+#: modules/locale/locale.module:278 modules/node/node.admin.inc:159;224;494
+msgid "Language neutral"
+msgstr "Ουδέτερη γλώσσα"
+
+#: modules/locale/locale.module:111 modules/system/system.module:1155
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: modules/locale/locale.module:0;0 modules/system/system.admin.inc:1517
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1517
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: modules/locale/locale.info:0
+msgid "Locale"
+msgstr "Γλωσσική προσαρμογή"
+
+#: modules/locale/locale.info:0
+msgid ""
+"Adds language handling functionality and enables the translation of the user "
+"interface to languages other than English."
+msgstr ""
+"Επιτρέπει τη μετάφραση του συστήματος από την Αγγλική γλώσσα σε άλλες "
+"γλώσσες."
+
+#: modules/menu/menu.admin.inc:258;274 modules/path/path.info:0
+msgid "Path"
+msgstr "Διαδρομή"
+
+#: modules/menu/menu.admin.inc:338 modules/system/system.admin.inc:1192
+msgid ""
+"The menu system stores system paths only, but will use the URL alias for "
+"display. %link_path has been stored as %normal_path"
+msgstr ""
+"Το σύστημα των μενού αποθηκεύει μόνο τις διαδρομές του συστήματος, αλλά "
+"χρησιμοποιεί το URL ψευδώνυμο για παρουσίαση. Το %link_path έχει αποθηκευτεί "
+"ως %normal_path"
+
+#: modules/menu/menu.admin.inc:354 modules/path/path.admin.inc:143
+msgid ""
+"The path '@link_path' is either invalid or you do not have access to it."
+msgstr ""
+"Η διαδρομή @link_path' είτε είναι λανθασμένη ή δεν έχετε πρόσβαση σε αυτή."
+
+#: modules/menu/menu.admin.inc:493;575 modules/node/content_types.inc:404
+msgid "menu"
+msgstr "μενού"
+
+#: (duplicate) modules/menu/menu.install:12 modules/user/user.module:687;737
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: (duplicate) modules/menu/menu.install:13
+#: modules/system/system.admin.inc:385
+msgid "Primary links"
+msgstr "Πρωτεύοντες σύνδεσμοι"
+
+#: (duplicate) modules/menu/menu.install:14
+#: modules/system/system.admin.inc:386
+msgid "Secondary links"
+msgstr "Δευτερεύοντες σύνδεσμοι"
+
+#: modules/menu/menu.info:0
+msgid "Menu"
+msgstr "Μενού"
+
+#: modules/menu/menu.info:0
+msgid "Allows administrators to customize the site navigation menu."
+msgstr ""
+"Επιτρέπει στους διαχειριστές να προσαρμόζουν το μενού πλοήγησης του "
+"ιστοτόπου."
+
+#: modules/node/content_types.inc:59 modules/node/node.module:591
+#: modules/user/user.admin.inc:263;283;303;323;348;373;398
+msgid "Body"
+msgstr "Κυρίως κείμενο"
+
+#: modules/node/content_types.inc:69
+#: modules/taxonomy/taxonomy.admin.inc:118;658
+msgid "Identification"
+msgstr "Ταυτότητα"
+
+#: modules/node/node.admin.inc:35 modules/poll/poll.module:250
+msgid "Unlimited"
+msgstr "Απεριόριστο"
+
+#: modules/node/node.admin.inc:133 modules/user/user.module:1984
+msgid "status"
+msgstr "κατάσταση"
+
+#: modules/node/node.admin.inc:247;313 modules/user/user.admin.inc:73;98
+msgid "Refine"
+msgstr "Εμπλουτισμός"
+
+#: modules/node/node.admin.inc:249;325 modules/user/user.admin.inc:78;108
+msgid "Undo"
+msgstr "Αναίρεση"
+
+#: modules/node/node.admin.inc:286 modules/user/user.admin.inc:993
+msgid "and"
+msgstr "και"
+
+#: modules/node/node.admin.inc:286 modules/user/user.admin.inc:993
+msgid "where"
+msgstr "όπου"
+
+#: modules/node/node.admin.inc:292 modules/user/user.admin.inc:999
+msgid "is"
+msgstr "είναι"
+
+#: modules/node/node.admin.inc:582 modules/tracker/tracker.pages.inc:62
+msgid "No posts available."
+msgstr "Δεν υπάρχει καμία καταχώρηση."
+
+#: modules/node/node.admin.inc:613 modules/user/user.module:1879
+msgid "Delete all"
+msgstr "Διαγραφή όλων"
+
+#: modules/node/node.module:1143;1410;1463 modules/system/system.module:0
+#: modules/trigger/trigger.module:49
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: modules/node/node.module:2699;2708
+#: modules/user/user.admin.inc:134;745;790;907
+#: modules/user/user.module:653;1248;1445
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: modules/node/node.module:1443 modules/taxonomy/taxonomy.admin.inc:141;145
+msgid "Content types"
+msgstr "Τύποι ύλης"
+
+#: modules/node/node.info:0
+msgid "Node"
+msgstr "Κόμβος"
+
+#: modules/node/node.info:0
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr ""
+"Επιτρέπει να υποβάλλεται ύλη στον ιστοτόπο και να εμφανίζεται στις σελίδες."
+
+#: modules/openid/openid.pages.inc:42;64 modules/openid/openid.info:0
+msgid "OpenID"
+msgstr "OpenID"
+
+#: modules/openid/openid.module:429 modules/user/user.admin.inc:234
+msgid "Only site administrators can create new user accounts."
+msgstr ""
+"Μόνο οι διαχειριστές του ιστοτόπου μπορούν να δημιουργούν νέους λογαριασμούς "
+"χρηστών."
+
+#: modules/openid/openid.info:0
+msgid "Allows users to log into your site using OpenID."
+msgstr ""
+"Επιτρέπει τους χρήστες να συνδέονται στον ιστότοπό σας χρησιμοποιώντας το "
+"OpenID."
+
+#: modules/path/path.admin.inc:31 modules/system/system.info:0
+msgid "System"
+msgstr "Σύστημα"
+
+#: modules/path/path.info:0
+msgid "Allows users to rename URLs."
+msgstr "Επιτρέπει στους χρήστες να μετονομάζουν διευθύνσεις URL."
+
+#: modules/php/php.info:0
+msgid "PHP filter"
+msgstr "Φίλτρο PHP"
+
+#: modules/php/php.info:0
+msgid "Allows embedded PHP code/snippets to be evaluated."
+msgstr "Επιτρέπει τη χρήση ενσωματωμένου PHP κώδικα."
+
+#: modules/ping/ping.info:0
+msgid "Ping"
+msgstr "Ping"
+
+#: modules/ping/ping.info:0
+msgid "Alerts other sites when your site has been updated."
+msgstr "Ειδοποιεί άλλους ιστοτόπους όταν ενημερώνεται ο δικός σας."
+
+#: modules/poll/poll.pages.inc:34 modules/statistics/statistics.admin.inc:80
+msgid "Visitor"
+msgstr "Επισκέπτης"
+
+#: modules/poll/poll.module:147;172 modules/poll/poll.info:0
+msgid "Poll"
+msgstr "Ψηφοφορία"
+
+#: modules/poll/poll.module:251 modules/user/user.module:1478
+msgid "Active"
+msgstr "Ενεργό"
+
+#: modules/poll/poll.info:0
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
+msgstr ""
+"Επιτρέπει στον ιστοτόπο σας να διεξάγει ψηφοφορίες σε διάφορα θέματα με τη "
+"μορφή ερωτήσεων πολλαπλής επιλογής."
+
+#: modules/profile/profile.info:0
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: modules/profile/profile.info:0
+msgid "Supports configurable user profiles."
+msgstr "Υποστηρίζει προσαρμοζόμενα προφίλ χρηστών."
+
+#: modules/search/search.info:0
+msgid "Enables site-wide keyword searching."
+msgstr "Επιτρέπει την αναζήτηση σε όλο τον ιστοτόπο με λέξεις-κλειδιά."
+
+#: modules/statistics/statistics.module:155 modules/tracker/tracker.module:46
+msgid "Track"
+msgstr "Ανίχνευση"
+
+#: modules/statistics/statistics.info:0
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: modules/statistics/statistics.info:0
+msgid "Logs access statistics for your site."
+msgstr "Καταγράφει στατιστικά στοιχεία για τις επισκέψεις στον ιστοτόπο σας."
+
+#: modules/syslog/syslog.module:31 modules/syslog/syslog.info:0
+msgid "Syslog"
+msgstr "Syslog"
+
+#: modules/syslog/syslog.info:0
+msgid "Logs and records system events to syslog."
+msgstr "Καταγράφει και αποθηκεύει συμβάντα του συστήματος στο syslog."
+
+#: modules/system/system.admin.inc:1136 modules/user/user.module:1453
+msgid "E-mail address"
+msgstr "Διεύθυνση e-mail"
+
+#: modules/system/system.module:602 modules/user/user.module:2181
+msgid "Medium"
+msgstr "Μέσο"
+
+#: modules/system/system.module:1539 modules/user/user.pages.inc:73;111;147
+#: modules/user/user.module:1320;1366;1420;1607;2329
+msgid "user"
+msgstr "χρήστης"
+
+#: modules/system/system.module:275 modules/update/update.report.inc:200
+msgid "Themes"
+msgstr "Θεματικές παραλλαγές"
+
+#: modules/system/system.module:313 modules/update/update.report.inc:199
+msgid "Modules"
+msgstr "Μονάδες"
+
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Left sidebar"
+msgstr "Αριστερή πλευρική ζώνη"
+
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Right sidebar"
+msgstr "Δεξιά πλευρική ζώνη"
+
+#: (duplicate) modules/system/system.install:232
+#: modules/update/update.report.inc:84 modules/update/update.module:284
+msgid "Up to date"
+msgstr "Ενημερωμένο"
+
+#: (duplicate) modules/system/system.install:242
+#: modules/update/update.module:274
+msgid "Out of date"
+msgstr "Μη ενημερωμένο"
+
+#: modules/system/system.info:0
+msgid "Handles general site configuration for administrators."
+msgstr "Χειρίζεται τις γενικές ρυθμίσεις του ιστοτόπου για τους διαχειριστές."
+
+#: modules/taxonomy/taxonomy.module:112 modules/taxonomy/taxonomy.info:0
+#: modules/trigger/trigger.module:76
+msgid "Taxonomy"
+msgstr "Ταξινόμηση"
+
+#: modules/taxonomy/taxonomy.info:0
+msgid "Enables the categorization of content."
+msgstr "Επιτρέπει την κατηγοριοποίηση της ύλης."
+
+#: modules/throttle/throttle.module:104 modules/user/user.module:778;781
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "1 χρήστης"
+msgstr[1] "@count χρήστες"
+
+#: modules/throttle/throttle.info:0
+msgid "Handles the auto-throttling mechanism, to control site congestion."
+msgstr ""
+"Χειρίζεται το μηχανισμό αυτόματης-απόπνιξης, για τον έλεγχο της συμφόρησης "
+"του ιστοτόπου."
+
+#: modules/tracker/tracker.info:0
+msgid "Tracker"
+msgstr "Ανιχνευτής"
+
+#: modules/tracker/tracker.info:0
+msgid "Enables tracking of recent posts for users."
+msgstr "Επιτρέπει την παρακολούθηση πρόσφατων καταχωρίσεων των χρηστών."
+
+#: modules/translation/translation.info:0
+msgid "Content translation"
+msgstr "Μετάφραση περιεχομένου"
+
+#: modules/translation/translation.info:0
+msgid "Allows content to be translated into different languages."
+msgstr "Επιτρέπει στο περιεχόμενο να μεταφράζεται σε διαφορετικές γλώσσες."
+
+#: modules/trigger/trigger.module:58 modules/user/user.module:568;949
+msgid "Users"
+msgstr "Χρήστες"
+
+#: modules/trigger/trigger.info:0
+msgid "Trigger"
+msgstr "Εκκίνηση ενεργειών"
+
+#: modules/trigger/trigger.info:0
+msgid ""
+"Enables actions to be fired on certain system events, such as when new "
+"content is created."
+msgstr ""
+"Επιτρέπει να εκτελούνται ενέργειες σε ορισμένα συμβάντα του συστήματος, όπως "
+"όταν δημιουργείται νέο περιεχόμενο."
+
+#: modules/update/update.info:0
+msgid "Update status"
+msgstr "Ενημέρωση κατάστασης λειτουργίας"
+
+#: modules/update/update.info:0
+msgid ""
+"Checks the status of available updates for Drupal and your installed modules "
+"and themes."
+msgstr ""
+"Ελέγχει την κατάσταση λειτουργίας για διαθέσιμες αναβαθμίσεις του Drupal και "
+"των εγκατεστημένων μονάδων και θεματικών παραλλαγών."
+
+#: modules/upload/upload.info:0
+msgid "Upload"
+msgstr "Αποστολή"
+
+#: modules/upload/upload.info:0
+msgid "Allows users to upload and attach files to content."
+msgstr ""
+"Επιτρέπει στους χρήστες να αποστέλλουν και να επισυνάπτουν αρχεία στην ύλη."
+
+#: modules/user/user.info:0
+msgid "Manages the user registration and login system."
+msgstr "Διαχειρίζεται το σύστημα εγγραφής και εισόδου χρηστών."
+
+#: themes/bluemarine/bluemarine.info:0 themes/garland/color/color.inc:12
+#: themes/garland/minnelli/color/color.inc:12
+msgid "Bluemarine"
+msgstr "Bluemarine"
+
+#: themes/bluemarine/bluemarine.info:0
+msgid "Table-based multi-column theme with a marine and ash color scheme."
+msgstr ""
+"Θεματική παραλλαγή πολλαπλών στηλών βάσει πινάκων και θαλασσιά και γκρίζα "
+"χρώματα."
+
+#: themes/chameleon/chameleon.info:0
+msgid "Chameleon"
+msgstr "Chameleon"
+
+#: themes/chameleon/chameleon.info:0
+msgid "Minimalist tabled theme with light colors."
+msgstr "Μινιμαλιστική θεματική παραλλαγή βάσει πινάκων, με ανοιχτά χρώματα."
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Marvin"
+msgstr "Marvin"
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Boxy tabled theme in all grays."
+msgstr "Παραλληλόγραμμη θεματική παραλλαγή βάσει πινάκων σε γκρίζους τόνους."
+
+#: themes/garland/garland.info:0
+msgid "Garland"
+msgstr "Garland"
+
+#: themes/garland/garland.info:0
+msgid "Tableless, recolorable, multi-column, fluid width theme (default)."
+msgstr ""
+"Θεματική παραλλαγή δίχως πίνακες, με δυνατότητα αλλαγής χρώματος και "
+"μεταβλητό πλάτος (προεπιλεγμένη)."
+
+#: themes/garland/color/color.inc:8 themes/garland/minnelli/color/color.inc:8
+msgid "Blue Lagoon (Default)"
+msgstr "Γαλάζια λίμνη (προεπιλεγμένο)"
+
+#: themes/garland/color/color.inc:9 themes/garland/minnelli/color/color.inc:9
+msgid "Ash"
+msgstr "Στάχτη"
+
+#: themes/garland/color/color.inc:10
+#: themes/garland/minnelli/color/color.inc:10
+msgid "Aquamarine"
+msgstr "Θαλασσί"
+
+#: themes/garland/color/color.inc:11
+#: themes/garland/minnelli/color/color.inc:11
+msgid "Belgian Chocolate"
+msgstr "Βελγική σοκολάτα"
+
+#: themes/garland/color/color.inc:13
+#: themes/garland/minnelli/color/color.inc:13
+msgid "Citrus Blast"
+msgstr "Κίτρο"
+
+#: themes/garland/color/color.inc:14
+#: themes/garland/minnelli/color/color.inc:14
+msgid "Cold Day"
+msgstr "Κρύα μέρα"
+
+#: themes/garland/color/color.inc:15
+#: themes/garland/minnelli/color/color.inc:15
+msgid "Greenbeam"
+msgstr "Πράσινη αχτίδα"
+
+#: themes/garland/color/color.inc:16
+#: themes/garland/minnelli/color/color.inc:16
+msgid "Mediterrano"
+msgstr "Μεσογειακό"
+
+#: themes/garland/color/color.inc:17
+#: themes/garland/minnelli/color/color.inc:17
+msgid "Mercury"
+msgstr "Υδράργυρος"
+
+#: themes/garland/color/color.inc:18
+#: themes/garland/minnelli/color/color.inc:18
+msgid "Nocturnal"
+msgstr "Παραφύση"
+
+#: themes/garland/color/color.inc:19
+#: themes/garland/minnelli/color/color.inc:19
+msgid "Olivia"
+msgstr "Ελιά"
+
+#: themes/garland/color/color.inc:20
+#: themes/garland/minnelli/color/color.inc:20
+msgid "Pink Plastic"
+msgstr "Ροζ πλαστικό"
+
+#: themes/garland/color/color.inc:21
+#: themes/garland/minnelli/color/color.inc:21
+msgid "Shiny Tomato"
+msgstr "Γυαλιστερή ντομάτα"
+
+#: themes/garland/color/color.inc:22
+#: themes/garland/minnelli/color/color.inc:22
+msgid "Teal Top"
+msgstr "Teal Top"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Minnelli"
+msgstr "Minnelli"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Tableless, recolorable, multi-column, fixed width theme."
+msgstr ""
+"Θεματική παραλλαγή δίχως πίνακες, με δυνατότητα αλλαγής χρώματος και σταθερό "
+"πλάτος."
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Pushbutton"
+msgstr "Pushbutton"
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Tabled, multi-column theme in blue and orange tones."
+msgstr ""
+"Θεματική παραλλαγή πολλαπλών στηλών βάσει πινάκων και μπλε και πορτοκαλιά "
+"χρώματα."

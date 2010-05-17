@@ -1,0 +1,282 @@
+# translation of modules-search.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: modules-search\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 15:14+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/search/search.admin.inc:13
+msgid "Are you sure you want to re-index the site?"
+msgstr "Θέλετε σίγουρα να ανακατασκευάσετε το ευρετήριο του ιστοτόπου;"
+
+#: modules/search/search.admin.inc:14
+msgid ""
+" The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed. This action cannot "
+"be undone."
+msgstr ""
+"Το ευρετήριο αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά με "
+"βάση τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά οι νέες "
+"δημοσιεύσεις δε θα εισαχθούν στο ευρετήριο αν αυτό δεν ανακατασκευαστεί. Η "
+"ενέργεια αυτή είναι μη αναστρέψιμη."
+
+#: modules/search/search.admin.inc:14;52;76
+msgid "Re-index site"
+msgstr "Ανακατασκευή του ευρετηρίου του ιστοτόπου"
+
+#: modules/search/search.admin.inc:23;82
+msgid "The index will be rebuilt."
+msgstr "Το ευρετήριο θα επαναδημιουργηθεί."
+
+#: modules/search/search.admin.inc:49
+msgid "%percentage of the site has been indexed."
+msgstr "%percentage του ιστοτόπου έχει εισαχθεί στο ευρετήριο."
+
+#: modules/search/search.admin.inc:50
+msgid "Indexing status"
+msgstr "Κατάσταση ευρετηρίου"
+
+#: modules/search/search.admin.inc:57
+msgid "Indexing throttle"
+msgstr "Επιτάχυνση ευρετηρίου"
+
+#: modules/search/search.admin.inc:58
+msgid "Number of items to index per cron run"
+msgstr ""
+"Αριθμός των αντικειμένων που θα εισάγονται περιοδικά στο ευρετήριο (με βάση "
+"το cron)."
+
+#: modules/search/search.admin.inc:58
+msgid ""
+"The maximum number of items indexed in each pass of a <a href=\"@cron\">cron "
+"maintenance task</a>. If necessary, reduce the number of items to prevent "
+"timeouts and memory errors while indexing."
+msgstr ""
+"Ο μέγιστος αριθμός δημοσιεύσεων που μπαίνουν στο ευρετήριο σε κάθε "
+"λειτουργία του <a href=\"@cron\">cron </a>. Μειώστε αυτόν τον αριθμό αν η "
+"λειτουργία cron δεν ολοκληρώνεται ή παρουσιάζονται σφάλματα μνήμης."
+
+#: modules/search/search.admin.inc:60
+msgid "Indexing settings"
+msgstr "Ρυθμίσεις ευρετηρίου"
+
+#: modules/search/search.admin.inc:61
+msgid ""
+"<p><em>Changing the settings below will cause the site index to be rebuilt. "
+"The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed.</em></p><p><em>The "
+"default settings should be appropriate for the majority of sites.</em></p>"
+msgstr ""
+"<p><em>Η αλλαγή των παρακάτω ρυθμίσεων θα προκαλέσει την ανακατασκευή του "
+"ευρετηρίου. Το ευρετήριο αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται "
+"συστηματικά με βάση τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να "
+"λειτουργεί αλλά οι νέες δημοσιεύσεις δε θα εισαχθούν στο ευρετήριο αν αυτό "
+"δεν ανακατασκευαστεί.</em></p><p><em>Οι προεπιλεγμένες ρυθμίσεις θα πρέπει "
+"να είναι κατάλληλες για την πλειονότητα των ιστοτόπων.</em></p>"
+
+#: modules/search/search.admin.inc:62
+msgid "Minimum word length to index"
+msgstr "Ελάχιστο μήκος λέξης για εισαγωγή στο ευρετήριο"
+
+#: modules/search/search.admin.inc:62
+msgid ""
+"The number of characters a word has to be to be indexed. A lower setting "
+"means better search result ranking, but also a larger database. Each search "
+"query must contain at least one keyword that is this size (or longer)."
+msgstr ""
+"Ο αριθμός χαρακτήρων που πρέπει να έχει μια λέξη για να εισαχθεί στο "
+"ευρετήριο. Μικρότερη τιμή σημαίνει καλύτερη αξιολόγηση των αποτελεσμάτων της "
+"αναζήτησης αλλά και μεγαλύτερη βάση δεδομένων. Κάθε ερώτημα αναζήτησης "
+"πρέπει να περιέχει τουλάχιστον μία λέξη-κλειδί που έχει αυτό το μήκος (ή "
+"μεγαλύτερο)."
+
+#: modules/search/search.admin.inc:63
+msgid "Simple CJK handling"
+msgstr "Απλός χειρισμός CJK"
+
+#: modules/search/search.admin.inc:63
+msgid ""
+"Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
+"overlapping sequences. Turn this off if you want to use an external "
+"preprocessor for this instead. Does not affect other languages."
+msgstr ""
+"Αν θα χρησιμοποιείται ένας απλός διαχωριστής συμβόλων για την Κινέζικη/"
+"Ιαπωνική/Κορεάτικη γλώσσα που βασίζεται σε επικαλυπτόμενες ακολουθίες. "
+"Απενεργοποιήστε το αν θέλετε να χρησιμοποιήσετε έναν εξωτερικό επεξεργαστή. "
+"Δεν επηρεάζει τις άλλες γλώσσες."
+
+#: modules/search/search.admin.inc:47
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] "1 στοιχείο απομένει για εισαγωγή στο ευρετήριο."
+msgstr[1] "@count στοιχεία απομένουν για εισαγωγή στο ευρετήριο."
+
+#: modules/search/search.pages.inc:29
+msgid "results"
+msgstr "αποτελέσματα"
+
+#: modules/search/search.pages.inc:35
+msgid "Search results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: modules/search/search.pages.inc:38
+msgid "Your search yielded no results"
+msgstr "Η αναζήτησή σας δεν έδωσε αποτελέσματα"
+
+#: modules/search/search.pages.inc:123
+msgid "Please enter some keywords."
+msgstr "Πληκτρολογήστε κάποιες λέξεις-κλειδιά."
+
+#: modules/search/search.pages.inc:29
+msgid "search"
+msgstr "αναζήτηση"
+
+#: modules/search/search.pages.inc:29
+msgid "%keys (@type)."
+msgstr "%keys (@type)."
+
+#: modules/search/search.module:99
+msgid ""
+"The search module adds the ability to search for content by keywords. Search "
+"is often the only practical way to find content on a large site, and is "
+"useful for finding both users and posts."
+msgstr ""
+"Η μονάδα αναζήτησης προσθέτει τη δυνατότητα για αναζήτηση υλικού με λέξεις-"
+"κλειδιά. Η αναζήτηση είναι συνήθως ο μόνος πρακτικός τρόπος εύρεσης υλικού "
+"και είναι χρήσιμο τόσο για αναζήτηση δημοσιεύσεων όσο και αναζήτηση χρηστών."
+
+#: modules/search/search.module:100
+msgid ""
+"To provide keyword searching, the search engine maintains an index of words "
+"found in your site's content. To build and maintain this index, a correctly "
+"configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing "
+"behavior can be adjusted using the <a href=\"@searchsettings\">search "
+"settings page</a>; for example, the <em>Number of items to index per cron "
+"run</em> sets the maximum number of items indexed in each pass of a <a href="
+"\"@cron\">cron maintenance task</a>. If necessary, reduce this number to "
+"prevent timeouts and memory errors when indexing."
+msgstr ""
+"Για να δώσετε τη δυνατότητα αναζήτησης μέσω λέξεων-κλειδιών, η μηχανή "
+"αναζήτησης διατηρεί ένα ευρετήριο από το περιεχόμενο του ιστοτόπου σας. Για "
+"να δημιουργήσετε και να διατηρήσετε αυτό το ευρετήριο απαιτείται να "
+"ρυθμίσετε τις <a href=\"@cron\">περιοδικές λειτουργίες cron</a>. Η "
+"συμπεριφορά του ευρετηρίου μπορεί να ρυθμιστεί χρησιμοποιώντας τη <a href="
+"\"@searchsettings\">σελίδα ρθυμίσεων αναζήτησης</a>, για παράδειγμα, ο "
+"<em>Αριθμός δημοσιεύσεων για προσθήκη στο ευρετήριο ανά λειτουργία cron</em> "
+"θέτει το μέγιστο αριθμό δημοσιεύσεων που επεξεργάζονται κάθε φορά που "
+"λειτουργεί το <a href=\"@cron\">cron</a>. Μειώστε αυτόν τον αριθμό αν η "
+"διαδικασία cron δεν ολοκληρώνεται ή παρουσιάζονται σφάλματα μνήμης."
+
+#: modules/search/search.module:101
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@search"
+"\">Search module</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο στη σελίδα για τη <a "
+"href=\"@menu\">μονάδα Αναζήτησης</a>."
+
+#: modules/search/search.module:104
+msgid ""
+"The search engine maintains an index of words found in your site's content. "
+"To build and maintain this index, a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a> is required. Indexing behavior can be adjusted "
+"using the settings below."
+msgstr ""
+"Η μηχανή αναζήτησης διατηρεί ένα ευρετήριο από το περιεχόμενο του ιστοτόπου "
+"σας. Για να δημιουργήσετε και να διατηρήσετε αυτό το ευρετήριο απαιτείται να "
+"ρυθμίσετε τις <a href=\"@cron\">περιοδικές λειτουργίες cron</a>. Το "
+"ευρετήριο μπορεί να ρυθμιστεί με τις επιλογές που εμφανίζονται παρακάτω."
+
+#: modules/search/search.module:106
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue "
+"smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will "
+"match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>Ελέγξτε αν η ορθογραφία σας είναι σωστή.</li>\n"
+"<li>Αφαιρέστε τα εισαγωγικά γύρω από τις φράσεις για να αναζητηθεί κάθε λέξη "
+"ξεχωριστά: η αναζήτηση για <em>\"μπλε στρουμφ\"</em> θα έχει λιγότερα "
+"αποτελέσματα από την αναζήτηση για <em>μπλε στρουμφ</em>.</li>\n"
+"<li>Σκεφτείτε το ενδεχόμενο αναζήτησης με λιγότερη ακρίβεια χρησιμοποιώντας "
+"το <em>OR</em>: η αναζήτηση για <em>μπλε στρουμφ</em> θα έχει λιγότερα "
+"αποτελέσματα από την αναζήτηση για <em>μπλε OR στρουμφ</em>.</li>\n"
+"</ul>"
+
+#: modules/search/search.module:152
+msgid "Search form"
+msgstr "Φόρμα αναζήτησης"
+
+#: modules/search/search.module:922
+msgid ""
+"You must include at least one positive keyword with @count characters or "
+"more."
+msgstr ""
+"Πρέπει να εισάγετε τουλάχιστον μία σωστή λέξη-κλειδί με @count ή "
+"περισσότερους χαρακτήρες."
+
+#: modules/search/search.module:926
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. For "
+"example, <strong>cats OR dogs</strong>."
+msgstr ""
+"Αναζήτηση για έναν από τους δύο όρους χρησιμοποιώντας το <strong>OR</strong> "
+"σε κεφαλαία. Για παράδειγμα, <strong>γάτες OR σκύλοι</strong>."
+
+#: modules/search/search.module:1033
+msgid "Enter your keywords"
+msgstr "Εισάγετε τις λέξεις-κλειδιά"
+
+#: modules/search/search.module:1067
+msgid "Search this site"
+msgstr "Αναζήτηση στον ιστοτόπο"
+
+#: modules/search/search.module:1071
+msgid "Enter the terms you wish to search for."
+msgstr "Πληκτρολογήστε τους όρους που θέλετε να αναζητήσετε."
+
+#: modules/search/search.module:144
+msgid "search content"
+msgstr "αναζήτηση ύλης"
+
+#: modules/search/search.module:144
+msgid "use advanced search"
+msgstr "χρήση εξελιγμένης αναζήτησης"
+
+#: modules/search/search.module:144
+msgid "administer search"
+msgstr "διαχείριση αναζήτησης"
+
+#: modules/search/search.module:176
+msgid "Search settings"
+msgstr "Επιλογές αναζήτησης"
+
+#: modules/search/search.module:177
+msgid "Configure relevance settings for search and other indexing options"
+msgstr "Ρυθμίσεις συσχέτισης για την αναζήτηση και άλλες επιλογές ευρετηρίου."
+
+#: modules/search/search.module:185
+msgid "Clear index"
+msgstr "Εκκαθάριση ευρετηρίου"
+
+#: modules/search/search.module:193
+msgid "Top search phrases"
+msgstr "Συχνότερες φράσεις αναζήτησης"
+
+#: modules/search/search.module:194
+msgid "View most popular search phrases."
+msgstr "Προβολή συχνότερων φράσεων αναζήτησης."

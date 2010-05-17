@@ -1,0 +1,257 @@
+# translation of modules-php.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: modules-php\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2009-07-26 15:14+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/php/php.module:16
+msgid ""
+"The PHP filter adds the ability to include PHP code in posts. PHP is a "
+"general-purpose scripting language widely-used for web development; the "
+"content management system used by this website has been developed using PHP."
+msgstr ""
+"Το φίλτρο PHP προσθέτει τη δυνατότητα συμπερίληψης κώδικα PHP στις "
+"καταχωρήσεις. Η PHP είναι μια γλώσσα προγραμματισμού σεναρίων γενικής χρήσης "
+"που χρησιμοποιείται ευρέως στην ανάπτυξη ιστοσελίδων· το σύστημα διαχείρισης "
+"περιεχομένου που χρησιμοποιεί ο ιστοτόπος σας έχει αναπτυχθεί με χρήση της "
+"PHP."
+
+#: modules/php/php.module:17
+msgid ""
+"Through the PHP filter, users with the proper permission may include custom "
+"PHP code within a page of the site. While this is a powerful and flexible "
+"feature if used by a trusted user with PHP experience, it is a significant "
+"and dangerous security risk in the hands of a malicious user. Even a trusted "
+"user may accidentally compromise the site by entering malformed or incorrect "
+"PHP code. Only the most trusted users should be granted permission to use "
+"the PHP filter, and all PHP code added through the PHP filter should be "
+"carefully examined before use."
+msgstr ""
+"Μέσω του φίλτρου PHP, οι χρήστες με τις κατάλληλες άδειες μπορούν να "
+"συμπεριλαμβάνουν δικό τους κώδικα PHP μέσα σε μια σελίδα του ιστοτόπου. "
+"Παρόλο που αυτό είναι ένα ισχυρό και ευέλικτο χαρακτηριστικό στα χέρια ενός "
+"έμπειρου χρήστη με εμπειρία σε PHP, στα χέρια ενός κακόβουλου χρήστη μπορεί "
+"να αποδειχθεί ένας σημαντικός και επικίνδυνος παράγοντας κενού ασφαλείας. "
+"Ακόμη κι ένας έμπειρος χρήστης μπορεί άθελά του να εκθέσει σε κίνδυνο τον "
+"ιστοτόπο χρησιμοποιώντας προβληματικό ή λανθασμένο κώδικα PHP. Μόνο στους "
+"πιο έμπιστους χρήστες θα πρέπει να δίνεται η άδεια χρησιμοποίησης του "
+"φίλτρου PHP και θα πρέπει να γίνεται λεπτομερής έλεγχος ολόκληρου του κώδικα "
+"PHP που προστίθεται μέσω του φίλτρου PHP πριν τη χρήση του."
+
+#: modules/php/php.module:18;61
+msgid ""
+"<a href=\"@drupal\">Drupal.org</a> offers <a href=\"@php-snippets\">some "
+"example PHP snippets</a>, or you can create your own with some PHP "
+"experience and knowledge of the Drupal system."
+msgstr ""
+"Στο <a href=\"@drupal\">Drupal.org</a> υπάρχουν <a href=\"@php-snippets"
+"\">ορισμένα τμήματα κώδικα PHP</a> ή μπορείτε να δημιουργήσετε τα δικά σας "
+"έχοντας κάποια εμπειρία σε PHP και γνώση του συστήματος του Drupal."
+
+#: modules/php/php.module:19
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@php\">PHP "
+"module</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και "
+"προσαρμογής, <a href=\"@php\">μονάδα PHP</a>."
+
+#: modules/php/php.module:32
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr ""
+"Μπορείτε να υποβάλετε κώδικα PHP. Θα πρέπει να συμπεριλάβετε τις ετικέτες "
+"&lt;?php ?&gt;."
+
+#: modules/php/php.module:34
+msgid "Using custom PHP code"
+msgstr "Χρήση προσαρμοσμένου κώδικα PHP"
+
+#: modules/php/php.module:35
+msgid ""
+"Custom PHP code may be embedded in some types of site content, including "
+"posts and blocks. While embedding PHP code inside a post or block is a "
+"powerful and flexible feature when used by a trusted user with PHP "
+"experience, it is a significant and dangerous security risk when used "
+"improperly. Even a small mistake when posting PHP code may accidentally "
+"compromise your site."
+msgstr ""
+"Μπορεί να συμπεριληφθεί προσαρμοσμένος κώδικας PHP σε μερικούς τύπους "
+"περιεχομένου του ιστοτόπου, συμπεριλαμβανομένου των καταχωρήσεων και των "
+"μπλοκ. Παρόλο η ενσωμάτωση κώδικα PHP μέσα σε μια καταχώρηση ή μπλοκ είναι "
+"ένα ισχυρό και ευέλικτο χαρακτηριστικό στα χέρια ενός έμπειρου χρήστη με "
+"εμπειρία σε PHP, μπορεί να αποδειχθεί ένας σημαντικός και επικίνδυνος "
+"παράγοντας κενού ασφαλείας αν χρησιμοποιηθεί λανθασμένα. Ακόμη κι ένα μικρό "
+"λάθος κατά την υποβολή κώδικα PHP μπορεί να εκθέσει σε κίνδυνο τον ιστοτόπο "
+"σας."
+
+#: modules/php/php.module:36
+msgid ""
+"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code "
+"within posts. Experimenting with PHP may corrupt your database, render your "
+"site inoperable, or significantly compromise security."
+msgstr ""
+"Αν δεν γνωρίζετε PHP, SQL ή Drupal, αποφύγετε τη χρήση προσαρμοσμένου κώδικα "
+"PHP στις καταχωρήσεις σας. Τα πειράματα με την PHP μπορεί να προκαλέσουν "
+"φθορά στη βάση δεδομένων σας, να κάνουν τον ιστοτόπο μη λειτουργήσιμο ή να "
+"δημιουργήσουν σημαντικά κενά ασφαλείας."
+
+#: modules/php/php.module:37
+msgid "Notes:"
+msgstr "Σημειώσεις:"
+
+#: modules/php/php.module:38
+msgid ""
+"Remember to double-check each line for syntax and logic errors "
+"<strong>before</strong> saving."
+msgstr ""
+"Θυμηθείτε να διπλοελέγξετε κάθε γραμμή για συντακτικά και λογικά λάθη "
+"<strong>πριν</strong> την αποθήκευση."
+
+#: modules/php/php.module:39
+msgid "Statements must be correctly terminated with semicolons."
+msgstr "Οι δηλώσεις πρέπει να τερματίζονται με ερωτηματικά."
+
+#: modules/php/php.module:40
+msgid ""
+"Global variables used within your PHP code retain their values after your "
+"script executes."
+msgstr ""
+"Οι καθολικές μεταβλητές που χρησιμοποιούνται στον κώδικά σας PHP διατηρούν "
+"τις τιμές τους μετά την εκτέλεση του σεναρίου."
+
+#: modules/php/php.module:41
+msgid ""
+"<code>register_globals</code> is <strong>turned off</strong>. If you need to "
+"use forms, understand and use the functions in <a href=\"@formapi\">the "
+"Drupal Form API</a>."
+msgstr ""
+"Το <code>register_globals</code> είναι <strong>απενεργοποιημένο</strong>. Αν "
+"επιθυμείτε να χρησιμοποιήσετε φόρμες, πρέπει να κατανοήσετε και να "
+"χρησιμοποιήσετε το <a href=\"@formapi\">Drupal Form API</a>."
+
+#: modules/php/php.module:42
+msgid ""
+"Use a <code>print</code> or <code>return</code> statement in your code to "
+"output content."
+msgstr ""
+"Χρησιμοποιήστε τη δήλωση <code>print</code> ή <code>return</code> στον "
+"κώδικά σας για την εμφάνιση του περιεχομένου."
+
+#: modules/php/php.module:43
+msgid ""
+"Develop and test your PHP code using a separate test script and sample "
+"database before deploying on a production site."
+msgstr ""
+"Κάντε ανάπτυξη και δοκιμή του κώδικα PHP χρησιμοποιώντας ένα ξεχωριστό "
+"σενάριο δοκιμών και μια δοκιμαστική βάση δεδομένων προτού τον "
+"χρησιμοποιήσετε σε παραγωγικό ιστοτόπο."
+
+#: modules/php/php.module:44
+msgid ""
+"Consider including your custom PHP code within a site-specific module or "
+"<code>template.php</code> file rather than embedding it directly into a post "
+"or block."
+msgstr ""
+"Θεωρήστε την συμπερίληψη προσαρμοσμένου κώδικα PHP σε μια ειδικά για τον "
+"ιστοτόπο μονάδα ή στο αρχείο <code>template.php</code> αντί να τον "
+"συμπεριλαμβάνετε απευθείας μέσα σε μια καταχώρηση ή μπλοκ."
+
+#: modules/php/php.module:45
+msgid ""
+"Be aware that the ability to embed PHP code within content is provided by "
+"the PHP Filter module. If this module is disabled or deleted, then blocks "
+"and posts with embedded PHP may display, rather than execute, the PHP code."
+msgstr ""
+"Πρέπει να γίνει κατανοητό ότι η δυνατότητα συμπερίληψης κώδικα PHP μέσα στο "
+"περιεχόμενο παρέχεται από τη μονάδα PHP Filter. Αν η μονάδα είναι "
+"απενεργοποιημένη ή διαγεγραμμένη, τότε τα μπλοκ και οι καταχωρήσεις με "
+"ενσωματωμένο κώδικα PHP θα εμφανίζουν, αντί να εκτελούν, τον κώδικα PHP."
+
+#: modules/php/php.module:46
+msgid ""
+"A basic example: <em>Creating a \"Welcome\" block that greets visitors with "
+"a simple message.</em>"
+msgstr ""
+"Ένα βασικό παράδειγμα: <em>Δημιουργία ενός \"Καλωσήρθατε\" μπλοκ που χαιρετά "
+"τους επισκέπτες με ένα απλό μήνυμα.</em>"
+
+#: modules/php/php.module:47
+msgid ""
+"<p>Add a custom block to your site, named \"Welcome\". With its input format "
+"set to \"PHP code\" (or another format supporting PHP input), add the "
+"following in the Block body:</p>\n"
+"<pre>\n"
+"print t('Welcome visitor! Thank you for visiting.');\n"
+"</pre>"
+msgstr ""
+"<p>Προσθέστε ένα προσαρμοσμένο μπλοκ στον ιστοτόπο σας, με όνομα "
+"\"Καλωσήρθατε\". Στο μορφότυπο εισόδου του, επιλέξτε το \"Κώδικας PHP\" (ή "
+"άλλη μορφή που υποστηρίζει κώδικα PHP) και προσθέστε τα παρακάτω στο σώμα "
+"του μπλοκ:</p>\n"
+"<pre>\n"
+"print t('Καλωσήρθατε επισκέπτη! Ευχαριστούμε για την επίσκεψή σας.');\n"
+"</pre>"
+
+#: modules/php/php.module:51
+msgid ""
+"<p>To display the name of a registered user, use this instead:</p>\n"
+"<pre>\n"
+"global $user;\n"
+"if ($user->uid) {\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
+">name));\n"
+"}\n"
+"else {\n"
+"  print t('Welcome visitor! Thank you for visiting.');\n"
+"}\n"
+"</pre>"
+msgstr ""
+"<p>Για την εμφάνιση του ονόματος ενός εγγεγραμμένου χρήστη, χρησιμοποιήστε "
+"αυτό:</p>\n"
+"<pre>\n"
+"global $user;\n"
+"if ($user->uid) {\n"
+"  print t('Καλωσήρθατε @name! Ευχαριστούμε για την επίσκεψή σας.', array"
+"('@name' => $user->name));\n"
+"}\n"
+"else {\n"
+"  print t('Καλωσήρθατε επισκέπτη! Ευχαριστούμε για την επίσκεψή σας.');\n"
+"}\n"
+"</pre>"
+
+#: modules/php/php.module:75
+msgid "PHP evaluator"
+msgstr "Εκτέλεση PHP"
+
+#: modules/php/php.module:80
+msgid ""
+"Executes a piece of PHP code. The usage of this filter should be restricted "
+"to administrators only!"
+msgstr ""
+"Εκτελεί ένα τμήμα κώδικα σε PHP. Η χρήση του φίλτρου αυτού θα πρέπει να "
+"περιορίζεται στους διαχειριστές μόνο!"
+
+#: modules/php/php.install:20
+msgid "A !php-code input format has been created."
+msgstr "Ένας !php-code μορφότυπος εισόδου δημιουργήθηκε."
+
+#: modules/php/php.install:28
+msgid ""
+"The PHP module has been disabled. Please note that any existing content that "
+"was using the PHP filter will now be visible in plain text. This might pose "
+"a security risk by exposing sensitive information, if any, used in the PHP "
+"code."
+msgstr ""
+"Η μονάδα PHP έχει απενεργοποιηθεί. Πρέπει να σημειωθεί ότι υπάρχον "
+"περιεχόμενο που χρησιμοποιούσε το φίλτρο PHP θα φαίνεται τώρα ως απλό "
+"κείμενο. Αυτό μπορεί να αποδειχθεί κενό ασφαλείας με την εμφάνιση τυχόν "
+"ευαίσθητων δεδομένων που χρησιμοποιούνταν στον κώδικα PHP."

@@ -1,0 +1,13 @@
+; $Id: slashcomments.info,v 1.1 2009/09/10 12:47:49 mukhsim Exp $
+name = Slashcomments
+description = Upgrades default comment system to Slashdot comment system
+dependencies[] = comment
+dependencies[] = votingapi
+core = 6.x
+
+; Information added by drupal.org packaging script on 2009-09-11
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "slashcomments"
+datestamp = "1252629103"
+

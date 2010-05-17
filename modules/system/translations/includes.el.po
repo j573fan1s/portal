@@ -1,0 +1,2046 @@
+# translation of includes.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: includes\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:30+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: includes/actions.inc:303
+msgid "Remove orphaned actions"
+msgstr "Αφαίρεση ορφανών ενεργειών"
+
+#: includes/actions.inc:47
+msgid ""
+"Stack overflow: too many calls to actions_do(). Aborting to prevent infinite "
+"recursion."
+msgstr ""
+"Υπερβολικές κλήσεις της actions_do(). Η εκτέλεση σταματάει προς αποφυγήν "
+"κλήσεων επ' άπειρον."
+
+#: includes/actions.inc:277
+msgid "Action '%action' added."
+msgstr "Η ενέργεια '%action' προστέθηκε."
+
+#: includes/actions.inc:299
+msgid "Removed orphaned action '%action' from database."
+msgstr "Η ορφανή ενέργεια '%action' αφαιρέθηκε από τη βάση δεδομένων."
+
+#: includes/actions.inc:331
+msgid "Action %action saved."
+msgstr "Η ενέργεια %action αποθηκεύτηκε."
+
+#: includes/actions.inc:339
+msgid "Action %action created."
+msgstr "Η ενέγεια %action δημιουργήθηκε."
+
+#: includes/actions.inc:305
+msgid "One orphaned action (%orphans) exists in the actions table. !link"
+msgid_plural ""
+"@count orphaned actions (%orphans) exist in the actions table. !link"
+msgstr[0] "Υπάρχει μια ορφανή ενέργεια (%orphans) στον πίνακα ενεργειών. !link"
+msgstr[1] ""
+"@count ορφανές ενέργειες (%orphans) υπάρχουν στον πίνακα ενεργειών. !link"
+
+#: includes/batch.inc:100
+msgid "HTTP POST is required."
+msgstr "Το HTTP POST είναι απαραίτητο."
+
+#: (duplicate) includes/batch.inc:101 includes/unicode.inc:86
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: includes/common.inc:342
+msgid "Site off-line"
+msgstr "Ιστοτόπος εκτός λειτουργίας"
+
+#: includes/common.inc:364
+msgid "Page not found"
+msgstr "Η σελίδα δε βρέθηκε"
+
+#: includes/common.inc:365
+msgid "The requested page could not be found."
+msgstr "Η ζητούμενη σελίδα δεν ήταν δυνατόν να βρεθεί."
+
+#: includes/common.inc:389
+msgid "Access denied"
+msgstr "Η πρόσβαση δεν επιτρέπεται"
+
+#: includes/common.inc:390
+msgid "You are not authorized to access this page."
+msgstr "Δεν έχετε δικαιώματα πρόσβασης σε αυτή τη σελίδα."
+
+#: includes/common.inc:1208
+msgid "KB"
+msgstr "KB"
+
+#: includes/common.inc:1213
+msgid "@size @suffix"
+msgstr "@size @suffix"
+
+#: includes/common.inc:1245
+msgid "0 sec"
+msgstr "0 δευτερόλεπτα"
+
+#: includes/common.inc:3593
+msgid "notice"
+msgstr "ειδοποίηση"
+
+#: includes/common.inc:3594
+msgid "info"
+msgstr "πληροφορία"
+
+#: includes/common.inc:3595
+msgid "debug"
+msgstr "αποσφαλμάτωση"
+
+#: includes/common.inc:619 includes/image.inc:95 includes/menu.inc:2322
+#: includes/unicode.inc:151;184
+msgid "php"
+msgstr "php"
+
+#: includes/common.inc:619
+msgid "%message in %file on line %line."
+msgstr "%message στο αρχείο %file στη γραμμή %line."
+
+#: includes/common.inc:2643;2650;2665;2681
+msgid "cron"
+msgstr "cron"
+
+#: includes/common.inc:2643
+msgid "Cron has been running for more than an hour and is most likely stuck."
+msgstr ""
+"Το cron εκτελείται για παραπάνω από μία ώρα και είναι πολύ πιθανό να έχει "
+"κολλήσει."
+
+#: includes/common.inc:2650
+msgid "Attempting to re-run cron while it is already running."
+msgstr "Γίνεται προσπάθεια για επανεκτέλεση του cron ενώ εκτελείται ήδη."
+
+#: includes/common.inc:2665
+msgid "Cron run completed."
+msgstr "Η εκτέλεση του cron ολοκληρώθηκε."
+
+#: includes/common.inc:2681
+msgid "Cron run exceeded the time limit and was aborted."
+msgstr "Η εκτέλεση του cron ξεπέρασε το χρονικό όριο και ακυρώθηκε."
+
+#: includes/common.inc:1204
+msgid "1 byte"
+msgid_plural "@count bytes"
+msgstr[0] "1 byte"
+msgstr[1] "@count byte"
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] "1 έτος"
+msgstr[1] "@count έτη"
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] "1 εβδομάδα"
+msgstr[1] "@count εβδομάδες"
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] "1 ημέρα"
+msgstr[1] "@count ημέρες"
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] "1 ώρα"
+msgstr[1] "@count ώρες"
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] "1 λεπτό"
+msgstr[1] "@count λεπτά"
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] "1 δευτερόλεπτο"
+msgstr[1] "@count δευτερόλεπτα"
+
+#: (duplicate) includes/database.mysql.inc:26 includes/database.mysqli.inc:29
+msgid "MySQL database"
+msgstr "Βάση δεδομένων MySQL"
+
+#: (duplicate) includes/database.mysql.inc:32 includes/database.mysqli.inc:35
+msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
+msgstr ""
+"Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον "
+"MySQL %version."
+
+#: (duplicate) includes/database.pgsql.inc:23
+msgid "PostgreSQL database"
+msgstr "Βάση δεδομένων PostgreSQL"
+
+#: (duplicate) includes/database.pgsql.inc:29
+msgid ""
+"Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL %"
+"version."
+msgstr ""
+"Ο διακομιστής σας PostgreSQL είναι πολύ παλιός. Το Drupal απαιτεί "
+"τουλάχιστον PostgreSQL %version."
+
+#: (duplicate) includes/database.pgsql.inc:406
+msgid ""
+"Your PostgreSQL database is set up with the wrong character encoding (%"
+"encoding). It is possible it will not work as expected. It is advised to "
+"recreate it with UTF-8/Unicode encoding. More information can be found in "
+"the <a href=\"@url\">PostgreSQL documentation</a>."
+msgstr ""
+"Η βάση δεδομένων PostgreSQL που χρησιμοποιείτε έχει λανθασμένη ρύθμιση για "
+"την κωδικοποίηση χαρακτήρων (%encoding). Είναι πιθανό να μη λειτουργήσει με "
+"τον αναμενόμενο τρόπο. Προτείνεται να την ξαναδημιουργήσετε με κωδικοποίηση "
+"UTF-8/Unicode. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <a href="
+"\"@url\">τεκμηρίωση της PostgreSQL</a>."
+
+#: includes/file.inc:104
+msgid "The directory %directory has been created."
+msgstr "Ο κατάλογος αρχείων %directory δημιουργήθηκε."
+
+#: includes/file.inc:118
+msgid ""
+"The permissions of directory %directory have been changed to make it "
+"writable."
+msgstr ""
+"Οι άδειες του καταλόγου αρχείων %directory άλλαξαν ώστε να επιτρέπει εγγραφή."
+
+#: includes/file.inc:121
+msgid "The directory %directory is not writable"
+msgstr "Ο κατάλογος αρχείων %directory δεν είναι εγγράψιμος"
+
+#: includes/file.inc:135;136
+msgid ""
+"Security warning: Couldn't write .htaccess file. Please create a .htaccess "
+"file in your %directory directory which contains the following lines: <code>!"
+"htaccess</code>"
+msgstr ""
+"Προειδοποίηση ασφάλειας: Η εγγραφή του αρχείου .htaccess δεν ήταν δυνατή. "
+"Πρέπει να δημιουργήσετε ένα αρχείο .htaccess στον κατάλογο %directory που να "
+"περιέχει τις εξής γραμμές: <code>!htaccess</code>"
+
+#: includes/file.inc:225
+msgid ""
+"The selected file %file could not be uploaded, because the destination %"
+"directory is not properly configured."
+msgstr ""
+"Η αποστολή του επιλεγμένου αρχείου %file δεν ήταν δυνατή, επειδή ο κατάλογος "
+"προορισμού %directory δεν είναι σωστά διευθετημένος."
+
+#: includes/file.inc:241
+msgid ""
+"The selected file %file could not be copied, because no file by that name "
+"exists. Please check that you supplied the correct filename."
+msgstr ""
+"Η αντιγραφή του επιλεγμένου αρχείου %file δεν ήταν δυνατή, επειδή δεν "
+"υπάρχει αρχείο με αυτό το όνομα. Βεβαιωθείτε ότι δώσατε το σωστό όνομα "
+"αρχείου."
+
+#: includes/file.inc:254;305
+msgid ""
+"The selected file %file could not be copied, because a file by that name "
+"already exists in the destination."
+msgstr ""
+"Η αντιγραφή του επιλεγμένου αρχείου %file δεν ήταν δυνατή, επειδή υπάρχει "
+"ήδη ένα αρχείο με αυτό το όνομα στον προορισμό."
+
+#: includes/file.inc:259
+msgid "The selected file %file could not be copied."
+msgstr "Η αντιγραφή του επιλεγμένου αρχείου %file δεν ήταν δυνατή."
+
+#: includes/file.inc:339
+msgid "The removal of the original file %file has failed."
+msgstr "Η διαγραφή του πρωτότυπου αρχείου %file απέτυχε."
+
+#: includes/file.inc:380
+msgid "For security reasons, your upload has been renamed to %filename."
+msgstr ""
+"Για λόγους ασφαλείας το απεσταλμένο αρχείο σας έχει μετονομαστεί σε %"
+"filename."
+
+#: includes/file.inc:504
+msgid ""
+"The file %file could not be saved, because it exceeds %maxsize, the maximum "
+"allowed size for uploads."
+msgstr ""
+"Η αποθήκευση του αρχείου %file δεν ήταν δυνατή, επειδή ξεπερνά το ανώτατο "
+"επιτρεπτό μέγεθος για την αποστολή αρχείων."
+
+#: includes/file.inc:509
+msgid "The file %file could not be saved, because the upload did not complete."
+msgstr ""
+"Η αποθήκευση του αρχείου %file δεν ήταν δυνατή, επειδή η αποστολή του δεν "
+"ολοκληρώθηκε."
+
+#: includes/file.inc:514
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr ""
+"Η αποθήκευση του αρχείου %file δεν ήταν δυνατή. Παρουσιάστηκε άγνωστο σφάλμα."
+
+#: includes/file.inc:558
+msgid "The selected file %name could not be uploaded."
+msgstr "Η αποστολή του επιλεγμένου αρχείου %file δεν ήταν δυνατή."
+
+#: includes/file.inc:573
+msgid "File upload error. Could not move uploaded file."
+msgstr ""
+"Σφάλμα στην αποστολή του αρχείου. Η μετακίνηση του αποσταλμένου αρχείου δεν "
+"ήταν δυνατή ."
+
+#: includes/file.inc:603
+msgid ""
+"Its name exceeds the 255 characters limit. Please rename the file and try "
+"again."
+msgstr ""
+"Η ονομασία του έχει ξεπεράσει το όριο των 255 χαρακτήρων. Παρακαλώ "
+"μετονομάστε το αρχείο και προσπαθήστε ξανά."
+
+#: includes/file.inc:628
+msgid "Only files with the following extensions are allowed: %files-allowed."
+msgstr "Μόνο αρχεία με τις ακόλουθες επεκτάσεις επιτρέπονται: %files-allowed."
+
+#: includes/file.inc:657
+msgid "The file is %filesize exceeding the maximum file size of %maxsize."
+msgstr ""
+"Το αρχείο είναι %filesize και ξεπερνά το μέγιστο επιτρεπτό μέγεθος αρχείου %"
+"maxsize."
+
+#: includes/file.inc:662
+msgid "The file is %filesize which would exceed your disk quota of %quota."
+msgstr ""
+"Το αρχείο είναι %filesize με το οποίο θα υπερβείτε την ποσόστωση του δίσκου "
+"σας του %quota."
+
+#: includes/file.inc:681
+msgid "Only JPEG, PNG and GIF images are allowed."
+msgstr "Επιτρέπονται μόνο εικόνες JPEG, PNG και GIF."
+
+#: includes/file.inc:716
+msgid ""
+"The image was resized to fit within the maximum allowed dimensions of %"
+"dimensions pixels."
+msgstr ""
+"Οι διαστάσεις της εικόνας άλλαξαν ώστε να είναι μέσα στα όρια της μέγιστης "
+"επιτρεπτής ανάλυσης, που είναι %dimensions pixel."
+
+#: includes/file.inc:724
+msgid "The image is too large; the maximum dimensions are %dimensions pixels."
+msgstr ""
+"Η εικόνα είναι πολύ μεγάλη. Οι μέγιστες επιτρεπόμενες διαστάσεις είναι %"
+"dimensions pixel."
+
+#: includes/file.inc:733
+msgid "The image is too small; the minimum dimensions are %dimensions pixels."
+msgstr ""
+"Η εικόνα είναι πολύ μικρή. Οι μικρότερες επιτρεπόμενες διαστάσεις είναι %"
+"dimensions pixel."
+
+#: includes/file.inc:758
+msgid "The file could not be created."
+msgstr "Το αρχείο δεν ήταν δυνατό να δημιουργηθεί."
+
+#: includes/file.inc:122
+msgid ""
+"The directory %directory is not writable, because it does not have the "
+"correct permissions set."
+msgstr ""
+"Ο φάκελος %directory δεν είναι εγγράψιμος, επειδή δεν έχει τα σωστά "
+"δικαιώματα πρόσβασης."
+
+#: includes/file.inc:226
+msgid ""
+"The selected file %file could not be uploaded, because the destination %"
+"directory could not be found, or because its permissions do not allow the "
+"file to be written."
+msgstr ""
+"Δεν ήταν δυνατή η αποστολή του επιλεγμένου αρχείου %file, επειδή ο φάκελος "
+"προορισμού %directory δεν βρέθηκε ή επειδή τα δικαιώματα πρόσβασης δεν "
+"επιτρέπουν την εγγραφή του αρχείου."
+
+#: includes/file.inc:574
+msgid "file"
+msgstr "αρχείο"
+
+#: includes/file.inc:574
+msgid ""
+"Upload error. Could not move uploaded file %file to destination %destination."
+msgstr ""
+"Σφάλμα στην αποστολή του αρχείου. Δεν ήταν δυνατή η αποστολή του αρχείου (%"
+"file) στον προορισμό του (%destination)."
+
+#: includes/form.inc:1605
+msgid "Confirm password"
+msgstr "Επιβεβαίωση συνθηματικού"
+
+#: includes/form.inc:1628
+msgid "The specified passwords do not match."
+msgstr "Τα συνθηματικά που δόθηκαν δεν είναι ίδια."
+
+#: includes/form.inc:1632
+msgid "Password field is required."
+msgstr "Το συνθηματικό είναι υποχρεωτικό."
+
+#: includes/form.inc:1713
+msgid "The specified date is invalid."
+msgstr "Η δοθείσα ημερομηνία είναι άκυρη."
+
+#: (duplicate) includes/form.inc:679
+msgid "!name field is required."
+msgstr "Το πεδίο !name είναι απαραίτητο."
+
+#: (duplicate) includes/form.inc:684
+msgid ""
+"!name cannot be longer than %max characters but is currently %length "
+"characters long."
+msgstr ""
+"Το πεδίο !name δεν μπορεί να είναι μεγαλύτερο από %max χαρακτήρες, ωστόσο "
+"τώρα έχει μήκος %length χαρακτήρες."
+
+#: (duplicate) includes/form.inc:2200
+msgid "This field is required."
+msgstr "Το πεδίο είναι απαραίτητο."
+
+#: (duplicate) includes/form.inc:2205 ;2208
+msgid "!title: !required"
+msgstr "!title: !required"
+
+#: (duplicate) includes/form.inc:2446
+msgid "Initializing."
+msgstr "Αρχικοποίηση."
+
+#: (duplicate) includes/form.inc:2447
+msgid "Remaining @remaining of @total."
+msgstr "Απομένει @remaining από @total."
+
+#: (duplicate) includes/form.inc:2448
+msgid "An error has occurred."
+msgstr "Παρουσιάστηκε σφάλμα."
+
+#: (duplicate) includes/form.inc:2521
+msgid "Please continue to <a href=\"@error_url\">the error page</a>"
+msgstr "Συνεχίστε στη <a href=\"@error_url\">σελίδα λάθους</a>"
+
+#: includes/form.inc:699
+msgid "Illegal choice %choice in !name element."
+msgstr "Μη επιτρεπτή επιλογή %choice στο πεδίο !name."
+
+#: includes/image.gd.inc:18
+msgid "GD2 image manipulation toolkit"
+msgstr "Εργαλειοθήκη επεξεργασίας εικόνας GD2"
+
+#: includes/image.gd.inc:28
+msgid "The GD toolkit is installed and working properly."
+msgstr ""
+"Η ενσωματωμένη εργαλειοθήκη GD έχει εγκατασταθεί και λειτουργεί κανονικά."
+
+#: includes/image.gd.inc:33
+msgid "JPEG quality"
+msgstr "Ποιότητα JPEG"
+
+#: includes/image.gd.inc:34
+msgid ""
+"Define the image quality for JPEG manipulations. Ranges from 0 to 100. "
+"Higher values mean better image quality but bigger files."
+msgstr ""
+"Προσδιορισμός της ποιότητας εικόνων για τον χειρισμό JPEG. Επιλογή από το 0 "
+"ως το 100. Μεγαλύτερες τιμές σημαίνουν καλύτερη ποιότητα εικόνας αλλά και "
+"μεγαλύτερα αρχεία."
+
+#: includes/image.gd.inc:38
+msgid "%"
+msgstr "%"
+
+#: includes/image.gd.inc:45
+msgid ""
+"The GD image toolkit requires that the GD module for PHP be installed and "
+"configured properly. For more information see <a href=\"@url\">PHP's image "
+"documentation</a>."
+msgstr ""
+"Η ενσωματωμένη εργαλειοθήκη GD απαιτεί να έχει εγκατασταθεί και ρυθμιστεί "
+"σωστά η μονάδα GD για την PHP. Για περισσότερες πληροφορίες ανατρέξτε στη <a "
+"href=\"@url\">σελίδα τεκμηρίωσης του PHP image</a>."
+
+#: includes/image.gd.inc:57
+msgid "JPEG quality must be a number between 0 and 100."
+msgstr ""
+"Η ρύθμιση της ποιότητας JPEG πρέπει να είναι ένας αριθμός μεταξύ του 0 και "
+"του 100."
+
+#: includes/image.inc:95
+msgid ""
+"The selected image handling toolkit %toolkit can not correctly process %"
+"function."
+msgstr ""
+"Η επιλεγμένη εργαλειοθήκη χειρισμού εικόνων %toolkit δεν μπορεί να "
+"επεξεργαστεί σωστά την %function."
+
+#: includes/install.inc:728
+msgid "Currently using !item !version"
+msgstr "Αυτή τη στιγμή χρησιμοποιείται η έκδοση !version του !item"
+
+#: includes/locale.inc:48;279
+msgid "Right to left"
+msgstr "Δεξιά προς αριστερά"
+
+#: includes/locale.inc:48;279
+msgid "Left to right"
+msgstr "Αριστερά προς δεξιά"
+
+#: includes/locale.inc:90
+msgid "Code"
+msgstr "Κωδικός"
+
+#: includes/locale.inc:90
+msgid "English name"
+msgstr "Όνομα στην Αγγλική"
+
+#: includes/locale.inc:90
+msgid "Native name"
+msgstr "Εγγενές όνομα"
+
+#: includes/locale.inc:90;275
+msgid "Direction"
+msgstr "Κατεύθυνση"
+
+#: includes/locale.inc:122
+msgid "Configuration saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: includes/locale.inc:157
+msgid "Predefined language"
+msgstr "Προεπιλεγμένη γλώσσα"
+
+#: includes/locale.inc:161;711
+msgid "Language name"
+msgstr "Όνομα γλώσσας"
+
+#: includes/locale.inc:164
+msgid ""
+"Select the desired language and click the <em>Add language</em> button. (Use "
+"the <em>Custom language</em> options if your desired language does not "
+"appear in this list.)"
+msgstr ""
+"Επιλέξτε την επιθυμητή γλώσσα και κάντε κλικ στο κουμπί <em>Προσθήκη "
+"γλώσσας</em>. (Χρησιμοποιήστε την επιλογή <em>Προσαρμοσμένη γλώσσα</em> εάν "
+"η επιθυμητή σας γλώσσα δεν είναι διαθέσιμη σε αυτή τη λίστα.)"
+
+#: includes/locale.inc:176
+msgid "Custom language"
+msgstr "Προσαρμοσμένη γλώσσα"
+
+#: includes/locale.inc:183
+msgid "Add custom language"
+msgstr "Προσθήκη προσαρμοσμένης γλώσσας"
+
+#: includes/locale.inc:203
+msgid "Save language"
+msgstr "Αποθήκευση γλώσσας"
+
+#: includes/locale.inc:229;239
+msgid "Language code"
+msgstr "Κωδικός γλώσσας"
+
+#: includes/locale.inc:245
+msgid ""
+"<a href=\"@rfc4646\">RFC 4646</a> compliant language identifier. Language "
+"codes typically use a country code, and optionally, a script or regional "
+"variant name. <em>Examples: \"en\", \"en-US\" and \"zh-Hant\".</em>"
+msgstr ""
+"Κωδικός αναγνώρισης γλώσσας με βάση το <a href=\"@rfc4646\">RFC 4646</a>. Οι "
+"κωδικοί γλώσσας συνήθως είναι οι ίδιοι με τους κωδικούς χωρών και "
+"προαιρετικά χρησιμοποιούν ονόματα διαλέκτων ή περιοχών. <em>Παραδείγματα: "
+"\"en\", \"en-US\" και \"zh-Hant\".</em>"
+
+#: includes/locale.inc:249
+msgid "Language name in English"
+msgstr "Το όνομα της γλώσσας στην Αγγλική"
+
+#: includes/locale.inc:253
+msgid ""
+"Name of the language in English. Will be available for translation in all "
+"languages."
+msgstr ""
+"Το όνομα της γλώσσας στην Αγγλική. Θα είναι διαθέσιμο για μετάφραση σε όλες "
+"τις γλώσσες."
+
+#: includes/locale.inc:256
+msgid "Native language name"
+msgstr "Εγγενές όνομα γλώσσας"
+
+#: includes/locale.inc:260
+msgid "Name of the language in the language being added."
+msgstr "Το όνομα της γλώσσας στη γλώσσα που έχει προστεθεί."
+
+#: includes/locale.inc:263
+msgid "Path prefix"
+msgstr "Πρόθεμα διεύθυνσης"
+
+#: includes/locale.inc:266
+msgid ""
+"Language code or other custom string for pattern matching within the path. "
+"With language negotiation set to <em>Path prefix only</em> or <em>Path "
+"prefix with language fallback</em>, this site is presented in this language "
+"when the Path prefix value matches an element in the path. For the default "
+"language, this value may be left blank. <strong>Modifying this value will "
+"break existing URLs and should be used with caution in a production "
+"environment.</strong> <em>Example: Specifying \"deutsch\" as the path prefix "
+"for German results in URLs in the form \"www.example.com/deutsch/node\".</em>"
+msgstr ""
+"Κωδικός γλώσσας ή άλλη φράση που μπορεί να αναγνωρισθεί αυτόματα μέσα στη "
+"διεύθυνση. Με τη ρύθμιση καθορισμού γλώσσας στο <em>Πρόθεμα διεύθυνσης μόνο</"
+"em> ή στο <em>Πρόθεμα διεύθυνσης και, αν αποτύχει, γλώσσα</em>, ο ιστοτόπος "
+"παρουσιάζεται στη συγκεκριμένη γλώσσα η τιμή του προθέματος διεύθυνσης "
+"ταιριάζει με κάποιο στοιχείο από τη διεύθυνση μιας σελίδας. Για την "
+"προεπιλεγμένη γλώσσα, το πρόθεμα μπορεί να παραμείνει κενό. "
+"<strong>Αλλάζοντας το πρόθεμα θα καταστρέψει τα υπάρχοντα URL και για αυτό η "
+"επιλογή αυτή θα πρέπει να χρησιμοποιείται πολύ προσεκτικά σε δημοσιευμένους "
+"ιστοτόπους.</strong> <em>Παράδειγμα: Ορίζοντας  \"deutsch\" σαν το πρόθεμα "
+"διεύθυνσης για Γερμανικά θα δημιουργήσει διευθύνσεις τύπου \"www.example.com/"
+"deutsch/node\".</em>"
+
+#: includes/locale.inc:269
+msgid "Language domain"
+msgstr "Domain γλώσσας"
+
+#: includes/locale.inc:272
+msgid ""
+"Language-specific URL, with protocol. With language negotiation set to "
+"<em>Domain name only</em>, the site is presented in this language when the "
+"URL accessing the site references this domain. For the default language, "
+"this value may be left blank. <strong>This value must include a protocol as "
+"part of the string.</strong> <em>Example: Specifying \"http://example.de\" "
+"or \"http://de.example.com\" as language domains for German results in URLs "
+"in the forms \"http://example.de/node\" and \"http://de.example.com/node\", "
+"respectively.</em>"
+msgstr ""
+"Διευθύνσεις URL με βάση τη γλώσσα και πρωτόκολλο επικοινωνίας. Με τη ρύθμιση "
+"καθορισμού γλώσσας στο <em>Όνομα διακομιστή μόνο</em>, ο ιστοτόπος "
+"παρουσιάζεται στη συγκεκριμένη γλώσσα όταν η διεύθυνση URL μιας σελίδας "
+"περιέχει το όνομα του διακομιστή. Για την προεπιλεγμένη γλώσσα το όνομα "
+"μπορεί να παραμείνει κενό. <strong>Το όνομα πρέπει να περιέχει ένα "
+"πρωτόκολλο επικοινωνίας στην αρχή της φράσης.</strong> <em>Παράδειγμα: "
+"Ορίζοντας το όνομα για τα Γερμανικά σαν \"http://example.de\" ή \"http://de."
+"example.com\" θα δημιουργήσει διευθύνσεις URL του τύπου \"http://example.de/"
+"node\" και \"http://de.example.com/node\", αντίστοιχα.</em>"
+
+#: includes/locale.inc:277
+msgid "Direction that text in this language is presented."
+msgstr "Η κατεύθυνση στην οποία παρουσιάζεται το κείμενο της γλώσσας."
+
+#: includes/locale.inc:291
+msgid "The language %language (%code) already exists."
+msgstr "Η γλώσσα %language (%code) υπάρχει ήδη."
+
+#: includes/locale.inc:298
+msgid "Invalid language code."
+msgstr "Άκυρος κωδικός γλώσσας."
+
+#: includes/locale.inc:315;321
+msgid ""
+"The language %language has been created and can now be used. More "
+"information is available on the <a href=\"@locale-help\">help screen</a>."
+msgstr ""
+"Η γλώσσα %language έχει δημιουργηθεί και πλέον μπορεί να χρησιμοποιηθεί. "
+"Περισσότερες πληροφορίες υπάρχουν στη <a href=\"@locale-help\">σελίδα "
+"βοήθειας</a>."
+
+#: includes/locale.inc:339
+msgid "Domain and path prefix values should not be set at the same time."
+msgstr ""
+"Οι ρυθμίσεις του ονόματος του διακομιστή και του προθέματος δεν μπορεί να "
+"είναι επιλεγμένες συγχρόνως."
+
+#: includes/locale.inc:342
+msgid "The domain (%domain) is already tied to a language (%language)."
+msgstr "To domain (%domain) είναι ήδη δεσμευμένο σε μια γλώσσα (%language)."
+
+#: includes/locale.inc:345
+msgid "Only the default language can have both the domain and prefix empty."
+msgstr ""
+"Μόνο η προεπιλεγμένη γλώσσα μπορεί να έχει τόσο τη ρύθμιση του ονόματος του "
+"διακομιστή όσο και το πρόθεμα άδεια."
+
+#: includes/locale.inc:348
+msgid "The prefix (%prefix) is already tied to a language (%language)."
+msgstr "Το πρόθεμα (%prefix) είναι ήδη καταχωρημένο σε μια γλώσσα (%language)."
+
+#: includes/locale.inc:386
+msgid "The English language cannot be deleted."
+msgstr "Η Αγγλική γλώσσα δεν μπορεί να διαγραφεί."
+
+#: includes/locale.inc:391
+msgid "The default language cannot be deleted."
+msgstr "Η προεπιλεγμένη γλώσσα δεν μπορεί να διαγραφεί."
+
+#: includes/locale.inc:403
+msgid "Are you sure you want to delete the language %name?"
+msgstr "Θέλετε σίγουρα να διαγράψετε τη γλώσσα %name;"
+
+#: includes/locale.inc:403
+msgid ""
+"Deleting a language will remove all interface translations associated with "
+"it, and posts in this language will be set to be language neutral. This "
+"action cannot be undone."
+msgstr ""
+"Αν διαγράψετε μια γλώσσα θα αφαιρέσετε και όλες τις μεταφράσεις συστήματος "
+"που περιέχει. Η γλώσσα των δημοσιεύσεων σε αυτή τη γλώσσα θα χαρακτηριστεί "
+"ως ουδέτερη. Η εντολή δεν είναι αντιστρέψιμη. "
+
+#: includes/locale.inc:422;423
+msgid "The language %locale has been removed."
+msgstr "Η γλώσσα %locale διαγράφηκε."
+
+#: includes/locale.inc:446
+msgid "Language negotiation"
+msgstr "Προσδιορισμός γλώσσας"
+
+#: includes/locale.inc:449
+msgid "None."
+msgstr "Κανένα."
+
+#: includes/locale.inc:450
+msgid "Path prefix only."
+msgstr "Πρόθεμα διεύθυνσης μόνο."
+
+#: includes/locale.inc:451
+msgid "Path prefix with language fallback."
+msgstr "Πρόθεμα διεύθυνσης και, αν αποτύχει, γλώσσα."
+
+#: includes/locale.inc:452
+msgid "Domain name only."
+msgstr "Όνομα διακομιστή μόνο."
+
+#: includes/locale.inc:454
+msgid ""
+"Select the mechanism used to determine your site's presentation language. "
+"<strong>Modifying this setting may break all incoming URLs and should be "
+"used with caution in a production environment.</strong>"
+msgstr ""
+"Επιλέξτε το μηχανισμό που θα καθορίζει τη γλώσσα του ιστοτόπου σας. "
+"<strong>Αλλάζοντας αυτή τη ρύθμιση υπάρχει κίνδυνος να αλλοιωθούν όλα τα "
+"εισερχόμενα URL και αυτή η ρύθμιση θα πρέπει να χρησιμοποιείται πολύ "
+"προσεκτικά σε δημοσιευμένους ιστοτόπους.</strong>"
+
+#: includes/locale.inc:468
+msgid "Language negotiation configuration saved."
+msgstr "Οι ρυθμίσεις προσδιορισμού γλώσσας αποθηκεύτηκαν."
+
+#: includes/locale.inc:501
+msgid "English (built-in)"
+msgstr "Αγγλικά (ενσωματωμένο)"
+
+#: includes/locale.inc:549
+msgid "String contains"
+msgstr "Η φράση περιέχει"
+
+#: includes/locale.inc:551
+msgid "Leave blank to show all strings. The search is case sensitive."
+msgstr ""
+"Αφήστε το κενό για να εμφανιστούν όλες οι φράσεις. Η αναζήτηση κάνει "
+"διάκριση κεφαλαίων-πεζών."
+
+#: includes/locale.inc:559
+msgid "English (provided by Drupal)"
+msgstr "Αγγλική (παρέχεται από το Drupal)"
+
+#: includes/locale.inc:562
+msgid "Search in"
+msgstr "Αναζήτηση σε"
+
+#: includes/locale.inc:564
+msgid "Both translated and untranslated strings"
+msgstr "Μεταφρασμένες και αμετάφραστες φράσεις"
+
+#: includes/locale.inc:564
+msgid "Only translated strings"
+msgstr "Μόνο μεταφρασμένες φράσεις"
+
+#: includes/locale.inc:564
+msgid "Only untranslated strings"
+msgstr "Μόνο αμετάφραστες φράσεις"
+
+#: includes/locale.inc:568
+msgid "Limit search to"
+msgstr "Περιορισμός αναζήτησης σε"
+
+#: includes/locale.inc:570
+msgid "All text groups"
+msgstr "Όλες οι ομάδες κειμένου"
+
+#: includes/locale.inc:601
+msgid "Already added languages"
+msgstr "Γλώσσες που έχουν ήδη προστεθεί"
+
+#: includes/locale.inc:602
+msgid "Languages not yet added"
+msgstr "Γλώσσες που δεν προστέθηκαν ακόμη"
+
+#: includes/locale.inc:609
+msgid "Import translation"
+msgstr "Εισαγωγή μετάφρασης"
+
+#: includes/locale.inc:612
+msgid "Language file"
+msgstr "Αρχείο γλώσσας"
+
+#: includes/locale.inc:614
+msgid "A Gettext Portable Object (<em>.po</em>) file."
+msgstr "Ένα αρχείο τύπου Gettext Portable Object (<em>.po</em>)."
+
+#: includes/locale.inc:617
+msgid "Import into"
+msgstr "Εισαγωγή σε"
+
+#: includes/locale.inc:620
+msgid ""
+"Choose the language you want to add strings into. If you choose a language "
+"which is not yet set up, it will be added."
+msgstr ""
+"Επιλέξτε τη γλώσσα που θέλετε να προσθέσετε τις φράσεις. Αν επιλέξετε μια "
+"γλώσσα που προς το παρόν δεν υπάρχει, θα προστεθεί αυτόματα."
+
+#: includes/locale.inc:623;716;735;2037
+msgid "Text group"
+msgstr "Ομάδα κειμένου"
+
+#: includes/locale.inc:626
+msgid "Imported translations will be added to this text group."
+msgstr "Οι εισακτέες μεταφράσεις θα προστεθούν σε αυτήν την ομάδα κειμένου."
+
+#: includes/locale.inc:629
+msgid "Mode"
+msgstr "Τρόπος"
+
+#: includes/locale.inc:632
+msgid "Strings in the uploaded file replace existing ones, new ones are added"
+msgstr ""
+"Οι φράσεις του αρχείου που εισάγετε αντικαθιστούν τις υπάρχουσες, οι νέες "
+"προστίθενται"
+
+#: includes/locale.inc:633
+msgid "Existing strings are kept, only new strings are added"
+msgstr "Οι υπάρχουσες φράσεις διατηρούνται, προστίθενται μόνο οι νέες"
+
+#: includes/locale.inc:655
+msgid "The language %language has been created."
+msgstr "Η γλώσσα %language δημιουργήθηκε."
+
+#: includes/locale.inc:661;662
+msgid "The translation import of %filename failed."
+msgstr "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
+
+#: includes/locale.inc:666
+msgid "File to import not found."
+msgstr "Το αρχείο προς εισαγωγή δεν βρέθηκε."
+
+#: includes/locale.inc:707
+msgid "Export translation"
+msgstr "Εξαγωγή μετάφρασης"
+
+#: includes/locale.inc:713
+msgid ""
+"Select the language to export in Gettext Portable Object (<em>.po</em>) "
+"format."
+msgstr ""
+"Επιλέξτε τη γλώσσα που θα εξαχθεί στον τύπο αρχείου  Gettext Portable Object "
+"(<em>.po</em>)."
+
+#: includes/locale.inc:730
+msgid "Export template"
+msgstr "Εξαγωγή προτύπου"
+
+#: includes/locale.inc:732
+msgid ""
+"Generate a Gettext Portable Object Template (<em>.pot</em>) file with all "
+"strings from the Drupal locale database."
+msgstr ""
+"Δημιουργία ενός αρχείου Portable Object Template (<em>.pot</em>) του gettext "
+"με όλες τις φράσεις  από τη βάση δεδομένων γλωσσικών μονάδων του Drupal."
+
+#: includes/locale.inc:774
+msgid "String not found."
+msgstr "Δεν βρέθηκαν φράσεις."
+
+#: includes/locale.inc:782
+msgid "Original text"
+msgstr "Πρωτότυπο κείμενο"
+
+#: includes/locale.inc:824
+msgid "Save translations"
+msgstr "Αποθήκευση μεταφράσεων"
+
+#: includes/locale.inc:854
+msgid "The submitted string contains disallowed HTML: %string"
+msgstr ""
+"Το υποβληθέν αλφαριθμητικό περιέχει μη επιτρεπόμενο κώδικα HTML: %string"
+
+#: includes/locale.inc:887
+msgid "The string has been saved."
+msgstr "Η φράση αποθηκεύτηκε."
+
+#: includes/locale.inc:922
+msgid "Are you sure you want to delete the string \"%source\"?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τη φράση \"%source\";"
+
+#: includes/locale.inc:922
+msgid ""
+"Deleting the string will remove all translations of this string in all "
+"languages. This action cannot be undone."
+msgstr ""
+"Με τη διαγραφή της φράσης διαγράφονται όλες οι μεταφράσεις της φράσης από "
+"όλες τις γλώσσες. Η ενέργεια αυτή δεν είναι αναστρέψιμη."
+
+#: includes/locale.inc:934
+msgid "The string has been removed."
+msgstr "Η φράση αφαιρέθηκε."
+
+#: includes/locale.inc:1028
+msgid "The language selected for import is not supported."
+msgstr "Η γλώσσα που επιλέξατε για εισαγωγή δεν υποστηρίζεται."
+
+#: includes/locale.inc:1043
+msgid ""
+"The translation file %filename appears to have a missing or malformed header."
+msgstr ""
+"Το αρχείο μετάφρασης %filename φαίνεται να έχει μια κεφαλίδα που είτε λείπει "
+"ή είναι λανθασμένη."
+
+#: includes/locale.inc:1053
+msgid ""
+"The translation was successfully imported. There are %number newly created "
+"translated strings, %update strings were updated and %delete strings were "
+"removed."
+msgstr ""
+"Η εισαγωγή της μετάφρασης έγινε με επιτυχία. Δημιουργήθηκαν %number νέες "
+"μεταφρασμένες φράσεις, ενημερώθηκαν %update φράσεις και αφαιρέθηκαν %delete "
+"φράσεις."
+
+#: includes/locale.inc:1441
+msgid ""
+"The translation file %filename contains an error: the plural formula could "
+"not be parsed."
+msgstr ""
+"Το αρχείο μετάφρασης %filename περιέχει σφάλμα: η συντακτική ανάλυση του "
+"τύπου του πληθυντικού δεν έγινε δυνατή."
+
+#: includes/locale.inc:2037
+msgid "String"
+msgstr "Φράση"
+
+#: includes/locale.inc:2063
+msgid "No strings found for your search."
+msgstr "Δεν βρέθηκαν φράσεις για την αναζήτησή σας."
+
+#: (duplicate) includes/locale.inc:1081
+msgid ""
+"The translation import failed, because the file %filename could not be read."
+msgstr ""
+"Η εισαγωγή του αρχείου μετάφρασης απέτυχε, γιατί δεν ήταν δυνατή η ανάγνωση "
+"του αρχείου %filename."
+
+#: (duplicate) includes/locale.inc:1110
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" was expected "
+"but not found on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgstr\" αναμενόταν "
+"αλλά δε βρέθηκε στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1116
+msgid ""
+"The translation file %filename contains an error: \"msgid_plural\" was "
+"expected but not found on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgid_plural\" "
+"αναμενόταν αλλά δε βρέθηκε στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1122 ;1140 ;1152 ;1160 ;1174 ;1183
+msgid "The translation file %filename contains a syntax error on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename περιέχει συντακτικό λάθος στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1134
+msgid ""
+"The translation file %filename contains an error: \"msgid\" is unexpected on "
+"line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename έχει σφάλμα: το \"msgid\" δεν αναμενόταν στη "
+"γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1148
+msgid ""
+"The translation file %filename contains an error: \"msgstr[]\" is unexpected "
+"on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename έχει σφάλμα: το \"msgstr[]\" δεν αναμενόταν "
+"στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1168
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" is unexpected "
+"on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename έχει σφάλμα: το \"msgstr\" δεν αναμενόταν στη "
+"γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1196
+msgid ""
+"The translation file %filename contains an error: there is an unexpected "
+"string on line %line."
+msgstr ""
+"Το αρχείο μετάφρασης %filename έχει σφάλμα: υπάρχει μια μη αναμενόμενη φράση "
+"στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:1207
+msgid "The translation file %filename ended unexpectedly at line %line."
+msgstr "Το αρχείο μετάφρασης %filename τελείωσε απροσδόκητα στη γραμμή %line."
+
+#: (duplicate) includes/locale.inc:2581
+msgid "Importing interface translations"
+msgstr "Εισαγωγή μεταφράσεων διεπαφής"
+
+#: (duplicate) includes/locale.inc:2582
+msgid "Starting import"
+msgstr "Έναρξη εισαγωγής"
+
+#: (duplicate) includes/locale.inc:2583
+msgid "Error importing interface translations"
+msgstr "Σφάλμα κατά την εισαγωγή των μεταφράσεων διεπαφής"
+
+#: includes/locale.inc:855
+msgid ""
+"Attempted submission of a translation string with disallowed HTML: %string"
+msgstr ""
+"Υπήρξε προσπάθεια υποβολής αλφαριθμητικού μετάφρασης με μη επιτρεπόμενο "
+"κώδικα HTML: %string"
+
+#: includes/locale.inc:997
+msgid "The %language language (%code) has been created."
+msgstr "Η γλώσσα %language (%code) δημιουργήθηκε."
+
+#: includes/locale.inc:1054
+msgid ""
+"Imported %file into %locale: %number new strings added, %update updated and %"
+"delete removed."
+msgstr ""
+"Εισήχθη το %file στην %locale: %number νέες φράσεις προστέθηκαν, %update "
+"ενημερώθηκαν και %delete αφαιρέθηκαν."
+
+#: includes/locale.inc:1883
+msgid "Exported %locale translation file: %filename."
+msgstr "Το αρχείο μετάφρασης %filename για την %locale εξήχθη."
+
+#: includes/locale.inc:1887
+msgid "Exported translation file: %filename."
+msgstr "Το αρχείο μετάφρασης %filename εξήχθη."
+
+#: includes/locale.inc:2228
+msgid "Updated JavaScript translation file for the language %language."
+msgstr "Το αρχείο μετάφρασης JavaScript για τη γλώσσα %language ενημερώθηκε."
+
+#: includes/locale.inc:2231
+msgid "Created JavaScript translation file for the language %language."
+msgstr "Το αρχείο μετάφρασης JavaScript για τη γλώσσα %language δημιουργήθηκε."
+
+#: includes/locale.inc:2234
+msgid ""
+"Removed JavaScript translation file for the language %language, because no "
+"translations currently exist for that language."
+msgstr ""
+"Το αρχείο μετάφρασης  JavaScript για τη γλώσσα %language αφαιρέθηκε, επειδή "
+"προς το παρόν δεν υπάρχουν μεταφράσεις για αυτή τη γλώσσα."
+
+#: includes/locale.inc:2237
+msgid ""
+"An error occurred during creation of the JavaScript translation file for the "
+"language %language."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά τη δημιουργία του αρχείου μετάφρασης JavaScript "
+"για τη γλώσσα %language."
+
+#: includes/locale.inc:1056
+msgid "One translation string was skipped because it contains disallowed HTML."
+msgid_plural ""
+"@count translation strings were skipped because they contain disallowed HTML."
+msgstr[0] ""
+"Ένα αλφαριθμητικό μετάφρασης παραλήφθηκε επειδή περιείχε μη επιτρεπόμενο "
+"κώδικα HTML."
+msgstr[1] ""
+"@count αλφαριθμητικά μετάφρασης παραλήφθηκαν επειδή περιείχαν μη "
+"επιτρεπόμενο κώδικα HTML."
+
+#: includes/locale.inc:2621
+msgid "One translation file imported for the newly installed modules."
+msgid_plural ""
+"@count translation files imported for the newly installed modules."
+msgstr[0] ""
+"Ένα αρχείο μετάφρασης εισήχθη για τις πρόσφατα εγκατεστημένες μονάδες."
+msgstr[1] ""
+"@count αρχεία μετάφρασης εισήχθησαν για τις πρόσφατα εγκατεστημένες μονάδες."
+
+#: includes/locale.inc:2631
+msgid "One translation file imported for the enabled modules."
+msgid_plural "@count translation files imported for the enabled modules."
+msgstr[0] "Ένα αρχείο μετάφρασης εισήχθη για τις ενεργοποιημένες μονάδες."
+msgstr[1] ""
+"@count αρχεία μετάφρασης εισήχθησαν για τις ενεργοποιημένες μονάδες."
+
+#: includes/locale.inc:2303
+msgid "Afar"
+msgstr "Afar"
+
+#: includes/locale.inc:2304
+msgid "Abkhazian"
+msgstr "Abkhazian"
+
+#: includes/locale.inc:2305
+msgid "Avestan"
+msgstr "Avestan"
+
+#: includes/locale.inc:2306
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: includes/locale.inc:2307
+msgid "Akan"
+msgstr "Akan"
+
+#: includes/locale.inc:2308
+msgid "Amharic"
+msgstr "Amharic"
+
+#: includes/locale.inc:2309
+msgid "Arabic"
+msgstr "Arabic"
+
+#: includes/locale.inc:2310
+msgid "Assamese"
+msgstr "Assamese"
+
+#: includes/locale.inc:2311
+msgid "Avar"
+msgstr "Avar"
+
+#: includes/locale.inc:2312
+msgid "Aymara"
+msgstr "Aymara"
+
+#: includes/locale.inc:2313
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: includes/locale.inc:2314
+msgid "Bashkir"
+msgstr "Bashkir"
+
+#: includes/locale.inc:2315
+msgid "Belarusian"
+msgstr "Belarusian"
+
+#: includes/locale.inc:2316
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: includes/locale.inc:2317
+msgid "Bihari"
+msgstr "Bihari"
+
+#: includes/locale.inc:2318
+msgid "Bislama"
+msgstr "Bislama"
+
+#: includes/locale.inc:2319
+msgid "Bambara"
+msgstr "Bambara"
+
+#: includes/locale.inc:2320
+msgid "Bengali"
+msgstr "Bengali"
+
+#: includes/locale.inc:2321
+msgid "Tibetan"
+msgstr "Tibetan"
+
+#: includes/locale.inc:2322
+msgid "Breton"
+msgstr "Breton"
+
+#: includes/locale.inc:2323
+msgid "Bosnian"
+msgstr "Bosnian"
+
+#: includes/locale.inc:2324
+msgid "Catalan"
+msgstr "Catalan"
+
+#: includes/locale.inc:2325
+msgid "Chechen"
+msgstr "Chechen"
+
+#: includes/locale.inc:2326
+msgid "Chamorro"
+msgstr "Chamorro"
+
+#: includes/locale.inc:2327
+msgid "Corsican"
+msgstr "Corsican"
+
+#: includes/locale.inc:2328
+msgid "Cree"
+msgstr "Cree"
+
+#: includes/locale.inc:2329
+msgid "Czech"
+msgstr "Czech"
+
+#: includes/locale.inc:2330
+msgid "Old Slavonic"
+msgstr "Old Slavonic"
+
+#: includes/locale.inc:2331
+msgid "Chuvash"
+msgstr "Chuvash"
+
+#: includes/locale.inc:2332
+msgid "Welsh"
+msgstr "Welsh"
+
+#: includes/locale.inc:2333
+msgid "Danish"
+msgstr "Danish"
+
+#: includes/locale.inc:2334
+msgid "German"
+msgstr "German"
+
+#: includes/locale.inc:2335
+msgid "Maldivian"
+msgstr "Maldivian"
+
+#: includes/locale.inc:2336
+msgid "Bhutani"
+msgstr "Bhutani"
+
+#: includes/locale.inc:2337
+msgid "Ewe"
+msgstr "Ewe"
+
+#: includes/locale.inc:2338
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: includes/locale.inc:2339
+msgid "English"
+msgstr "English"
+
+#: includes/locale.inc:2340
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: includes/locale.inc:2341
+msgid "Spanish"
+msgstr "Spanish"
+
+#: includes/locale.inc:2342
+msgid "Estonian"
+msgstr "Estonian"
+
+#: includes/locale.inc:2343
+msgid "Basque"
+msgstr "Basque"
+
+#: includes/locale.inc:2344
+msgid "Persian"
+msgstr "Persian"
+
+#: includes/locale.inc:2345
+msgid "Fulah"
+msgstr "Fulah"
+
+#: includes/locale.inc:2346
+msgid "Finnish"
+msgstr "Finnish"
+
+#: includes/locale.inc:2347
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/locale.inc:2348
+msgid "Faeroese"
+msgstr "Faeroese"
+
+#: includes/locale.inc:2349
+msgid "French"
+msgstr "French"
+
+#: includes/locale.inc:2350
+msgid "Frisian"
+msgstr "Frisian"
+
+#: includes/locale.inc:2351
+msgid "Irish"
+msgstr "Irish"
+
+#: includes/locale.inc:2352
+msgid "Scots Gaelic"
+msgstr "Scots Gaelic"
+
+#: includes/locale.inc:2353
+msgid "Galician"
+msgstr "Galician"
+
+#: includes/locale.inc:2354
+msgid "Guarani"
+msgstr "Guarani"
+
+#: includes/locale.inc:2355
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: includes/locale.inc:2356
+msgid "Manx"
+msgstr "Manx"
+
+#: includes/locale.inc:2357
+msgid "Hausa"
+msgstr "Hausa"
+
+#: includes/locale.inc:2358
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: includes/locale.inc:2359
+msgid "Hindi"
+msgstr "Hindi"
+
+#: includes/locale.inc:2360
+msgid "Hiri Motu"
+msgstr "Hiri Motu"
+
+#: includes/locale.inc:2361
+msgid "Croatian"
+msgstr "Croatian"
+
+#: includes/locale.inc:2362
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: includes/locale.inc:2363
+msgid "Armenian"
+msgstr "Armenian"
+
+#: includes/locale.inc:2364
+msgid "Herero"
+msgstr "Herero"
+
+#: includes/locale.inc:2365
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: includes/locale.inc:2366
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: includes/locale.inc:2367
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#: includes/locale.inc:2368
+msgid "Igbo"
+msgstr "Igbo"
+
+#: includes/locale.inc:2369
+msgid "Inupiak"
+msgstr "Inupiak"
+
+#: includes/locale.inc:2370
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: includes/locale.inc:2371
+msgid "Italian"
+msgstr "Italian"
+
+#: includes/locale.inc:2372
+msgid "Inuktitut"
+msgstr "Inuktitut"
+
+#: includes/locale.inc:2373
+msgid "Japanese"
+msgstr "Japanese"
+
+#: includes/locale.inc:2374
+msgid "Javanese"
+msgstr "Javanese"
+
+#: includes/locale.inc:2375
+msgid "Georgian"
+msgstr "Georgian"
+
+#: includes/locale.inc:2376
+msgid "Kongo"
+msgstr "Kongo"
+
+#: includes/locale.inc:2377
+msgid "Kikuyu"
+msgstr "Kikuyu"
+
+#: includes/locale.inc:2378
+msgid "Kwanyama"
+msgstr "Kwanyama"
+
+#: includes/locale.inc:2379
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: includes/locale.inc:2380
+msgid "Greenlandic"
+msgstr "Greenlandic"
+
+#: includes/locale.inc:2381
+msgid "Cambodian"
+msgstr "Cambodian"
+
+#: includes/locale.inc:2382
+msgid "Kannada"
+msgstr "Kannada"
+
+#: includes/locale.inc:2383
+msgid "Korean"
+msgstr "Korean"
+
+#: includes/locale.inc:2384
+msgid "Kanuri"
+msgstr "Kanuri"
+
+#: includes/locale.inc:2385
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+#: includes/locale.inc:2386
+msgid "Kurdish"
+msgstr "Kurdish"
+
+#: includes/locale.inc:2387
+msgid "Komi"
+msgstr "Komi"
+
+#: includes/locale.inc:2388
+msgid "Cornish"
+msgstr "Cornish"
+
+#: includes/locale.inc:2389
+msgid "Kirghiz"
+msgstr "Kirghiz"
+
+#: includes/locale.inc:2390
+msgid "Latin"
+msgstr "Latin"
+
+#: includes/locale.inc:2391
+msgid "Luxembourgish"
+msgstr "Luxembourgish"
+
+#: includes/locale.inc:2392
+msgid "Luganda"
+msgstr "Luganda"
+
+#: includes/locale.inc:2393
+msgid "Lingala"
+msgstr "Lingala"
+
+#: includes/locale.inc:2394
+msgid "Laothian"
+msgstr "Laothian"
+
+#: includes/locale.inc:2395
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: includes/locale.inc:2396
+msgid "Latvian"
+msgstr "Latvian"
+
+#: includes/locale.inc:2397
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: includes/locale.inc:2398
+msgid "Marshallese"
+msgstr "Marshallese"
+
+#: includes/locale.inc:2399
+msgid "Maori"
+msgstr "Maori"
+
+#: includes/locale.inc:2400
+msgid "Macedonian"
+msgstr "F.Y.R.O.M."
+
+#: includes/locale.inc:2401
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: includes/locale.inc:2402
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: includes/locale.inc:2403
+msgid "Moldavian"
+msgstr "Moldavian"
+
+#: includes/locale.inc:2404
+msgid "Marathi"
+msgstr "Marathi"
+
+#: includes/locale.inc:2405
+msgid "Malay"
+msgstr "Malay"
+
+#: includes/locale.inc:2406
+msgid "Maltese"
+msgstr "Maltese"
+
+#: includes/locale.inc:2407
+msgid "Burmese"
+msgstr "Burmese"
+
+#: includes/locale.inc:2408
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/locale.inc:2409
+msgid "North Ndebele"
+msgstr "North Ndebele"
+
+#: includes/locale.inc:2410
+msgid "Nepali"
+msgstr "Nepali"
+
+#: includes/locale.inc:2411
+msgid "Ndonga"
+msgstr "Ndonga"
+
+#: includes/locale.inc:2412
+msgid "Dutch"
+msgstr "Dutch"
+
+#: includes/locale.inc:2413
+msgid "Norwegian Bokmål"
+msgstr "Norwegian Bokmål"
+
+#: includes/locale.inc:2414
+msgid "Norwegian Nynorsk"
+msgstr "Norwegian Nynorsk"
+
+#: includes/locale.inc:2415
+msgid "South Ndebele"
+msgstr "South Ndebele"
+
+#: includes/locale.inc:2416
+msgid "Navajo"
+msgstr "Navajo"
+
+#: includes/locale.inc:2417
+msgid "Chichewa"
+msgstr "Chichewa"
+
+#: includes/locale.inc:2418
+msgid "Occitan"
+msgstr "Occitan"
+
+#: includes/locale.inc:2419
+msgid "Oromo"
+msgstr "Oromo"
+
+#: includes/locale.inc:2420
+msgid "Oriya"
+msgstr "Oriya"
+
+#: includes/locale.inc:2421
+msgid "Ossetian"
+msgstr "Ossetian"
+
+#: includes/locale.inc:2422
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: includes/locale.inc:2423
+msgid "Pali"
+msgstr "Pali"
+
+#: includes/locale.inc:2424
+msgid "Polish"
+msgstr "Polish"
+
+#: includes/locale.inc:2425
+msgid "Pashto"
+msgstr "Pashto"
+
+#: includes/locale.inc:2426
+msgid "Portuguese, Portugal"
+msgstr "Portuguese, Portugal"
+
+#: includes/locale.inc:2427
+msgid "Portuguese, Brazil"
+msgstr "Portuguese, Brazil"
+
+#: includes/locale.inc:2428
+msgid "Quechua"
+msgstr "Quechua"
+
+#: includes/locale.inc:2429
+msgid "Rhaeto-Romance"
+msgstr "Rhaeto-Romance"
+
+#: includes/locale.inc:2430
+msgid "Kirundi"
+msgstr "Kirundi"
+
+#: includes/locale.inc:2431
+msgid "Romanian"
+msgstr "Romanian"
+
+#: includes/locale.inc:2432
+msgid "Russian"
+msgstr "Russian"
+
+#: includes/locale.inc:2433
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: includes/locale.inc:2434
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: includes/locale.inc:2435
+msgid "Sardinian"
+msgstr "Sardinian"
+
+#: includes/locale.inc:2436
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: includes/locale.inc:2437
+msgid "Northern Sami"
+msgstr "Northern Sami"
+
+#: includes/locale.inc:2438
+msgid "Sango"
+msgstr "Sango"
+
+#: includes/locale.inc:2439
+msgid "Serbo-Croatian"
+msgstr "Serbo-Croatian"
+
+#: includes/locale.inc:2440
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: includes/locale.inc:2441
+msgid "Slovak"
+msgstr "Slovak"
+
+#: includes/locale.inc:2442
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: includes/locale.inc:2443
+msgid "Samoan"
+msgstr "Samoan"
+
+#: includes/locale.inc:2444
+msgid "Shona"
+msgstr "Shona"
+
+#: includes/locale.inc:2445
+msgid "Somali"
+msgstr "Somali"
+
+#: includes/locale.inc:2446
+msgid "Albanian"
+msgstr "Albanian"
+
+#: includes/locale.inc:2447
+msgid "Serbian"
+msgstr "Serbian"
+
+#: includes/locale.inc:2448
+msgid "Siswati"
+msgstr "Siswati"
+
+#: includes/locale.inc:2449
+msgid "Sesotho"
+msgstr "Sesotho"
+
+#: includes/locale.inc:2450
+msgid "Sudanese"
+msgstr "Sudanese"
+
+#: includes/locale.inc:2451
+msgid "Swedish"
+msgstr "Swedish"
+
+#: includes/locale.inc:2452
+msgid "Swahili"
+msgstr "Swahili"
+
+#: includes/locale.inc:2453
+msgid "Tamil"
+msgstr "Tamil"
+
+#: includes/locale.inc:2454
+msgid "Telugu"
+msgstr "Telugu"
+
+#: includes/locale.inc:2455
+msgid "Tajik"
+msgstr "Tajik"
+
+#: includes/locale.inc:2456
+msgid "Thai"
+msgstr "Thai"
+
+#: includes/locale.inc:2457
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#: includes/locale.inc:2458
+msgid "Turkmen"
+msgstr "Turkmen"
+
+#: includes/locale.inc:2459
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: includes/locale.inc:2460
+msgid "Setswana"
+msgstr "Setswana"
+
+#: includes/locale.inc:2461
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/locale.inc:2462
+msgid "Turkish"
+msgstr "Turkish"
+
+#: includes/locale.inc:2463
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: includes/locale.inc:2464
+msgid "Tatar"
+msgstr "Tatar"
+
+#: includes/locale.inc:2465
+msgid "Twi"
+msgstr "Twi"
+
+#: includes/locale.inc:2466
+msgid "Tahitian"
+msgstr "Tahitian"
+
+#: includes/locale.inc:2467
+msgid "Uighur"
+msgstr "Uighur"
+
+#: includes/locale.inc:2468
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: includes/locale.inc:2469
+msgid "Urdu"
+msgstr "Urdu"
+
+#: includes/locale.inc:2470
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: includes/locale.inc:2471
+msgid "Venda"
+msgstr "Venda"
+
+#: includes/locale.inc:2472
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: includes/locale.inc:2473
+msgid "Wolof"
+msgstr "Wolof"
+
+#: includes/locale.inc:2474
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: includes/locale.inc:2475
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: includes/locale.inc:2476
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: includes/locale.inc:2477
+msgid "Zhuang"
+msgstr "Zhuang"
+
+#: includes/locale.inc:2478
+msgid "Chinese, Simplified"
+msgstr "Chinese, Simplified"
+
+#: includes/locale.inc:2479
+msgid "Chinese, Traditional"
+msgstr "Chinese, Traditional"
+
+#: includes/locale.inc:2480
+msgid "Zulu"
+msgstr "Zulu"
+
+#: includes/mail.inc:135
+msgid ""
+"Unable to send e-mail. Please contact the site administrator if the problem "
+"persists."
+msgstr ""
+"Η αποστολή e-mail ήταν αδύνατη. Επικοινωνήστε με το διαχειριστή του "
+"ιστοτόπου εάν το πρόβλημα εξακολουθεί."
+
+#: includes/mail.inc:134
+msgid "Error sending e-mail (from %from to %to)."
+msgstr "Σφάλμα κατά την αποστολή e-mail (από %from σε %to)."
+
+#: includes/menu.inc:2461
+msgid "Operating in off-line mode."
+msgstr "Λειτουργία χωρίς σύνδεση."
+
+#: includes/menu.inc:2322
+msgid "Menu router rebuild failed - some paths may not work correctly."
+msgstr ""
+"Η επαναδημιουργία του μενού δρομολόγησης απέτυχε - ορισμένες διαδρομές δε θα "
+"λειτουργούν σωστά."
+
+#: includes/module.inc:200
+msgid ""
+"%module is part of a circular dependency. This is not supported and you will "
+"not be able to switch it on."
+msgstr ""
+"Η μονάδα %module είναι μέρος κυκλικής εξάρτησης, η οποία δεν υποστηρίζεται "
+"και επομένως δεν θα μπορέσετε να την ενεργοποιήσετε."
+
+#: includes/pager.inc:145;395
+msgid "« first"
+msgstr "« πρώτο"
+
+#: includes/pager.inc:146;396
+msgid "‹ previous"
+msgstr "‹ προηγούμενο"
+
+#: includes/pager.inc:147;397
+msgid "next ›"
+msgstr "επόμενο ›"
+
+#: includes/pager.inc:148;398
+msgid "last »"
+msgstr "τελευταίο »"
+
+#: includes/pager.inc:395
+msgid "Go to first page"
+msgstr "Πρώτη σελίδα"
+
+#: includes/pager.inc:398
+msgid "Go to last page"
+msgstr "Τελευταία σελίδα"
+
+#: includes/pager.inc:405
+msgid "Go to page @number"
+msgstr "Σελίδα @number"
+
+#: includes/tablesort.inc:71
+msgid "sort by @s"
+msgstr "ταξινόμηση κατά @s"
+
+#: includes/theme.inc:1398;1401
+msgid "sort icon"
+msgstr "εικονίδιο ταξινόμησης"
+
+#: includes/theme.inc:1398
+msgid "sort ascending"
+msgstr "αύξουσα ταξινόμηση"
+
+#: includes/theme.inc:1401
+msgid "sort descending"
+msgstr "φθίνουσα ταξινόμηση"
+
+#: includes/theme.inc:1439
+msgid "updated"
+msgstr "ενημερώθηκε"
+
+#: includes/theme.inc:1511
+msgid "[<a href=\"@link\">more help...</a>]"
+msgstr "[<a href=\"@link\">περισσότερη βοήθεια...</a>]"
+
+#: includes/theme.inc:1524;1524
+msgid "XML feed"
+msgstr "ροή XML"
+
+#: includes/theme.inc:1538
+msgid "Syndicate content"
+msgstr "Συλλογή ανεξάρτητου περιεχόμενου"
+
+#: includes/theme.inc:1552
+msgid "<a href=\"@link\" title=\"@title\">more</a>"
+msgstr "<a href=\"@link\" τίτλος=\"@title\">περισσότερα</a>"
+
+#: includes/theme.inc:1632
+msgid "not verified"
+msgstr "χωρίς επαλήθευση"
+
+#: (duplicate) includes/unicode.inc:48
+msgid ""
+"The PCRE library in your PHP installation is outdated. This will cause "
+"problems when handling Unicode text. If you are running PHP 4.3.3 or higher, "
+"make sure you are using the PCRE library supplied by PHP. Please refer to "
+"the <a href=\"@url\">PHP PCRE documentation</a> for more information."
+msgstr ""
+"Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα "
+"προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP "
+"4.3.3 ή νεώτερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που "
+"παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url"
+"\">τεκμηρίωση της PHP PCRE</a>."
+
+#: (duplicate) includes/unicode.inc:53
+msgid ""
+"Operations on Unicode strings are emulated on a best-effort basis. Install "
+"the <a href=\"@url\">PHP mbstring extension</a> for improved Unicode support."
+msgstr ""
+"Οι πράξεις σε ακολουθίες χαρακτήρων Unicode γίνονται με προσομοίωση όσο "
+"καλύτερα επιτρέπουν οι συνθήκες. Για βελτιωμένη υποστήριξη Unicode "
+"εγκαταστήστε την επέκταση <a href=\"@url\">PHP mbstring</a>."
+
+#: (duplicate) includes/unicode.inc:58
+msgid ""
+"Multibyte string function overloading in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to "
+"the <a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+"Η υπερφόρτωση συναρτήσεων για τις ακολουθίες χαρακτήρων πολλών byte της PHP "
+"είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring."
+"func_overload</em> του αρχείου php.ini. Για περισσότερες πληροφορίες "
+"ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: (duplicate) includes/unicode.inc:61
+msgid ""
+"Multibyte string input conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.encoding_translation</em> setting. Please "
+"refer to the <a href=\"@url\">PHP mbstring documentation</a> for more "
+"information."
+msgstr ""
+"Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της "
+"PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση "
+"<em>mbstring.encoding_translation</em> του αρχείου php.ini. Για περισσότερες "
+"πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: (duplicate) includes/unicode.inc:64
+msgid ""
+"Multibyte string input conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the "
+"<a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+"Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της "
+"PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση "
+"<em>mbstring.http_input</em> του αρχείου php.ini. Για περισσότερες "
+"πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: (duplicate) includes/unicode.inc:67
+msgid ""
+"Multibyte string output conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the "
+"<a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+"Η μετατροπή δεδομένων εξόδου για τις ακολουθίες χαρακτήρων πολλών byte της "
+"PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση "
+"<em>mbstring.http_output</em> του αρχείου php.ini. Για περισσότερες "
+"πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: (duplicate) includes/unicode.inc:84
+msgid "Standard PHP"
+msgstr "Πρότυπο PHP"
+
+#: (duplicate) includes/unicode.inc:85
+msgid "PHP Mbstring Extension"
+msgstr "Επέκταση PHP Mbstring"
+
+#: (duplicate) includes/unicode.inc:96
+msgid "Unicode library"
+msgstr "Βιβλιοθήκη Unicode"
+
+#: includes/unicode.inc:151
+msgid "Could not convert XML encoding %s to UTF-8."
+msgstr "Η μετατροπή της κωδικοποίησης XML %s σε UTF-8 είναι αδύνατη."
+
+#: includes/unicode.inc:184
+msgid ""
+"Unsupported encoding %s. Please install iconv, GNU recode or mbstring for "
+"PHP."
+msgstr ""
+"Η κωδικοποίηση %s δεν υποστηρίζεται. Εγκαταστήστε το iconv, το GNU recode ή "
+"το mbstring για την PHP."
+
+#: includes/xmlrpc.inc:454
+msgid "Parse error. Not well formed"
+msgstr "Σφάλμα συντακτικής ανάλυσης. Δεν υπάρχει σωστή διαμόρφωση"
+
+#: includes/xmlrpcs.inc:62
+msgid "Parse error. Request not well formed."
+msgstr "Σφάλμα συντακτικής ανάλυσης. Η αίτηση δεν έχει σωστή διαμόρφωση."
+
+#: includes/xmlrpcs.inc:65
+msgid "Server error. Invalid XML-RPC. Request must be a methodCall."
+msgstr ""
+"Σφάλμα διακομιστή. Μη έγκυρο XML-RPC. Η αίτηση πρέπει να είναι ένα "
+"methodCall."
+
+#: includes/xmlrpcs.inc:152;291
+msgid "Server error. Requested method @methodname not specified."
+msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος @methodname δεν έχει οριστεί."
+
+#: includes/xmlrpcs.inc:163
+msgid "Server error. Wrong number of method parameters."
+msgstr "Σφάλμα διακομιστή. Εσφαλμένος αριθμός παραμέτρων μεθόδου."
+
+#: includes/xmlrpcs.inc:200
+msgid "Server error. Invalid method parameters."
+msgstr "Σφάλμα διακομιστή. Άκυρες παράμετροι μεθόδου."
+
+#: includes/xmlrpcs.inc:206
+msgid "Server error. Requested function @method does not exist."
+msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος @method δεν υπάρχει."
+
+#: includes/xmlrpcs.inc:219
+msgid "Invalid syntax for system.multicall."
+msgstr "Άκυρη σύνταξη για system.multicall."
+
+#: includes/xmlrpcs.inc:225
+msgid "Recursive calls to system.multicall are forbidden."
+msgstr "Αναδρομικές κλήσεις της system.multicall δεν επιτρέπονται."
+
+#: includes/xmlrpcs.inc:294
+msgid "Server error. Requested method @methodname signature not specified."
+msgstr ""
+"Σφάλμα διακομιστή. Η υπογραφή της ζητούμενης μεθόδου @methodname δεν έχει "
+"οριστεί."

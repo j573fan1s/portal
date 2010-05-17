@@ -1,0 +1,1619 @@
+# translation of modules-user.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: modules-user\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:51+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/user/user.admin.inc:13 modules/user/user.module:669;2455;913
+msgid "Create new account"
+msgstr "Δημιουργία νέου λογαριασμού"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Προβολή μόνο των χρηστών που"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr ""
+"<em>και</em> όπου <strong>%property</strong> είναι <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> είναι <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:137;910 modules/user/user.module:623
+msgid "Member for"
+msgstr "Μέλος για"
+
+#: modules/user/user.admin.inc:138;911
+msgid "Last access"
+msgstr "Τελευταία προσπέλαση"
+
+#: modules/user/user.admin.inc:169 modules/user/user.module:1987
+msgid "blocked"
+msgstr "αποκλεισμένος"
+
+#: modules/user/user.admin.inc:169 modules/user/user.module:1987
+msgid "active"
+msgstr "ενεργός"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Κανένας επιλεγμένος χρήστης."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Ρυθμίσεις εγγραφής χρηστών"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Δημόσιες εγγραφές"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr ""
+"Οι επισκέπτες μπορούν να δημιουργούν λογαριασμούς και δε χρειάζεται καμία "
+"έγκριση από διαχειριστή."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Οι επισκέπτες μπορούν να δημιουργούν λογαριασμούς, αλλά χρειάζεται έγκριση "
+"από διαχειριστή."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Απαιτείται επιβεβαίωση e-mail όταν επισκέπτης δημιουργεί λογαριασμό"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Αν το πλαίσιο αυτό είναι επιλεγμένο, οι νέοι χρήστες θα απαιτείται να "
+"επαληθεύσουν τη διεύθυνση e-mail τους προτού συνδεθούν στον ιστοτόπο και θα "
+"τους οριστεί ένα συνθηματικό που θα δημιουργηθεί από το σύστημα. Αν δεν "
+"είναι επιλεγμένο, οι χρήστες θα συνδεθούν αμέσως μετά την εγγραφή και θα "
+"μπορούν να επιλέξουν το συνθηματικό τους κατά τη δημιουργία του λογαριασμού."
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Οδηγίες εγγραφής χρηστών"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Αυτό το κείμενο θα εμφανίζεται στο πάνω μέρος της φόρμας εγγραφής χρήστη και "
+"είναι χρήσιμο για να βοηθά ή να καθοδηγεί τους χρήστες σας."
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Ρυθμίσεις e-mail χρηστών"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Το Drupal στέλνει e-mail όταν νέοι χρήστες εγγράφονται στον ιστοτόπο σας "
+"και, προαιρετικά, μπορεί να ειδοποιεί τους χρήστες μετά από άλλες ενέργειες "
+"στους λογαριασμούς. Χρησιμοποιώντας ένα απλό σύνολο από πρότυπα "
+"περιεχομένου, τα e-mail ειδοποίησης μπορούν να προσαρμοστούν για να "
+"ταιριάζουν στις ανάγκες του ιστοτόπου σας."
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Οι διαθέσιμες μεταβλητές είναι:"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Καλωσήρθατε, ένας νέος χρήστης δημιουργήθηκε από το διαχειριστή"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Προσαρμογή των e-mail μηνυμάτων καλωσορίσματος που αποστέλλονται στους "
+"λογαριασμούς νέων μελών που δημιουργεί ένας διαχειριστής."
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Καλωσήρθατε, δεν είναι απαραίτητη η έγκριση"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Προσαρμογή των e-mail μηνυμάτων καλωσορίσματος που αποστέλλονται στους "
+"λογαριασμούς νέων μελών κατά την εγγραφή, όταν δεν απαιτείται έγκριση από το "
+"διαχειριστή."
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Καλωσήρθατε, αναμένεται έγκριση από το διαχειριστή"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Προσαρμογή των e-mail μηνυμάτων καλωσορίσματος που αποστέλλονται στους "
+"λογαριασμούς νέων μελών κατά την εγγραφή, όταν απαιτείται έγκριση από το "
+"διαχειριστή."
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "E-mail ανάκτησης συνθηματικού"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Προσαρμογή των e-mail μηνυμάτων που αποστέλλονται στα μέλη που επιθυμούν νέο "
+"συνθηματικό."
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "E-mail ενεργοποίησης λογαριασμού"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Ενεργοποίηση και προσαρμογή των μηνυμάτων e-mail που αποστέλλονται στους "
+"χρήστες κατά την ενεργοποίηση του λογαριασμού (όταν ένας διαχειριστής "
+"ενεργοποιεί ένα λογαριασμό για ένα χρήστη που έχει κάνει ήδη εγγραφή, σε ένα "
+"ιστοτόπου που απαιτείται έγκριση από το διαχειριστή)."
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Να ειδοποιηθεί ο χρήστης όταν ο λογαριασμός του ενεργοποιηθεί."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "E-mail για τον αποκλεισμό λογαριασμού"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Ενεργοποίηση και προσαρμογή των μηνυμάτων e-mail που αποστέλλονται στους "
+"χρήστες που οι λογαριασμοί τους αποκλείονται."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Να ειδοποιηθεί ο χρήστης όταν ο λογαριασμός του αποκλειστεί."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "E-mail για τη διαγραφή λογαριασμού"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Ενεργοποίηση και προσαρμογή των μηνυμάτων e-mail που αποστέλλονται στους "
+"χρήστες που οι λογαριασμοί τους διαγράφονται."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Να ειδοποιηθεί ο χρήστης όταν ο λογαριασμός του διαγραφεί."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Υπογραφές"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Υποστήριξη για υπογραφές"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Εικόνες"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Υποστήριξη για εικόνες"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Διαδρομή αρχείων εικόνων"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Υποκατάλογος του καταλόγου \"%dir\" όπου θα αποθηκεύονται οι εικόνες."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Προεπιλεγμένη εικόνα"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"URL εικόνας που θα εμφανίζεται για τους χρήστες που δεν έχουν επιλέξει οι "
+"ίδιοι εικόνα. Αφήστε το κενό για να μην εμφανίζεται εικόνα."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Μέγιστες διαστάσεις εικόνας"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Οι μέγιστες διαστάσεις για τις εικόνες, σε pixel."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Ανώτατο μέγεθος αρχείου εικόνας"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Το ανώτατο μέγεθος αρχείου για τις εικόνες, σε kB."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Οδηγίες για τις εικόνες"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Το κείμενο αυτό εμφανίζεται στη φόρμα αποστολής αρχείων εικόνων, πέρα από "
+"τις υπάρχουσες οδηγίες. Χρησιμεύει στην καθοδήγηση των χρηστών σας."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Αποθήκευση αδειών"
+
+#: modules/user/user.admin.inc:563 modules/user/user.pages.inc:293;359
+msgid "The changes have been saved."
+msgstr "Οι αλλαγές αποθηκεύτηκαν."
+
+#: modules/user/user.admin.inc:582 modules/user/user.module:1971
+msgid "@module module"
+msgstr "μονάδα @module"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Άδεια"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Όνομα ρόλου"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr ""
+"Το όνομα αυτού του ρόλου. Παράδειγμα: \"επιμελητής\", \"συντακτική επιτροπή"
+"\", \"σχεδιαστής ιστοτόπου\"."
+
+#: modules/user/user.admin.inc:637;662;679
+msgid "Save role"
+msgstr "Αποθήκευση ρόλου"
+
+#: modules/user/user.admin.inc:641;683
+msgid "Delete role"
+msgstr "Διαγραφή ρόλου"
+
+#: modules/user/user.admin.inc:652;667;691
+msgid "Add role"
+msgstr "Προσθήκη ρόλου"
+
+#: modules/user/user.admin.inc:664;669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "Ο ρόλος %name υπάρχει ήδη. Ορίστε άλλο όνομα ρόλου."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Πρέπει να εισάγετε ένα έγκυρο όνομα ρόλου."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "Ο ρόλος μετονομάστηκε."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "Ο ρόλος διαγράφηκε."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "Ο ρόλος προστέθηκε."
+
+#: modules/user/user.admin.inc:717 modules/user/user.module:1014
+msgid "Add rule"
+msgstr "Προσθήκη ρόλου"
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Αποθήκευση κανόνα"
+
+#: modules/user/user.admin.inc:741;885
+msgid "Access type"
+msgstr "Τύπος πρόσβασης"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Επιτρέπεται"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Απαγορεύεται"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Υπολογιστής βάσης"
+
+#: modules/user/user.admin.inc:748;885
+msgid "Rule type"
+msgstr "Τύπος κανόνα"
+
+#: modules/user/user.admin.inc:754;885
+msgid "Mask"
+msgstr "Μάσκα"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr "Ταυτίζεται με οποιονδήποτε χαρακτήρα, ακόμα και μηδέν χαρακτήρες"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Ταυτίζεται με ακριβώς ένα χαρακτήρα."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "Ο κανόνας πρόσβασης αποθηκεύτηκε."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "Ο κανόνας πρόσβασης προστέθηκε."
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr ""
+"Δεν εισαγάγατε τιμή. Πληκτρολογήστε μια ακολουθία χαρακτήρων για δοκιμή και "
+"ξαναδοκιμάστε."
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "Εισάγετε ένα όνομα λογαριασμού για να δείτε αν θα γίνει δεκτό ή όχι."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Έλεγχος ονόματος λογαριασμού"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "Εισάγετε μια διεύθυνση e-mail για να δείτε αν θα επιτραπεί ή όχι."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Έλεγχος e-mail"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr ""
+"Εισάγετε ένα όνομα υπολογιστή βάσης (host) ή μια διεύθυνση IP για να δείτε "
+"αν θα επιτραπεί ή όχι."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Έλεγχος ονόματος υπολογιστή βάσης"
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "Το όνομα λογαριασμού %name δεν είναι διαθέσιμο."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "Το όνομα λογαριασμού %name είναι διαθέσιμο."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "Η διεύθυνση e-mail %mail δεν επιτρέπεται."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "Η διεύθυνση e-mail %mail επιτρέπεται."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "Το όνομα υπολογιστή βάσης %host δεν επιτρέπεται."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "Το όνομα υπολογιστή βάσης %host επιτρέπεται."
+
+#: modules/user/user.admin.inc:860;887
+msgid "username"
+msgstr "όνομα λογαριασμού"
+
+#: modules/user/user.admin.inc:860;887
+msgid "e-mail"
+msgstr "e-mail"
+
+#: modules/user/user.admin.inc:860;887
+msgid "host"
+msgstr "υπολογιστής βάσης"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Θέλετε σίγουρα να διαγράψετε τον κανόνα @type για τον %rule;"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "Ο κανόνας πρόσβασης διαγράφηκε."
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "επιτρέπεται"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "απαγορεύεται"
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Δεν υπάρχει κανένας κανόνας πρόσβασης προς το παρόν."
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "Κανένας διαθέσιμος χρήστης."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "επεξεργασία δικαιωμάτων"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "επεξεργασία ρόλου"
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "κλειδωμένο"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Όνομα λογαριασμού ή διεύθυνση e-mail"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Αποστολή νέου συνθηματικού με e-mail"
+
+#: modules/user/user.pages.inc:50
+msgid "%name is not allowed to request a new password."
+msgstr "Το %name δεν απαιτείται για την αίτηση νέου συνθηματικού."
+
+#: modules/user/user.pages.inc:63
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr ""
+"Συγγνώμη, αλλά το %name δεν αναγνωρίζεται ως όνομα χρήστη ή διεύθυνση e-mail."
+
+#: modules/user/user.pages.inc:74
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "Περαιτέρω οδηγίες έχουν σταλεί στη διεύθυνση e-mail σας."
+
+#: modules/user/user.pages.inc:88
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Έχετε ήδη χρησιμοποιήσει αυτόν τον σύνδεσμο εισόδου μίας χρήσης. Δεν είναι "
+"πλέον αναγκαίο να χρησιμοποιήσετε αυτόν τον σύνδεσμο για να εισέλθετε στο "
+"σύστημα. Έχετε ήδη εισέλθει."
+
+#: modules/user/user.pages.inc:99
+msgid ""
+"You have tried to use a one-time login for an account which has been blocked."
+msgstr ""
+"Επιχειρήσατε να χρησιμοποιήσετε έναν σύνδεσμο εισόδου μίας χρήσης για ένα "
+"λογαριασμό που έχει αποκλεισθεί."
+
+#: modules/user/user.pages.inc:105
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Επιχειρήσατε να χρησιμοποιήσετε έναν σύνδεσμο εισόδου μίας χρήσης που έχει "
+"λήξει. Ζητήστε καινούργιο χρησιμοποιώντας την παρακάτω φόρμα."
+
+#: modules/user/user.pages.inc:117
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Μόλις χρησιμοποιήσατε τον σύνδεσμο εισόδου μίας χρήσης. Δε είναι πλέον "
+"αναγκαίο να χρησιμοποιήσετε αυτόν τον σύνδεσμο για να εισέλθετε. Αλλάξτε το "
+"συνθηματικό σας."
+
+#: modules/user/user.pages.inc:121
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Αυτή είναι μια διαδικασία σύνδεσης για μία μόνο φορά για το χρήστη %"
+"user_name και θα λήξει την %expiration_date.</p><p>Πατήστε σε αυτό το κουμπί "
+"για να συνδεθείτε στον ιστοτόπο και να αλλάξετε τον κωδικό σας.</p>"
+
+#: modules/user/user.pages.inc:122
+msgid "This login can be used only once."
+msgstr "Αυτή η παραπομπή εισόδου μπορεί να χρησιμοποιηθεί μόνο μία φορά."
+
+#: modules/user/user.pages.inc:123 modules/user/user.module:665;1261;907
+msgid "Log in"
+msgstr "Είσοδος"
+
+#: modules/user/user.pages.inc:129
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Επιχειρήσατε να χρησιμοποιήσετε μια παραπομπή εισόδου μίας χρήσης που είτε "
+"έχει ξαναχρησιμοποιηθεί είτε δεν ισχύει πια. Ζητήστε καινούργια "
+"χρησιμοποιώντας την παρακάτω φόρμα."
+
+#: modules/user/user.pages.inc:276;345;274;343
+#: modules/user/user.module:1798;2307
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr ""
+"Ανιχνεύτηκε κακόβουλη απόπειρα να αλλοιωθούν προστατευμένα πεδία λογαριασμού "
+"χρήστη."
+
+#: modules/user/user.pages.inc:321
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Θέλετε σίγουρα να διαγράψετε το λογαριασμό %name;"
+
+#: modules/user/user.pages.inc:323
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Όλες οι καταχωρίσεις από αυτόν το λογαριασμό χρήστη θα αποδοθούν στον "
+"ανώνυμο λογαριασμό. Η ενέργεια αυτή είναι μη αναστρέψιμη."
+
+#: modules/user/user.pages.inc:332
+msgid "%name has been deleted."
+msgstr "Ο/Η %name διαγράφηκε."
+
+#: modules/user/user.pages.inc:73
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"Οδηγίες για την ανανέωση του συνθηματικού εισόδου έχουν σταλεί στο "
+"λογαριασμό %name στη διεύθυνση %email."
+
+#: modules/user/user.pages.inc:111
+msgid "User %name used one-time login link at time %timestamp."
+msgstr ""
+"Ο χρήστης %name χρησιμοποίησε σύνδεσμο εισόδου μίας χρήσης, τη χρονική "
+"στιγμή %timestamp."
+
+#: modules/user/user.pages.inc:147
+msgid "Session closed for %name."
+msgstr "Έκλεισε σύνοδος για το λογαριασμό %name."
+
+#: modules/user/user.module:381
+msgid "You must enter a username."
+msgstr "Πρέπει να δώσετε όνομα λογαριασμού."
+
+#: modules/user/user.module:382
+msgid "The username cannot begin with a space."
+msgstr "Το όνομα λογαριασμού δεν μπορεί να αρχίζει με διάστημα."
+
+#: modules/user/user.module:383
+msgid "The username cannot end with a space."
+msgstr "Το όνομα λογαριασμού δεν μπορεί να τελειώνει με διάστημα."
+
+#: modules/user/user.module:384
+msgid "The username cannot contain multiple spaces in a row."
+msgstr ""
+"Το όνομα λογαριασμού δεν μπορεί να περιέχει πολλά συνεχόμενα διαστήματα."
+
+#: modules/user/user.module:385;396
+msgid "The username contains an illegal character."
+msgstr "Το όνομα λογαριασμού περιέχει χαρακτήρα που δεν επιτρέπεται."
+
+#: modules/user/user.module:398
+msgid "The username is not a valid authentication ID."
+msgstr "Το όνομα λογαριασμού δεν είναι έγκυρο αναγνωριστικό πιστοποίησης."
+
+#: modules/user/user.module:399
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"Το όνομα λογαριασμού %name είναι πολύ μεγάλο: πρέπει να είναι %max "
+"χαρακτήρες ή λιγότερους."
+
+#: modules/user/user.module:403
+msgid "You must enter an e-mail address."
+msgstr "Πρέπει να εισάγετε διεύθυνση e-mail."
+
+#: modules/user/user.module:405
+msgid "The e-mail address %mail is not valid."
+msgstr "Η διεύθυνση e-mail %mail δεν είναι έγκυρη."
+
+#: modules/user/user.module:431
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Η αποστολή της εικόνας απέτυχε· ο κατάλογος αρχείων %directory δεν υπάρχει ή "
+"δεν είναι εγγράψιμος."
+
+#: modules/user/user.module:619
+msgid "History"
+msgstr "Ιστορικό"
+
+#: modules/user/user.module:641
+msgid "Account settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+#: modules/user/user.module:669
+msgid "Create a new user account."
+msgstr "Δημιουργήστε ένα νέο λογαριασμό χρήστη."
+
+#: modules/user/user.module:671;922
+msgid "Request new password"
+msgstr "Ξέχασα το συνθηματικό μου"
+
+#: modules/user/user.module:671
+msgid "Request new password via e-mail."
+msgstr "Ζητήστε νέο συνθηματικό εισόδου μέσω e-mail."
+
+#: modules/user/user.module:683;730
+msgid "User login"
+msgstr "Είσοδος"
+
+#: modules/user/user.module:692;751
+msgid "Who's new"
+msgstr "Ποιοι γράφτηκαν τελευταία"
+
+#: modules/user/user.module:695;790
+msgid "Who's online"
+msgstr "Ποιοι είναι εδώ"
+
+#: modules/user/user.module:702
+msgid "Number of users to display"
+msgstr "Νούμερο χρηστών που θα εμφανίζεται"
+
+#: modules/user/user.module:710
+msgid "User activity"
+msgstr "Δραστηριότητα χρηστών"
+
+#: modules/user/user.module:710
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Ένας χρήστης θεωρείται παρών για τόσο χρόνο από την τελευταία φορά που "
+"άνοιξε μια σελίδα."
+
+#: modules/user/user.module:711
+msgid "User list length"
+msgstr "Μήκος λίστας χρηστών"
+
+#: modules/user/user.module:711
+msgid "Maximum number of currently online users to display."
+msgstr "Ανώτατος αριθμός παρόντων χρηστών που θα παρουσιάζονται."
+
+#: modules/user/user.module:778
+msgid "There is currently %members and %visitors online."
+msgstr "Είναι εδώ αυτή τη στιγμή %members και %visitors."
+
+#: modules/user/user.module:781
+msgid "There are currently %members and %visitors online."
+msgstr "Είναι εδώ αυτή τη στιγμή %members και %visitors."
+
+#: modules/user/user.module:787
+msgid "Online users"
+msgstr "Παρόντες χρήστες"
+
+#: modules/user/user.module:818
+msgid "@user's picture"
+msgstr "Εικόνα: @user"
+
+#: modules/user/user.module:1182;1052
+msgid "My account"
+msgstr "Ο λογαριασμός μου"
+
+#: modules/user/user.module:1254
+msgid "Enter your @s username."
+msgstr "Εισάγετε το όνομα λογαριασμού σας για το @s."
+
+#: modules/user/user.module:1257
+msgid "Enter the password that accompanies your username."
+msgstr ""
+"Εισάγετε το συνθηματικό εισόδου που συνοδεύει το όνομα λογαριασμού σας."
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "Ο λογαριασμός χρήστη %name δεν έχει ενεργοποιηθεί ή έχει αποκλειστεί."
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "Το όνομα λογαριασμού %name είναι δεσμευμένο."
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Δυστυχώς, το όνομα λογαριασμού ή το συνθηματικό εισόδου δεν αναγνωρίζεται. "
+"<a href=\"@password\">Ξεχάσατε το συνθηματικό εισόδου σας;</a>"
+
+#: modules/user/user.module:1342
+msgid ""
+"The name %name is registered using a reserved e-mail address and therefore "
+"could not be logged in."
+msgstr ""
+"Το όνομα %name έχει εγγραφεί χρησιμοποιώντας μια δεσμευμένη διεύθυνση e-mail "
+"και γι' αυτό το λόγο δεν μπορεί να εισέλθει στο σύστημα."
+
+#: modules/user/user.module:1439
+msgid "Account information"
+msgstr "Πληροφορίες λογαριασμού"
+
+#: modules/user/user.module:1448
+msgid ""
+"Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
+"and underscores."
+msgstr ""
+"Τα κενά επιτρέπονται· τα σημεία στίξης δεν επιτρέπονται, εκτός από τις "
+"τελείες, τις παύλες και τις κάτω παύλες."
+
+#: modules/user/user.module:1456
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Εισάγετε μια έγκυρη διεύθυνση e-mail. Όλα τα μηνύματα e-mail από το σύστημα "
+"θα στέλνονται σε αυτή τη διεύθυνση. Η διεύθυνση e-mail δε δημοσιοποιείται "
+"και θα χρησιμοποιηθεί μόνο αν ζητήσετε νέο συνθηματικό εισόδου ή αν θελήσετε "
+"να παίρνετε κάποιες ειδήσεις ή ειδοποιήσεις μέσω e-mail."
+
+#: modules/user/user.module:1461
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr ""
+"Για να αλλάξετε το τρέχον συνθηματικό εισόδου για το λογαριασμό σας, "
+"εισάγετε το νέο συνθηματικό εισόδου και στα δύο πεδία."
+
+#: modules/user/user.module:1468
+msgid "Provide a password for the new account in both fields."
+msgstr ""
+"Εισάγετε ένα συνθηματικό εισόδου για το νέο λογαριασμό και στα δύο πεδία."
+
+#: modules/user/user.module:1478
+msgid "Blocked"
+msgstr "Αποκλεισμένος"
+
+#: modules/user/user.module:1513
+msgid "Signature settings"
+msgstr "Ρυθμίσεις υπογραφής"
+
+#: modules/user/user.module:1518
+msgid "Signature"
+msgstr "Υπογραφή"
+
+#: modules/user/user.module:1520
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Η υπογραφή σας θα εμφανίζεται δημόσια στο τέλος των σχολίων σας."
+
+#: modules/user/user.module:1526
+msgid ""
+"The signature input format has been set to a format you don't have access "
+"to. It will be changed to a format you have access to when you save this "
+"page."
+msgstr ""
+"Ο μορφότυπος εισόδου της υπογραφής έχει οριστεί σε μορφή για την οποία δεν "
+"έχετε πρόσβαση. Κατά την αποθήκευση της σελίδας θα αλλαχθεί σε μια μορφή που "
+"έχετε πρόσβαση."
+
+#: modules/user/user.module:1535
+msgid "Picture"
+msgstr "Εικόνα"
+
+#: modules/user/user.module:1539
+msgid "Delete picture"
+msgstr "Διαγραφή εικόνας"
+
+#: modules/user/user.module:1539
+msgid "Check this box to delete your current picture."
+msgstr "Επιλέξτε το για να διαγράψετε την τρέχουσα εικόνα σας."
+
+#: modules/user/user.module:1544
+msgid "Upload picture"
+msgstr "Αποστολή αρχείου εικόνας"
+
+#: modules/user/user.module:1544
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Το εικονικό σας πρόσωπο ή εικόνα . Οι μέγιστες διαστάσεις είναι %dimensions "
+"και το ανώτατο μέγεθος είναι %size kB."
+
+#: modules/user/user.module:1560
+msgid "The name %name is already taken."
+msgstr "Το όνομα %name είναι ήδη κατειλημμένο."
+
+#: modules/user/user.module:1563
+msgid "The name %name has been denied access."
+msgstr "Δεν επιτρέπεται η πρόσβαση στο όνομα %name."
+
+#: modules/user/user.module:1572
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"Η διεύθυνση e-mail %email είναι ήδη κατειλημμένη. <a href=\"@password"
+"\">Έχετε ξεχάσει το συνθηματικό σας;</a>"
+
+#: modules/user/user.module:1575
+msgid "The e-mail address %email has been denied access."
+msgstr "Δεν επιτρέπεται η πρόσβαση στη διεύθυνση e-mail %email."
+
+#: modules/user/user.module:1655
+msgid "Account details for !username at !site"
+msgstr "Λεπτομέρειες του λογαριασμού !username στον ιστοτόπο !site"
+
+#: modules/user/user.module:1657
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"Λογαριασμός: !username\n"
+"\n"
+"Ευχαριστούμε για την εγγραφή σας στον ιστοτόπο !site. Μπορείτε τώρα να "
+"εισέλθετε στο σύστημα από τη σελίδα !login_uri χρησιμοποιώντας το παρακάτω "
+"όνομα λογαριασμού και συνθηματικό εισόδου:\n"
+"\n"
+"όνομα λογαριασμού: !username\n"
+"συνθηματικό εισόδου: !password\n"
+"\n"
+"Μπορείτε επίσης να εισέλθετε κάνοντας κλικ στην παρακάτω παραπομπή ή "
+"αντιγράφοντας και επικολλώντας τη στον περιηγητή ιστοσελίδων σας:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Αυτός ο τρόπος εισόδου είναι μίας χρήσης, επομένως μπορεί να χρησιμοποιηθεί "
+"μόνο μία φορά.\n"
+"\n"
+"Μετά την είσοδό σας στο σύστημα θα μεταφερθείτε στη σελίδα !edit_uri, όπου "
+"μπορείτε να αλλάξετε το συνθηματικό εισόδου σας.\n"
+"\n"
+"\n"
+"--  !site"
+
+#: modules/user/user.module:1659
+msgid "An administrator created an account for you at !site"
+msgstr "Η διαχείριση σάς δημιούργησε λογαριασμό στον ιστοτόπο !site"
+
+#: modules/user/user.module:1661
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"Λογαριασμός: !username\n"
+"\n"
+"Η διαχείριση του !site σας άνοιξε λογαριασμό στο σύστημα. Μπορείτε τώρα να "
+"εισέλθετε στο σύστημα από τη σελίδα !login_uri χρησιμοποιώντας το παρακάτω "
+"όνομα λογαριασμού και συνθηματικό εισόδου:\n"
+"\n"
+"όνομα λογαριασμού: !username\n"
+"συνθηματικό εισόδου: !password\n"
+"\n"
+"Μπορείτε επίσης να εισέλθετε στο σύστημα πατώντας σε αυτή την παραπομπή ή "
+"αντιγράφοντας και επικολλώντας τη στον περιηγητή ιστοσελίδων σας:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Αυτός ο τρόπος εισόδου είνα μίας χρήσης, επομένως μπορεί να χρησιμοποιηθεί "
+"μόνο μία φορά.\n"
+"\n"
+"Μετά την είσοδό σας στο σύστημα θα μεταφερθείτε στη σελίδα !edit_uri, όπου "
+"μπορείτε να αλλάξετε το συνθηματικό εισόδου σας.\n"
+"\n"
+"\n"
+"--  !site team"
+
+#: modules/user/user.module:1664
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Λεπτομέρειες του λογαριασμού !username στον ιστοτόπο !site (σε αναμονή για "
+"έγκριση από τη διαχείριση)"
+
+#: modules/user/user.module:1666
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Σας ευχαριστούμε για την εγγραφή σας στον ιστοτόπο !site. Η αίτησή σας για "
+"λογαριασμό είναι αυτή τη στιγμή υπό έγκριση. Αφού εγκριθεί, θα λάβετε ένα "
+"άλλο e-mail που θα περιέχει πληροφορίες για το πως να συνδεθείτε, να ορίσετε "
+"το συνθηματικό σας και άλλες λεπτομέρειες.\n"
+"\n"
+"\n"
+"--  Η ομάδα του !site"
+
+#: modules/user/user.module:1668
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"Ο χρήστης !username έχει κάνει αίτηση για λογαριασμό.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1670
+msgid "Replacement login information for !username at !site"
+msgstr ""
+"Αντικατάσταση πληροφοριών εισόδου για το λογαριασμό !username στον ιστοτόπο !"
+"site"
+
+#: modules/user/user.module:1672
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username\n"
+"\n"
+"Έγινε αίτηση για επαναφορά συνθηματικού για το λογαριασμό σας στον ιστοτόπο !"
+"site.\n"
+"Μπορείτε τώρα να συνδεθείτε χρησιμοποιώντας τη διεύθυνση !uri_brief κάνοντας "
+"κλικ σε αυτό το σύνδεσμο ή με αντιγραφή και επικόλλησή του στο πρόγραμμα "
+"πλοήγησής σας:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Αυτό είναι διαδικασία εισόδου για μία φορά, επομένως μπορεί να "
+"χρησιμοποιηθεί μία μόνο φορά. Λήγει μετά από μία ημέρα και δε θα συμβεί "
+"τίποτα αν δε χρησιμοποιηθεί.\n"
+"\n"
+"Αφού συνδεθείτε, θα μεταφερθείτε στη διεύθυνση !edit_uri για να αλλάξετε το "
+"συνθηματικό σας."
+
+#: modules/user/user.module:1674
+msgid "Account details for !username at !site (approved)"
+msgstr ""
+"Λεπτομέρειες του λογαριασμού για το χρήστη !username στον ιστοτόπο !site "
+"(εγκρίθηκε)"
+
+#: modules/user/user.module:1676
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username\n"
+"\n"
+"Ο λογαριασμός σας στον ιστοτόπο !site εγκρίθηκε.\n"
+"\n"
+"Μπορείτε τώρα να συνδεθείτε κάνοντας κλικ σε αυτό το σύνδεσμο ή με αντιγραφή "
+"και επικόλλησή του στο πρόγραμμα πλοήγησής σας:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Αυτό είναι διαδικασία εισόδου για μία φορά, επομένως μπορεί να "
+"χρησιμοποιηθεί μία μόνο φορά.\n"
+"\n"
+"Αφού συνδεθείτε, θα μεταφερθείτε στη διεύθυνση !edit_uri για να αλλάξετε το "
+"συνθηματικό σας.\n"
+"\n"
+"Αφού ορίσετε το συνθηματικό σας, θα μπορείτε στο μέλλον να συνδέεστε στη "
+"διεύθυνση !login_uri χρησιμοποιώντας το:\n"
+"\n"
+"Όνομα χρήστη: !username\n"
+
+#: modules/user/user.module:1678
+msgid "Account details for !username at !site (blocked)"
+msgstr ""
+"Λεπτομέρειες του λογαριασμού για το χρήστη !username στον ιστοτόπο !site "
+"(αποκλείστηκε)"
+
+#: modules/user/user.module:1680
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\n"
+"\n"
+"Ο λογαριασμός σας στον ιστοτόπο !site έχει αποκλειστεί."
+
+#: modules/user/user.module:1682
+msgid "Account details for !username at !site (deleted)"
+msgstr ""
+"Λεπτομέρειες του λογαριασμού !username στον ιστοτόπο !site (διαγράφηκε)"
+
+#: modules/user/user.module:1684
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\n"
+"\n"
+"Ο λογαριασμός σας στο !site διαγράφηκε."
+
+#: modules/user/user.module:1744
+msgid "Unblock the selected users"
+msgstr "Άρση αποκλεισμού για τους επιλεγμένους χρήστες"
+
+#: modules/user/user.module:1748
+msgid "Block the selected users"
+msgstr "Αποκλεισμός επιλεγμένων χρηστών"
+
+#: modules/user/user.module:1752
+msgid "Delete the selected users"
+msgstr "Διαγραφή επιλεγμένων χρηστών"
+
+#: modules/user/user.module:1772
+msgid "Add a role to the selected users"
+msgstr "Προσθήκη ρόλου στους επιλεγμένους χρήστες"
+
+#: modules/user/user.module:1775
+msgid "Remove a role from the selected users"
+msgstr "Άρση ρόλου από τους επιλεγμένους χρήστες"
+
+#: modules/user/user.module:1877
+msgid "Are you sure you want to delete these users?"
+msgstr "Θέλετε σίγουρα να διαγράψετε αυτούς τους χρήστες;"
+
+#: modules/user/user.module:1887
+msgid "The users have been deleted."
+msgstr "Οι χρήστες διαγράφηκαν."
+
+#: modules/user/user.module:1901
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Η μονάδα user επιτρέπει στους χρήστες να εγγράφονται, να συνδέονται και να "
+"αποσυνδέονται. Οι χρήστες έχουν όφελος με το να μπορούν να συνδέονται, γιατί "
+"η διαδικασία αυτή συσχετίζει το περιεχόμενο που δημιουργούν με το λογαριασμό "
+"τους και επιτρέπει τον ορισμό διαφόρων αδειών ανάλογα με τους ρόλους τους. Η "
+"μονάδα user υποστηρίζει την ύπαρξη ρόλων χρηστών που επιβάλλουν λεπτομερείς "
+"άδειες, επιτρέποντας σε κάθε ρόλο να μπορεί να κάνει ό,τι τους επιτρέπει ο "
+"διαχειριστής. Σε κάθε χρήστη μεταβιβάζεται ένας ή περισσότεροι ρόλοι. Εξ' "
+"ορισμού, υπάρχουν δύο ρόλοι, ο <em>ανώνυμος</em> - ο χρήστης που δεν έχει "
+"συνδεθεί και ο <em>πιστοποιημένος</em>, ο χρήστης που έχει κάνει εγγραφή και "
+"έχει πιστοποιηθεί."
+
+#: modules/user/user.module:1902
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Οι χρήστες μπορούν να χρησιμοποιούν τα δικά τους ονόματα ή αναγνωριστικά και "
+"μπορούν να καθορίζουν τις προσωπικές τους ρυθμίσεις μέσω της σελίδας <em>Ο "
+"λογαριασμός μου</em>. Οι χρήστες πρέπει να πιστοποιούνται εισάγοντας ένα "
+"όνομα χρήστη τοπικά και ένα συνθηματικό ή μέσω του OpenID, μιας προαιρετικής "
+"και ασφαλής μεθόδου για τη σύνδεση σε πολλούς ιστοτόπους με ένα όνομα χρήστη "
+"και συνθηματικό. Σε ορισμένες διευθετήσεις συστημάτων, οι χρήστες μπορούν να "
+"πιστοποιούνται χρησιμοποιώντας όνομα χρήστη και συνθηματικό από άλλο Drupal "
+"ιστοτόπο, ή μέσω άλλου ειδικά για τον ιστοτόπο μηχανισμού."
+
+#: modules/user/user.module:1903
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Σε ένα επισκέπτη που περιηγείται στον ιστοτόπο σας ανατίθεται ένας "
+"αναγνωριστικός αριθμός ID, ή ID συνόδου, που αποθηκεύεται σε ένα cookie. Το "
+"cookie δεν περιέχει προσωπικές πληροφορίες, αλλά λειτουργεί ως κλειδί για "
+"την ανάκτηση πληροφοριών από τον ιστοτόπο σας. Οι χρήστες θα πρέπει να έχουν "
+"ενεργοποιημένα τα cookie στα προγράμματα πλοήγησής τους κατά την περιήγησή "
+"τους στον ιστοτόπο σας."
+
+#: modules/user/user.module:1904
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και "
+"προσαρμογής, <a href=\"@menu\">μονάδα User</a>."
+
+#: modules/user/user.module:1907
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Το Drupal επιτρέπει στους χρήστες να γράφονται μέλη, να εισέρχονται, να "
+"εξέρχονται, να διατηρούν προσωπικά προφίλ κλπ. Κανένας χρήστης δεν μπορεί να "
+"χρησιμοποιήσει το όνομά του για να υποβάλει ύλη προτού γραφτεί μέλος και "
+"αποκτήσει λογαριασμό χρήστη."
+
+#: modules/user/user.module:1910
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Η σελίδα επιτρέπει στους διαχειριστές να εγγράφουν νέους χρήστες. Οι "
+"διευθύνσεις e-mail και τα ονόματα των χρηστών πρέπει να είναι μοναδικά."
+
+#: modules/user/user.module:1912
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Ορίστε κανόνες πρόσβασης για ονόματα λογαριασμών και διευθύνσεις e-mail για "
+"τους νέους <em>και</em> τους υπάρχοντες λογαριασμούς (οι λογαριασμοί που "
+"έχουν ήδη εισέλθει στο σύστημα τη συγκεκριμένη στιγμή δε θα εξέλθουν). Αν το "
+"όνομα ή η διεύθυνση e-mail ενός λογαριασμού ταυτίζεται με οποιονδήποτε "
+"κανόνα τύπου \"απαγορεύεται\", αλλά όχι με κάποιον κανόνα τύπου επιτρέπεται, "
+"τότε δε θα επιτρέπεται η δημιουργία ή η είσοδος του λογαριασμού. Ένας "
+"κανόνας για υπολογιστές βάσης ισχύει για κάθε ανάγνωση σελίδας και όχι μόνο "
+"για τις εγγραφές χρηστών."
+
+#: modules/user/user.module:1914
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Οι άδειες σάς επιτρέπουν να ελέγχετε το τι μπορούν να κάνουν οι χρήστες στον "
+"ιστοτόπο σας. Κάθε ρόλος χρηστών (που ορίζεται στη <a href=\"@role\">σελίδα "
+"ρόλων χρηστών</a>) έχει ένα δικό του σύνολο αδειών. Για παράδειγμα, θα "
+"μπορούσατε να δώσετε στους χρήστες που κατατάσσονται στους \"Διαχειριστές\" "
+"την άδεια για \"διαχείριση κόμβων\" αλλά να μη δώσετε αυτή την άδεια στους "
+"κανονικούς \"πιστοποιημένους\" χρήστες. Μπορείτε να χρησιμοποιείτε άδειες "
+"για να αποκαλύπτετε νέα χαρακτηριστικά σε προνομιούχους χρήστες "
+"(συνδρομητές, για παράδειγμα). Οι άδειες επιτρέπουν επίσης να μοιράζεστε με "
+"έμπιστους χρήστες τη δουλειά της διαχείρισης ενός ιστοτόπου με μεγάλη κίνηση."
+
+#: modules/user/user.module:1916
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Οι ρόλοι σάς επιτρέπουν να προσαρμόζετε την ασφάλεια και τη διαχείριση "
+"του Drupal. Ένας ρόλος ορίζει μια ομάδα χρηστών που έχουν ορισμένα προνόμια "
+"τα οποία ορίζονται από τις <a href=\"@permissions\">άδειες χρηστών</a>. "
+"Παραδείγματα ρόλων είναι: ο ανώνυμος χρήστης, ο πιστοποιημένος χρήστης, ο "
+"επιμελητής, ο διαχειριστής κλπ. Στη σελίδα αυτή θα ορίσετε τα διάφορα "
+"<em>ονόματα ρόλων</em>. Για να διαγράψετε ένα ρόλο επιλέξτε \"επεξεργασία\"."
+"</p><p>Αρχικά το Drupal διαθέτει δύο ρόλους χρηστών:</p>\n"
+"      <ul>\n"
+"      <li>Ανώνυμος χρήστης: Ο ρόλος αυτός χρησιμοποιείται για τους χρήστες "
+"που δεν έχουν λογαριασμό ή δεν έχουν πιστοποιηθεί.</li>\n"
+"      <li>Πιστοποιημένος χρήστης: Ο ρόλος αυτός αποδίδεται αυτόματα σε όλους "
+"τους χρήστες που έχουν εισέλθει στο σύστημα.</li>\n"
+"      </ul>"
+
+#: modules/user/user.module:1922
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Εισάγετε ένα απλό πρότυπο (το \"*\" χρησιμοποιείται ως μπαλαντέρ) για να "
+"αναζητήσετε ένα όνομα χρήστη ή μια διεύθυνση e-mail. Για παράδειγμα, μπορεί "
+"να γίνει αναζηηση για \"br\" και το Drupal να επιστρέψει \"brian\", \"brad\" "
+"και \"brenda@example.com\"."
+
+#: modules/user/user.module:1959
+msgid "role"
+msgstr "ρόλος"
+
+#: modules/user/user.module:1977
+msgid "permission"
+msgstr "άδεια"
+
+#: modules/user/user.module:2179
+msgid "Password strength:"
+msgstr "Αντοχή συνθηματικού:"
+
+#: modules/user/user.module:2180
+msgid "Low"
+msgstr "Χαμηλό"
+
+#: modules/user/user.module:2182
+msgid "High"
+msgstr "Υψηλό"
+
+#: modules/user/user.module:2183
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Προτείνεται να επιλέξετε κωδικό πρόσβασης με τουλάχιστον έξι χαρακτήρες. Θα "
+"πρέπει να περιλαμβάνει αριθμούς, σημεία στίξης καθώς και κεφαλαία μαζί με "
+"πεζά γράμματα."
+
+#: modules/user/user.module:2184
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr ""
+"Ο κωδικός πρόσβασης δεν είναι αρκετά παραλλαγμένος ώστε να είναι ασφαλής. "
+"Δοκιμάστε:"
+
+#: modules/user/user.module:2185
+msgid "Adding both upper and lowercase letters."
+msgstr "Προσθήκη "
+
+#: modules/user/user.module:2186
+msgid "Adding numbers."
+msgstr "Προσθήκη αριθμών."
+
+#: modules/user/user.module:2187
+msgid "Adding punctuation."
+msgstr "Προσθήκη σημείων στίξης."
+
+#: modules/user/user.module:2188
+msgid "It is recommended to choose a password different from the username."
+msgstr ""
+"Προτείνεται να επιλέξετε κωδικό πρόσβασης διαφορετικό από το όνομα χρήστη."
+
+#: modules/user/user.module:2191
+msgid "Passwords match:"
+msgstr "Τα συνθηματικά ταιριάζουν:"
+
+#: modules/user/user.module:2206
+msgid "After a user account has been created"
+msgstr "Μετά τη δημιουργία λογαριασμού χρήστη"
+
+#: modules/user/user.module:2209
+msgid "After a user's profile has been updated"
+msgstr "Μετά την ενημέρωση του προφίλ χρήστη"
+
+#: modules/user/user.module:2212
+msgid "After a user has been deleted"
+msgstr "Μετά τη διαγραφή χρήστη"
+
+#: modules/user/user.module:2215
+msgid "After a user has logged in"
+msgstr "Μετά τη σύνδεση του χρήστη"
+
+#: modules/user/user.module:2218
+msgid "After a user has logged out"
+msgstr "Μετά την αποσύνδεση του χρήστη"
+
+#: modules/user/user.module:2221
+msgid "When a user's profile is being viewed"
+msgstr "Κατά την εμφάνιση ενός προφίλ χρήστη"
+
+#: modules/user/user.module:2234
+msgid "Block current user"
+msgstr "Αποκλεισμός του τρέχοντος χρήστη"
+
+#: modules/user/user.module:2240
+msgid "Ban IP address of current user"
+msgstr "Απαγόρευση της διεύθυνσης IP του τρέχοντος χρήστη"
+
+#: modules/user/user.module:2333
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Καλωσορίσατε στο Drupal. Έχετε συνδεθεί ως ο χρήστης #1, που σας δίνει πλήρη "
+"έλεγχο στον ιστοτόπο σας."
+
+#: modules/user/user.module:2335
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> Το συνθηματικό σας είναι <strong>%pass</strong>. Μπορείτε παρακάτω "
+"να αλλάξετε το συνθηματικό σας.</p>"
+
+#: modules/user/user.module:2347
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"Ένας νέος λογαριασμός χρήστη για το χρήστη <a href=\"@url\">%name</a> "
+"δημιουργήθηκε. Δεν έγινε αποστολή e-mail."
+
+#: modules/user/user.module:2354
+msgid "Registration successful. You are now logged in."
+msgstr "Η εγγραφή ολοκληρώθηκε με επιτυχία. Μπορείτε τώρα να συνδεθείτε."
+
+#: modules/user/user.module:2364
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Το συνθηματικό εισόδου και περαιτέρω οδηγίες έχουν σταλεί με e-mail στο νέο "
+"χρήστη με όνομα <a href=\"@url\">%name</a>."
+
+#: modules/user/user.module:2367
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr ""
+"Το συνθηματικό εισόδου σας και περαιτέρω οδηγίες έχουν σταλεί στη διεύθυνση "
+"e-mail σας."
+
+#: modules/user/user.module:2375
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Ευχαριστούμε για την υποβολή αίτησης για λογαριασμό. Ο λογαριασμός σας είναι "
+"υπό έγκριση από το διαχειριστή του ιστοτόπου.<br />Στο μεταξύ, ένα μήνυμα "
+"καλωσορίσματος με περαιτέρω οδηγίες έχει αποσταλλεί στη διεύθυνση e-mail σας."
+
+#: modules/user/user.module:2412
+msgid "Notify user of new account"
+msgstr "Να ειδοποιηθεί ο χρήστης για το νέο λογαριασμό"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "Απέτυχε η απόπειρα εισόδου για το λογαριασμό %user."
+
+#: modules/user/user.module:1366
+msgid "Session opened for %name."
+msgstr "Άνοιξε σύνοδος για το λογαριασμό %name."
+
+#: modules/user/user.module:1420
+msgid "New external user: %name using module %module."
+msgstr "Νέος εξωτερικός χρήστης: %name με χρήση της μονάδας %module."
+
+#: modules/user/user.module:1607
+msgid "Deleted user: %name %email."
+msgstr "Διαγράφηκε ο χρήστης: %name %email."
+
+#: modules/user/user.module:2265
+msgid "Blocked user %name."
+msgstr "Ο χρήστης με όνομα %name αποκλείστηκε."
+
+#: modules/user/user.module:2275
+msgid "Banned IP address %ip"
+msgstr "Απαγορευμένη διεύθυνση IP %ip"
+
+#: modules/user/user.module:2329
+msgid "New user: %name (%email)."
+msgstr "Νέος χρήστης: %name (%email)."
+
+#: modules/user/user.module:778;781
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 επισκέπτης"
+msgstr[1] "@count επισκέπτες"
+
+#: modules/user/user.module:546
+msgid "administer permissions"
+msgstr "διαχείριση αδειών"
+
+#: modules/user/user.module:546
+msgid "administer users"
+msgstr "διαχείριση χρηστών"
+
+#: modules/user/user.module:546
+msgid "access user profiles"
+msgstr "πρόσβαση σε προφίλ χρηστών"
+
+#: modules/user/user.module:546
+msgid "change own username"
+msgstr "αλλαγή του δικού τους ονόματος λογαριασμού"
+
+#: modules/user/user.module:889
+msgid "User autocomplete"
+msgstr "Αυτόματη συμπλήρωση χρήστη"
+
+#: modules/user/user.module:899
+msgid "User account"
+msgstr "Λογαριασμός χρήστη"
+
+#: modules/user/user.module:930
+msgid "Reset password"
+msgstr "Ανανέωση συνθηματικού εισόδου"
+
+#: modules/user/user.module:940
+msgid "User management"
+msgstr "Διαχείριση μελών"
+
+#: modules/user/user.module:941
+msgid "Manage your site's users, groups and access to site features."
+msgstr ""
+"Ρυθμίσεις των μελών του ιστοτόπου, των ομάδων και των δικαιωμάτων τους."
+
+#: modules/user/user.module:950
+msgid "List, add, and edit users."
+msgstr "Λίστα, προσθήκη και επεξεργασία μελών."
+
+#: modules/user/user.module:962
+msgid "Add user"
+msgstr "Προσθήκη χρήστη"
+
+#: modules/user/user.module:969
+msgid "User settings"
+msgstr "Ρυθμίσεις χρήστη"
+
+#: modules/user/user.module:970
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Ρύθμιση της προκαθορισμένης συμπεριφοράς των μελών, συμπεριλαμβανομένων των "
+"απαιτήσεων εγγραφής, των e-mail και των εικόνων των χρηστών."
+
+#: modules/user/user.module:979
+msgid "Permissions"
+msgstr "Άδειες"
+
+#: modules/user/user.module:980
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Προσδιορισμός της πρόσβασης σε λειτουργίες με επιλογή αδειών για ρόλους "
+"ομάδων."
+
+#: modules/user/user.module:988
+msgid "List, edit, or add user roles."
+msgstr "Λίστα, τροποποίηση ή προσθήκη ρόλων χρηστών."
+
+#: modules/user/user.module:995
+msgid "Edit role"
+msgstr "Τροποποίηση ρόλου"
+
+#: modules/user/user.module:1002
+msgid "Access rules"
+msgstr "Κανόνες πρόσβασης"
+
+#: modules/user/user.module:1003
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Λίστα και δημιουργία κανόνων απαγόρευσης για ονόματα χρηστών, διευθύνσεις e-"
+"mail και διευθύνσεις IP."
+
+#: modules/user/user.module:1021
+msgid "Check rules"
+msgstr "Έλεγχος κανόνων"
+
+#: modules/user/user.module:1028
+msgid "Edit rule"
+msgstr "Τροποποίηση ρόλου"
+
+#: modules/user/user.module:1035
+msgid "Delete rule"
+msgstr "Διαγραφή ρόλου"
+
+#: modules/user/user.module:1044
+msgid "Log out"
+msgstr "Αποσύνδεση"
+
+#: modules/user/user.module:1091
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "ανώνυμος χρήστης"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "πιστοποιημένος χρήστης"

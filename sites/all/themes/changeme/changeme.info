@@ -1,0 +1,15 @@
+; $Id$
+name = ChangeMe
+description = A Drupal 6 Theme that's written so you can easily change colors, fonts and other basics.
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
+stylesheets[all][] = changeme.css
+; Information added by drupal.org packaging script on 2010-04-14
+version = "6.x-1.1"
+core = "6.x"
+project = "changeme"
+datestamp = "1271251205"
+

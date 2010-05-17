@@ -1,0 +1,2233 @@
+# translation of modules-system.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: modules-system\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:40+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/system/system.admin.inc:22
+msgid ""
+"One or more problems were detected with your Drupal installation. Check the "
+"<a href=\"@status\">status report</a> for more information."
+msgstr ""
+"Ένα ή περισσότερα προβλήματα ανιχνεύτηκαν με την εγκατάσταση του Drupal σας. "
+"Ελέγξτε την <a href=\"@status\">αναφορά κατάστασης</a> για περισσότερες "
+"πληροφορίες."
+
+#: modules/system/system.admin.inc:58;79
+msgid "You do not have any administrative items."
+msgstr "Δεν έχετε διαχειριστικά αντικείμενα."
+
+#: modules/system/system.admin.inc:118
+msgid "Get help"
+msgstr "Λάβετε βοήθεια"
+
+#: modules/system/system.admin.inc:158
+msgid "System default"
+msgstr "Προεπιλογή συστήματος"
+
+#: modules/system/system.admin.inc:166 modules/system/system.module:264
+msgid "Administration theme"
+msgstr "Θεματική παραλλαγή της διαχείρισης"
+
+#: modules/system/system.admin.inc:167
+msgid ""
+"Choose which theme the administration pages should display in. If you choose "
+"\"System default\" the administration pages will use the same theme as the "
+"rest of the site."
+msgstr ""
+"Επιλέξτε με ποια θεματική παραλλαγή θα εμφανίζονται οι σελίδες διαχείρισης. "
+"Αν επιλέξετε \"Προεπιλογή συστήματος\" οι σελίδες διαχείρισης θα "
+"χρησιμοποιούν την ίδια εμφάνιση με τον υπόλοιπο ιστοτόπο."
+
+#: modules/system/system.admin.inc:173
+msgid "Use administration theme for content editing"
+msgstr ""
+"Χρησιμοποίηση της θεματικής παραλλαγής διαχείρισης για την επεξεργασία του "
+"περιεχομένου"
+
+#: modules/system/system.admin.inc:174
+msgid ""
+"Use the administration theme when editing existing posts or creating new "
+"ones."
+msgstr ""
+"Χρησιμοποίηση της θεματικής παραλλαγής διαχείρισης κατά την επεξεργασία "
+"καταχωρήσεων που υπάρχουν ήδη ή δημιουργία νέων."
+
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
+msgid "Screenshot for %theme theme"
+msgstr "Δείγμα της θεματικής παραλλαγής %theme"
+
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
+msgid "no screenshot"
+msgstr "δεν υπάρχει δείγμα εικόνας"
+
+#: modules/system/system.admin.inc:288
+msgid ""
+"Please note that the <a href=\"!admin_theme_page\">administration theme</a> "
+"is still set to the %admin_theme theme; consequently, the theme on this page "
+"remains unchanged. All non-administrative sections of the site, however, "
+"will show the selected %selected_theme theme by default."
+msgstr ""
+"Προσέξτε ότι <a href=\"!admin_theme_page\">η θεματική παραλλαγή διαχείρισης</"
+"a> είναι ακόμα ορισμένη στην παραλλαγή %admin_theme· με συνέπεια η εμφάνιση "
+"αυτών των σελίδων να παραμείνει αναλλοίωτη. Όλες οι υπόλοιπες σελίδες όμως "
+"θα έχουν ως προεπιλογή την παραλλαγή %selected_theme."
+
+#: modules/system/system.admin.inc:306;555;933
+#: modules/system/system.module:1062
+msgid "The configuration options have been saved."
+msgstr "Οι επιλογές διευθέτησης αποθηκεύτηκαν."
+
+#: modules/system/system.admin.inc:377
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: modules/system/system.admin.inc:378
+msgid "Site name"
+msgstr "Όνομα ιστοτόπου"
+
+#: modules/system/system.admin.inc:379
+msgid "Site slogan"
+msgstr "Σύνθημα του ιστοτόπου"
+
+#: modules/system/system.admin.inc:380
+msgid "Mission statement"
+msgstr "Περιγραφή σκοπού"
+
+#: modules/system/system.admin.inc:381
+msgid "User pictures in posts"
+msgstr "Εικόνες χρηστών στις καταχωρίσεις"
+
+#: modules/system/system.admin.inc:382
+msgid "User pictures in comments"
+msgstr "Εικόνες χρηστών στα σχόλια"
+
+#: modules/system/system.admin.inc:383
+msgid "Search box"
+msgstr "Πλαίσιο αναζήτησης"
+
+#: modules/system/system.admin.inc:384
+msgid "Shortcut icon"
+msgstr "Εικονίδιο συντόμευσης"
+
+#: modules/system/system.admin.inc:401
+msgid "Toggle display"
+msgstr "Εμφάνιση ή απόκρυψη"
+
+#: modules/system/system.admin.inc:402
+msgid "Enable or disable the display of certain page elements."
+msgstr ""
+"Ενεργοποιεί ή απενεργοποιεί την εμφάνιση ορισμένων στοιχείων της σελίδας."
+
+#: modules/system/system.admin.inc:427
+msgid "Display post information on"
+msgstr "Πληροφορίες υποβολής σε"
+
+#: modules/system/system.admin.inc:428
+msgid ""
+"Enable or disable the <em>submitted by Username on date</em> text when "
+"displaying posts of the following type."
+msgstr ""
+"Ενεργοποιεί ή απενεργοποιεί την εμφάνιση της ένδειξης <em>υποβλήθηκε από "
+"(όνομα) την (ημερομηνία)</em> όταν εμφανίζονται καταχωρίσεις των παρακάτω "
+"τύπων."
+
+#: modules/system/system.admin.inc:447
+msgid "Logo image settings"
+msgstr "Ρυθμίσεις εικόνας λογοτύπου"
+
+#: modules/system/system.admin.inc:448
+msgid "If toggled on, the following logo will be displayed."
+msgstr "Αν το ενεργοποιήσετε, θα εμφανίζεται το λογότυπο που ακολουθεί."
+
+#: modules/system/system.admin.inc:453
+msgid "Use the default logo"
+msgstr "Να χρησιμοποιηθεί το προεπιλεγμένο λογότυπο"
+
+#: modules/system/system.admin.inc:456
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr ""
+"Επιλέξτε το, αν θέλετε η θεματική παραλλαγή να χρησιμοποιεί το δικό της "
+"λογότυπο."
+
+#: modules/system/system.admin.inc:460
+msgid "Path to custom logo"
+msgstr "Διαδρομή αρχείου για το προσαρμοσμένο λογότυπο"
+
+#: modules/system/system.admin.inc:462
+msgid ""
+"The path to the file you would like to use as your logo file instead of the "
+"default logo."
+msgstr ""
+"Η διαδρομή του αρχείου εικόνας που θέλετε να χρησιμοποιήσετε ως λογότυπο "
+"αντί για το προεπιλεγμένο."
+
+#: modules/system/system.admin.inc:466
+msgid "Upload logo image"
+msgstr "Ανέβασμα εικόνας λογοτύπου"
+
+#: modules/system/system.admin.inc:468
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your logo."
+msgstr ""
+"Αν δεν έχετε άμεση πρόσβαση στο σύστημα αρχείων του διακομιστή, "
+"χρησιμοποιήστε αυτό το πεδίο για να ανεβάσετε το λογότυπό σας."
+
+#: modules/system/system.admin.inc:475
+msgid "Shortcut icon settings"
+msgstr "Ρυθμίσεις εικονιδίου συντόμευσης"
+
+#: modules/system/system.admin.inc:476
+msgid ""
+"Your shortcut icon, or 'favicon', is displayed in the address bar and "
+"bookmarks of most browsers."
+msgstr ""
+"Το εικονίδιο συντόμευσής σας, ή 'favicon', εμφανίζεται στην μπάρα "
+"διευθύνσεως και στους σελιδοδείκτες στα περισσότερα προγράμματα πλοήγησης."
+
+#: modules/system/system.admin.inc:480
+msgid "Use the default shortcut icon."
+msgstr "Να χρησιμοποιηθεί το προεπιλεγμένο εικονίδιο συντόμευσης."
+
+#: modules/system/system.admin.inc:482
+msgid "Check here if you want the theme to use the default shortcut icon."
+msgstr ""
+"Επιλέξτε το, αν θέλετε η θεματική παραλλαγή να χρησιμοποιεί το προεπιλεγμένο "
+"εικονίδιο συντόμευσης."
+
+#: modules/system/system.admin.inc:486
+msgid "Path to custom icon"
+msgstr "Διαδρομή αρχείου για το προσαρμοσμένο εικονίδιο"
+
+#: modules/system/system.admin.inc:488
+msgid ""
+"The path to the image file you would like to use as your custom shortcut "
+"icon."
+msgstr ""
+"Η διαδρομή του αρχείου εικόνας που θέλετε να χρησιμοποιήσετε ως "
+"προσαρμοσμένο εικονίδιο συντόμευσης."
+
+#: modules/system/system.admin.inc:493
+msgid "Upload icon image"
+msgstr "Ανέβασμα αρχείου εικονιδίου"
+
+#: modules/system/system.admin.inc:494
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your shortcut icon."
+msgstr ""
+"Αν δεν έχετε άμεση πρόσβαση στο σύστημα αρχείων του διακομιστή, "
+"χρησιμοποιήστε αυτό το πεδίο για να ανεβάσετε το εικονίδιο συντόμευσής σας."
+
+#: modules/system/system.admin.inc:515
+msgid "Theme-engine-specific settings"
+msgstr "Ρυθμίσεις για τη συγκεκριμένη θεματική παραλλαγή"
+
+#: modules/system/system.admin.inc:515
+msgid ""
+"These settings only exist for all the templates and styles based on the %"
+"engine theme engine."
+msgstr ""
+"Οι ρυθμίσεις αυτές υπάρχουν μόνο για όλα τα πρότυπα και τα στυλ που "
+"βασίζονται στη μηχανή εμφάνισης %engine."
+
+#: modules/system/system.admin.inc:527
+msgid "Theme-specific settings"
+msgstr "Ρυθμίσεις για τη συγκεκριμένη θεματική παραλλαγή"
+
+#: modules/system/system.admin.inc:527
+msgid ""
+"These settings only exist for the %theme theme and all the styles based on "
+"it."
+msgstr ""
+"Οι ρυθμίσεις αυτές υπάρχουν μόνο για τη θεματική παραλλαγή %theme και για "
+"όλα τα στυλ που βασίζονται σε αυτή."
+
+#: modules/system/system.admin.inc:549 modules/system/system.module:1059
+msgid "The configuration options have been reset to their default values."
+msgstr "Οι επιλογές διευθέτησης επανήλθαν στις αρχικές τους τιμές."
+
+#: modules/system/system.admin.inc:683;715
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr "@module (<span class=\"admin-disabled\">απενεργοποιημένο</span>)"
+
+#: modules/system/system.admin.inc:686
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr "@module (<span class=\"admin-missing\">απουσιάζει</span>)"
+
+#: modules/system/system.admin.inc:692;710
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr "@module (<span class=\"admin-enabled\">ενεργοποιημένο</span>)"
+
+#: modules/system/system.admin.inc:699
+msgid "Depends on: !dependencies"
+msgstr "Εξαρτάται από: !dependencies"
+
+#: modules/system/system.admin.inc:722
+msgid "Required by: !required"
+msgstr "Απαιτείται από: !required"
+
+#: modules/system/system.admin.inc:841
+msgid "Some required modules must be enabled"
+msgstr "Κάποιες απαιτούμενες μονάδες πρέπει να ενεργοποιηθούν"
+
+#: modules/system/system.admin.inc:843
+msgid "Would you like to continue with enabling the above?"
+msgstr "Θέλετε να συνεχίσετε με την ενεργοποίηση των παραπάνω;"
+
+#: modules/system/system.admin.inc:844
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: modules/system/system.admin.inc:1036;1081;2106
+#: modules/system/system.module:330;336
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: modules/system/system.admin.inc:1075
+msgid ""
+"The following modules will be completely uninstalled from your site, and "
+"<em>all data from these modules will be lost</em>!"
+msgstr ""
+"Οι ακόλουθες μονάδες θα απεγκατασταθούν από τον ιστοτόπο σας και <em>όλα τα "
+"δεδομένα των μονάδων θα χαθούν</em>!"
+
+#: modules/system/system.admin.inc:1078
+msgid "Confirm uninstall"
+msgstr "Επιβεβαίωση απεγκατάστασης"
+
+#: modules/system/system.admin.inc:1080
+msgid "Would you like to continue with uninstalling the above?"
+msgstr "Θέλετε να συνεχίσετε με την απεγκατάσταση των παραπάνω;"
+
+#: modules/system/system.admin.inc:1093
+msgid "No modules selected."
+msgstr "Καμία μονάδα δεν επιλέχθηκε."
+
+#: modules/system/system.admin.inc:1110
+msgid "The selected modules have been uninstalled."
+msgstr "Οι επιλεγμένες μονάδες απεγκαταστάθηκαν."
+
+#: modules/system/system.admin.inc:1131
+msgid "The name of this website."
+msgstr "Το όνομα αυτού του ιστοτόπου."
+
+#: modules/system/system.admin.inc:1138
+msgid ""
+"The <em>From</em> address in automated e-mails sent during registration and "
+"new password requests, and other notifications. (Use an address ending in "
+"your site's domain to help prevent this e-mail being flagged as spam.)"
+msgstr ""
+"Η διεύθυνση <em>Αποστολέα</em> σε αυτόματα e-mail που στέλνονται κατά τη "
+"διάρκεια εγγραφής, αίτησης νέου κωδικού και άλλων ειδοποιήσεων. "
+"(Χρησιμοποιήστε μια διεύθυνση που καταλήγει στο domain του ιστότοπού σας "
+"προς αποφυγή σήμανσης του e-mail ως spam.)"
+
+#: modules/system/system.admin.inc:1143
+msgid "Slogan"
+msgstr "Σύνθημα"
+
+#: modules/system/system.admin.inc:1145
+msgid ""
+"Your site's motto, tag line, or catchphrase (often displayed alongside the "
+"title of the site)."
+msgstr ""
+"Το σύνθημα, χαρακτηριστική φράση ή φράση που «τραβάει» του ιστοτόπου σας "
+"(συχνά εμφανιζόμενη δίπλα στον τίτλο του ιστοτόπου)."
+
+#: modules/system/system.admin.inc:1149
+msgid "Mission"
+msgstr "Σκοπός"
+
+#: modules/system/system.admin.inc:1151
+msgid ""
+"Your site's mission or focus statement (often prominently displayed on the "
+"front page)."
+msgstr ""
+"Η δήλωση αποστολής ή επικέντρωσης (συχνά σε περίοπτη θέση στην κεντρική "
+"σελίδα)."
+
+#: modules/system/system.admin.inc:1155
+msgid "Footer message"
+msgstr "Μήνυμα στο υποσέλιδο"
+
+#: modules/system/system.admin.inc:1157
+msgid ""
+"This text will be displayed at the bottom of each page. Useful for adding a "
+"copyright notice to your pages."
+msgstr ""
+"Το κείμενο αυτό θα εμφανίζεται στο τέλος κάθε σελίδας. Χρήσιμο για να "
+"προσθέσετε στις σελίδες σας δήλωση για τα πνευματικά δικαιώματα."
+
+#: modules/system/system.admin.inc:1161
+msgid "Anonymous user"
+msgstr "Ανώνυμος χρήστης"
+
+#: modules/system/system.admin.inc:1163
+msgid "The name used to indicate anonymous users."
+msgstr "Το όνομα που χρησιμοποιείται για να υποδηλώνει τους ανώνυμους χρήστες."
+
+#: modules/system/system.admin.inc:1168
+msgid "Default front page"
+msgstr "Προεπιλεγμένη πρώτη σελίδα"
+
+#: modules/system/system.admin.inc:1171
+msgid ""
+"The home page displays content from this relative URL. If unsure, specify "
+"\"node\"."
+msgstr ""
+"Η αρχική σελίδα εμφανίζει ύλη από αυτή τη σχετική διεύθυνση URL. Αν έχετε "
+"αμφιβολία, εισάγετε \"node\"."
+
+#: modules/system/system.admin.inc:1196
+msgid "The path '@path' is either invalid or you do not have access to it."
+msgstr ""
+"Η διαδρομή '@path' είναι είτε μη έγκυρη είτε δεν έχετε πρόσβαση σε αυτή."
+
+#: modules/system/system.admin.inc:1210
+msgid "Default 403 (access denied) page"
+msgstr "Προεπιλεγμένη σελίδα 403 (δεν επιτρέπεται η πρόσβαση)"
+
+#: modules/system/system.admin.inc:1213
+msgid ""
+"This page is displayed when the requested document is denied to the current "
+"user. If unsure, specify nothing."
+msgstr ""
+"Η σελίδα αυτή εμφανίζεται όταν δεν επιτρέπεται η πρόσβαση του συγκεκριμένου "
+"χρήστη στο έγγραφο που ζητήθηκε. Αν έχετε αμφιβολία, αφήστε το κενό."
+
+#: modules/system/system.admin.inc:1219
+msgid "Default 404 (not found) page"
+msgstr "Προεπιλεγμένη σελίδα 404 (δε βρέθηκε)"
+
+#: modules/system/system.admin.inc:1222
+msgid ""
+"This page is displayed when no other content matches the requested document. "
+"If unsure, specify nothing."
+msgstr ""
+"Η σελίδα αυτή εμφανίζεται όταν το έγγραφο που ζητήθηκε δεν υπάρχει. Αν έχετε "
+"αμφιβολία, αφήστε το κενό."
+
+#: modules/system/system.admin.inc:1227 modules/system/system.module:387
+msgid "Error reporting"
+msgstr "Αναφορά σφαλμάτων"
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log"
+msgstr "Καταγραφή σφαλμάτων στο ημερολόγιο συστήματος"
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log and to the screen"
+msgstr "Καταγραφή σφαλμάτων στο ημερολόγιο συστήματος και στην οθόνη"
+
+#: modules/system/system.admin.inc:1229
+msgid ""
+"Specify where Drupal, PHP and SQL errors are logged. While it is recommended "
+"that a site running in a production environment write errors to the log "
+"only, in a development or testing environment it may be helpful to write "
+"errors both to the log and to the screen."
+msgstr ""
+"Ορισμός του που θα καταγράφονται τα σφάλματα του Drupal, της PHP και της "
+"SQL. Παρόλο που συνιστάται σε ένα ιστοτόπο που εκτελείται σε περιβάλλον "
+"παραγωγής τα σφάλματα να καταγράφονται μόνο στο ημερολόγιο, σε ένα "
+"περιβάλλον ανάπτυξης ή δοκιμών είναι πιθανόν χρήσιμη η καταγραφή των "
+"σφαλμάτων και στο ημερολόγιο και στην οθόνη."
+
+#: modules/system/system.admin.inc:1255
+msgid ""
+"The normal cache mode is suitable for most sites and does not cause any side "
+"effects. The aggressive cache mode causes Drupal to skip the loading (boot) "
+"and unloading (exit) of enabled modules when serving a cached page. This "
+"results in an additional performance boost but can cause unwanted side "
+"effects."
+msgstr ""
+"Η κατάσταση κανονικής λανθάνουσας μνήμης είναι κατάλληλη για τους "
+"περισσότερους ιστοτόπους και δεν προκαλεί παρενέργειες. Η κατάσταση "
+"επιθετικής λανθάνουσας μνήμης προκαλεί στο Drupal να παραλείψει τη φόρτωση "
+"(εκκίνηση) και απο-φόρτωση (έξοδος) των ενεργοποιημένων μονάδων κατά την "
+"παροχή μιας σελίδας από τη λανθάνουσα μνήμη. Αυτό έχει ως αποτέλεσμα μια "
+"πρόσθετη τόνωση στην απόδοση, αλλά μπορεί να προκαλέσει ανεπιθύμητες "
+"παρενέργειες."
+
+#: modules/system/system.admin.inc:1261
+msgid ""
+"<strong class=\"error\">The following enabled modules are incompatible with "
+"aggressive mode caching and will not function properly: %modules</strong>"
+msgstr ""
+"<strong class=\"error\">Οι παρακάτω ενεργοποιημένες μονάδες είναι ασύμβατες "
+"με την κατάσταση επιθετικής λανθάνουσας μνήμης και δε θα λειτουργούν σωστά: %"
+"modules</strong>"
+
+#: modules/system/system.admin.inc:1264
+msgid ""
+"<strong class=\"ok\">Currently, all enabled modules are compatible with the "
+"aggressive caching policy.</strong> Please note, if you use aggressive "
+"caching and enable new modules, you will need to check this page again to "
+"ensure compatibility."
+msgstr ""
+"<strong class=\"ok\">Αυτή τη στιγμή, όλες οι ενεργές μονάδες είναι συμβατές "
+"με την επιθετική πολιτική λανθάνουσας μνήμης.</strong> Πρέπει να σημειωθεί "
+"ότι αν χρησιμοποιείτε επιθετική πολιτική λανθάνουσας μνήμης και "
+"ενεργοποιήσετε νέες μονάδες πρέπει να ελέγξετε αυτή τη σελίδα ξανά για "
+"συμβατότητα."
+
+#: modules/system/system.admin.inc:1268
+msgid "Page cache"
+msgstr "Λανθάνουσα μνήμη σελίδων"
+
+#: modules/system/system.admin.inc:1269
+msgid ""
+"Enabling the page cache will offer a significant performance boost. Drupal "
+"can store and send compressed cached pages requested by <em>anonymous</em> "
+"users. By caching a web page, Drupal does not have to construct the page "
+"each time it is viewed."
+msgstr ""
+"Η ενεργοποίηση της λανθάνουσας μνήμης θα παρέχει μια σημαντική βελτίωση στην "
+"απόδοση. Το Drupal αποθηκεύει και στέλνει συμπιεσμένες σελίδες από τη "
+"λανθάνουσα μνήμη για τους <em>ανώνυμους</em> χρήστες. Με την αποθήκευση της "
+"σελίδας στη λανθάνουσα μνήμη, το Drupal δε χρειάζεται να δημιουργεί τη "
+"σελίδα κάθε φορά που καλείται."
+
+#: modules/system/system.admin.inc:1274
+msgid "Caching mode"
+msgstr "Πολιτική λανθάνουσας μνήμης"
+
+#: modules/system/system.admin.inc:1276
+msgid "Normal (recommended for production sites, no side effects)"
+msgstr "Κανονική (συνίσταται για παραγωγικούς ιστοτόπους, χωρίς παρενέργειες)"
+
+#: modules/system/system.admin.inc:1276
+msgid "Aggressive (experts only, possible side effects)"
+msgstr "Επιθετική (για προχωρημένους χρήστες μόνο, πιθανές παρενέργειες)"
+
+#: modules/system/system.admin.inc:1284
+msgid "Minimum cache lifetime"
+msgstr "Ελάχιστος χρόνος ζωής λανθάνουσας μνήμης"
+
+#: modules/system/system.admin.inc:1287
+msgid ""
+"On high-traffic sites, it may be necessary to enforce a minimum cache "
+"lifetime. The minimum cache lifetime is the minimum amount of time that will "
+"elapse before the cache is emptied and recreated, and is applied to both "
+"page and block caches. A larger minimum cache lifetime offers better "
+"performance, but users will not see new content for a longer period of time."
+msgstr ""
+"Σε ιστοτόπους με μεγάλη κίνηση, είναι πιθανόν να χρειάζεται ο ορισμός του "
+"ελάχιστου χρόνου ζωής της λανθάνουσας μνήμης. Ο ελάχιστος χρόνος ζωής "
+"λανθάνουσας μνήμης είναι ο ελάχιστος χρόνος που πρέπει να περάσει προτού η "
+"λανθάνουσα μνήμη αδειάσει και επαναδημιουργηθεί και εφαρμόζεται τόσο για τις "
+"σελίδες όσο και για τα μπλοκ. Μεγαλύτερη τιμή για τον ελάχιστο χρόνο "
+"λανθάνουσας μνήμης θα παρέχει καλύτερη απόδοση, αλλά οι χρήστες δε θα "
+"μπορούν να βλέπουν το νέο περιεχόμενο για μεγάλο χρονικό διάστημα."
+
+#: modules/system/system.admin.inc:1291
+msgid "Page compression"
+msgstr "Συμπίεση σελίδας"
+
+#: modules/system/system.admin.inc:1294
+msgid ""
+"By default, Drupal compresses the pages it caches in order to save bandwidth "
+"and improve download times. This option should be disabled when using a "
+"webserver that performs compression."
+msgstr ""
+"Το Drupal εξ' ορισμού συμπιέζει τις σελίδες που κρατάει στη λανθάνουσα μνήμη "
+"για να κερδίσει σε εύρος ζώνης και να βελτιώσεις τους χρόνους κατεβάσματος. "
+"Η επιλογή αυτή θα πρέπει να είναι απενεργοποιημένη όταν χρησιμοποιείται "
+"διακομιστής ιστοσελίδων που εφαρμόζει συμπίεση."
+
+#: modules/system/system.admin.inc:1299;1305
+msgid "Block cache"
+msgstr "Λανθάνουσα μνήμη μπλοκ"
+
+#: modules/system/system.admin.inc:1300
+msgid ""
+"Enabling the block cache can offer a performance increase for all users by "
+"preventing blocks from being reconstructed on each page load. If the page "
+"cache is also enabled, performance increases from enabling the block cache "
+"will mainly benefit authenticated users."
+msgstr ""
+"Η ενεργοποίηση της λανθάνουσας μνήμης μπλοκ μπορεί να παρέχει αύξηση "
+"απόδοσης για όλους τους χρήστες με την αποτροπή της επαναδημιουργίας των "
+"μπλοκ για κάθε φόρτωση της σελίδας. Αν η λανθάνουσα μνήμη σελίδας είναι "
+"επίσης ενεργοποιημένη, από την αύξηση της απόδοσης από την ενεργοποίηση της "
+"λανθάνουσας μνήμης μπλοκ θα κερδίσουν κυρίως οι πιστοποιημένοι χρήστες."
+
+#: modules/system/system.admin.inc:1307
+msgid "Enabled (recommended)"
+msgstr "Ενεργοποιημένο (προτείνεται)"
+
+#: modules/system/system.admin.inc:1309
+msgid ""
+"Note that block caching is inactive when modules defining content access "
+"restrictions are enabled."
+msgstr ""
+"Πρέπει να σημειωθεί ότι η λανθάνουσα μνήμη μπλοκ είναι απενεργοποιημένη όταν "
+"είναι ενεργοποιημένες μονάδες που ορίζουν περιορισμούς στην πρόσβαση του "
+"περιεχομένου."
+
+#: modules/system/system.admin.inc:1314
+msgid "Bandwidth optimizations"
+msgstr "Βελτιώσεις εύρους ζώνης του δικτύου"
+
+#: modules/system/system.admin.inc:1315
+msgid ""
+"<p>Drupal can automatically optimize external resources like CSS and "
+"JavaScript, which can reduce both the size and number of requests made to "
+"your website. CSS files can be aggregated and compressed into a single file, "
+"while JavaScript files are aggregated (but not compressed). These optional "
+"optimizations may reduce server load, bandwidth requirements, and page "
+"loading times.</p><p>These options are disabled if you have not set up your "
+"files directory, or if your download method is set to private.</p>"
+msgstr ""
+"<p>Το Drupal αυτόματα βελτιστοποιεί εξωτερικές πηγές όπως CSS και "
+"JavaScript, γεγονός που θα βελτιώσει τόσο το μέγεθος όσο και τον αριθμό των "
+"αιτήσεων προς τον ιστοτόπο σας. Τα αρχεία CSS συγκεντρώνονται και "
+"συμπιέζονται σε ένα αρχείο, ενώ τα αρχεία JavaScript συγκεντρώνονται (αλλά "
+"δε συμπιέζονται). Αυτές οι προαιρετικές βελτιστοποιήσεις μπορεί να "
+"ελαττώσουν το φόρτο του διακομιστή, τις απαιτήσεις σε εύρος ζώνης δικτύου "
+"και το χρόνο φόρτωσης της σελίδας.<p></p>Οι επιλογές αυτές είναι "
+"απενεργοποιημένες αν δεν έχετε ορίσει τον κατάλογο files, ή αν η μέθοδος "
+"λήψης έχει οριστεί στο ιδιωτικό.</p>"
+
+#: modules/system/system.admin.inc:1322
+msgid "Optimize CSS files"
+msgstr "Βελτιστοποίηση των αρχείων CSS"
+
+#: modules/system/system.admin.inc:1326
+msgid ""
+"This option can interfere with theme development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Η επιλογή αυτή μπορεί να παρεμποδίσει την ανάπτυξη των θεματικών παραλλαγών "
+"και θα πρέπει να ενεργοποιηθεί μόνο σε παραγωγικά περιβάλλοντα."
+
+#: modules/system/system.admin.inc:1330
+msgid "Optimize JavaScript files"
+msgstr "Βελτιστοποίηση των αρχείων JavaScript"
+
+#: modules/system/system.admin.inc:1334
+msgid ""
+"This option can interfere with module development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Η επιλογή αυτή μπορεί να παρεμποδίσει την ανάπτυξη των μονάδων και θα πρέπει "
+"να ενεργοποιηθεί μόνο σε παραγωγικά περιβάλλοντα."
+
+#: modules/system/system.admin.inc:1339;1345
+msgid "Clear cached data"
+msgstr "Διαγραφή των δεδομένων λανθάνουσας μνήμης"
+
+#: modules/system/system.admin.inc:1340
+msgid ""
+"Caching data improves performance, but may cause problems while "
+"troubleshooting new modules, themes, or translations, if outdated "
+"information has been cached. To refresh all cached data on your site, click "
+"the button below. <em>Warning: high-traffic sites will experience "
+"performance slowdowns while cached data is rebuilt.</em>"
+msgstr ""
+"Η αποθήκευση των δεδομένων στη λανθάνουσα μνήμη βελτιώνει την απόδοση, αλλά "
+"μπορεί να προκαλέσει προβλήματα κατά την εύρεση προβλημάτων σε νέες μονάδες, "
+"θεματικές παραλλαγές ή μεταφράσεις, αν αποθηκεύεται παρωχημένη πληροφορία "
+"στην λανθάνουσα μνήμη. Για να ανανεώσετε τα δεδομένα της λανθάνουσας μνήμης "
+"του ιστοτόπου σας, πατήστε στο κουμπί παρακάτω. <em>Προειδοποίηση: σε "
+"ιστοτόπους με μεγάλη κίνηση θα υπάρξει μείωση απόδοσης κατά την "
+"επαναδημιουργία των δεδομένων της λανθάνουσας μνήμης.</em>"
+
+#: modules/system/system.admin.inc:1362
+msgid "Caches cleared."
+msgstr "Τα περιεχόμενα των λανθάνουσων μνημών διαγράφηκαν."
+
+#: modules/system/system.admin.inc:1375
+msgid "File system path"
+msgstr "Διαδρομή συστήματος αρχείων"
+
+#: modules/system/system.admin.inc:1378
+msgid ""
+"A file system path where the files will be stored. This directory must exist "
+"and be writable by Drupal. If the download method is set to public, this "
+"directory must be relative to the Drupal installation directory and be "
+"accessible over the web. If the download method is set to private, this "
+"directory should not be accessible over the web. Changing this location will "
+"modify all download paths and may cause unexpected problems on an existing "
+"site."
+msgstr ""
+"Μια διαδρομή στα αρχεία συστήματος όπου θα αποθηκεύονται τα αρχεία. Ο "
+"κατάλογος αυτός πρέπει να υπάρχει και να είναι εγγράψιμος από το Drupal. Αν "
+"η μέθοδος λήψης έχει οριστεί σε δημόσια, ο κατάλογος θα πρέπει να είναι "
+"σχετικός με τον κατάλογο εγκατάστασης του Drupal και προσβάσιμος από τον "
+"παγκόσμιο ιστό. Αν η μέθοδος λήψης έχει οριστεί σε ιδιωτική, ο κατάλογος δεν "
+"πρέπει να είναι προσβάσιμος από τον παγκόσμιο ιστό. Η αλλαγή της διαδρομής "
+"θα αλλάξει όλες τις διαδρομές λήψης των αρχείων και μπορεί να προκαλέσει "
+"απροσδόκητα προβλήματα σε υπάρχοντες ιστοτόπους."
+
+#: modules/system/system.admin.inc:1384
+msgid "Temporary directory"
+msgstr "Προσωρινός κατάλογος αρχείων"
+
+#: modules/system/system.admin.inc:1387
+msgid "A file system path where uploaded files will be stored during previews."
+msgstr ""
+"Μια διαδρομή στο σύστημα αρχείων όπου θα αποθηκεύονται τα αρχεία κατά την "
+"προεπισκόπηση."
+
+#: modules/system/system.admin.inc:1393
+msgid "Download method"
+msgstr "Μέθοδος λήψης αρχείων"
+
+#: modules/system/system.admin.inc:1395
+msgid "Public - files are available using HTTP directly."
+msgstr "Δημόσια - τα αρχεία είναι διαθέσιμα με απευθείας χρήση http."
+
+#: modules/system/system.admin.inc:1395
+msgid "Private - files are transferred by Drupal."
+msgstr "Ιδιωτική - τα αρχεία μεταφέρονται από το Drupal."
+
+#: modules/system/system.admin.inc:1396
+msgid ""
+"Choose the <em>Public download</em> method unless you wish to enforce fine-"
+"grained access controls over file downloads. Changing the download method "
+"will modify all download paths and may cause unexpected problems on an "
+"existing site."
+msgstr ""
+"Επιλέξτε τη <em>Δημόσια μέθοδο λήψης</em> εκτός αν θέλετε να εφαρμόσετε "
+"λεπτομερή έλεγχο πρόσβασης για τις λήψεις των αρχείων. Η αλλαγή της "
+"διαδρομής θα αλλάξει όλες τις διαδρομές λήψης των αρχείων και μπορεί να "
+"προκαλέσει απροσδόκητα προβλήματα σε ένα υπάρχων ιστοτόπο."
+
+#: modules/system/system.admin.inc:1413
+msgid "Select an image processing toolkit"
+msgstr "Επιλέξτε εργαλειοθήκη επεξεργασίας εικόνων"
+
+#: modules/system/system.admin.inc:1437
+msgid "Number of items in each feed"
+msgstr "Αριθμός αντικειμένων σε κάθε ροή"
+
+#: modules/system/system.admin.inc:1440
+msgid "Default number of items to include in each feed."
+msgstr ""
+"Εξ' ορισμού αριθμός των αντικειμένων που θα περιλαμβάνονται σε κάθε ροή."
+
+#: modules/system/system.admin.inc:1444
+msgid "Feed content"
+msgstr "Περιεχόμενο ροής"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles only"
+msgstr "Μόνο τίτλοι"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles plus teaser"
+msgstr "Τίτλοι και περίληψη"
+
+#: modules/system/system.admin.inc:1446
+msgid "Full text"
+msgstr "Πλήρες κείμενο"
+
+#: modules/system/system.admin.inc:1447
+msgid "Global setting for the default display of content items in each feed."
+msgstr ""
+"Καθολική ρύθμιση για την εξ' ορισμού εμφάνιση των αντικειμένων περιεχομένου "
+"σε κάθε ροή."
+
+#: modules/system/system.admin.inc:1490
+msgid "Custom format"
+msgstr "Προσαρμοσμένη μορφή"
+
+#: modules/system/system.admin.inc:1494 modules/system/system.module:558
+msgid "Locale settings"
+msgstr "Τοπικές ρυθμίσεις"
+
+#: modules/system/system.admin.inc:1499
+msgid "Default time zone"
+msgstr "Προεπιλεγμένη ζώνη ώρας"
+
+#: modules/system/system.admin.inc:1502
+msgid "Select the default site time zone."
+msgstr "Ορίστε την προεπιλεγμένη ζώνη ώρας."
+
+#: modules/system/system.admin.inc:1507
+msgid "User-configurable time zones"
+msgstr "Οριζόμενες από το χρήστη ζώνες ώρας"
+
+#: modules/system/system.admin.inc:1510
+msgid ""
+"When enabled, users can set their own time zone and dates will be displayed "
+"accordingly."
+msgstr ""
+"Όταν είναι ενεργοποιημένο, οι χρήστες μπορούν να ορίζουν τη δική τους ώρα "
+"ζώνης και οι ημερομηνίες θα εμφανίζονται ανάλογα."
+
+#: modules/system/system.admin.inc:1515
+msgid "First day of week"
+msgstr "Πρώτη ημέρα της εβδομάδας"
+
+#: modules/system/system.admin.inc:1518
+msgid "The first day of the week for calendar views."
+msgstr "Η πρώτη ημέρα της εβδομάδας για τις όψεις του ημερολογίου."
+
+#: modules/system/system.admin.inc:1523
+msgid "Formatting"
+msgstr "Μορφοποίηση"
+
+#: modules/system/system.admin.inc:1531
+msgid "Short date format"
+msgstr "Σύντομη μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1535
+msgid "The short format of date display."
+msgstr "Η σύντομη μορφή εμφάνισης της ημερομηνίας."
+
+#: modules/system/system.admin.inc:1543
+msgid "Custom short date format"
+msgstr "Προσαρμοσμένη σύντομη μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1546
+msgid ""
+"A user-defined short date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Μια καθορισμένη από το χρήση σύντομη μορφή ημερομηνίας. Δείτε το <a href="
+"\"@url\">εγχειρίδιο της PHP</a> για τις διαθέσιμες επιλογές. Η μορφοποίηση "
+"εμφανίζεται αυτή τη στιγμή ως <span>%date</span>."
+
+#: modules/system/system.admin.inc:1554
+msgid "Medium date format"
+msgstr "Μεσαία μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1558
+msgid "The medium sized date display."
+msgstr "Η μεσαίου μεγέθους εμφάνιση της ημερομηνίας."
+
+#: modules/system/system.admin.inc:1566
+msgid "Custom medium date format"
+msgstr "Προσαρμοσμένη μεσαία μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1569
+msgid ""
+"A user-defined medium date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Μια καθορισμένη από το χρήση μεσαία μορφή ημερομηνίας. Δείτε το <a href="
+"\"@url\">εγχειρίδιο της PHP</a> για τις διαθέσιμες επιλογές. Η μορφοποίηση "
+"εμφανίζεται αυτή τη στιγμή ως <span>%date</span>."
+
+#: modules/system/system.admin.inc:1577
+msgid "Long date format"
+msgstr "Αναλυτική μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1581
+msgid "Longer date format used for detailed display."
+msgstr ""
+"Πιο εκτεταμένη μορφή ημερομηνίας που χρησιμοποιείται για τη λεπτομερή "
+"εμφάνισή της."
+
+#: modules/system/system.admin.inc:1589
+msgid "Custom long date format"
+msgstr "Προσαρμοσμένη αναλυτική μορφή ημερομηνίας"
+
+#: modules/system/system.admin.inc:1592
+msgid ""
+"A user-defined long date format. See the <a href=\"@url\">PHP manual</a> for "
+"available options. This format is currently set to display as <span>%date</"
+"span>."
+msgstr ""
+"Μια καθορισμένη από το χρήση αναλυτικής μορφής ημερομηνίας. Δείτε το <a href="
+"\"@url\">εγχειρίδιο της PHP</a> για τις διαθέσιμες επιλογές. Η μορφοποίηση "
+"εμφανίζεται αυτή τη στιγμή ως <span>%date</span>."
+
+#: modules/system/system.admin.inc:1636
+msgid "Site status"
+msgstr "Κατάσταση λειτουργίας ιστοτόπου"
+
+#: modules/system/system.admin.inc:1638
+msgid "Online"
+msgstr "Σε λειτουργία"
+
+#: modules/system/system.admin.inc:1638
+msgid "Off-line"
+msgstr "Εκτός λειτουργίας"
+
+#: modules/system/system.admin.inc:1639
+msgid ""
+"When set to \"Online\", all visitors will be able to browse your site "
+"normally. When set to \"Off-line\", only users with the \"administer site "
+"configuration\" permission will be able to access your site to perform "
+"maintenance; all other visitors will see the site off-line message "
+"configured below. Authorized users can log in during \"Off-line\" mode "
+"directly via the <a href=\"@user-login\">user login</a> page."
+msgstr ""
+"Όταν έχει επιλεχθεί το \"Σε λειτουργία\", όλοι οι επισκέπτες θα μπορούν να "
+"περιηγούνται στον ιστοτόπο σας κανονικά. Όταν έχει επιλεχθεί το \"Εκτός "
+"λειτουργίας\", μόνο οι χρήστες που έχουν την άδεια \"διαχείριση διευθέτησης "
+"ιστοτόπου\" θα έχουν πρόσβαση για να πραγματοποιούν εργασίες συντήρησης· "
+"όλοι οι άλλοι επισκέπτες θα βλέπουν το παρακάτω μήνυμα \"εκτός λειτουργίας"
+"\". Οι χρήστες που έχουν το δικαίωμα μπορούν να εισέρχονται  στον \"Εκτός "
+"λειτουργίας\" ιστοτόπο απευθείας από τη σελίδα <a href=\"@user-login"
+"\">εισόδου χρήστη</a>."
+
+#: modules/system/system.admin.inc:1644
+msgid "Site off-line message"
+msgstr "Μήνυμα όταν ο ιστοτόπος είναι εκτός λειτουργίας"
+
+#: modules/system/system.admin.inc:1646
+msgid "Message to show visitors when the site is in off-line mode."
+msgstr ""
+"Μήνυμα που θα εμφανίζεται στους επισκέπτες όταν ο ιστοτόπος είναι εκτός "
+"λειτουργίας."
+
+#: modules/system/system.admin.inc:1661 modules/system/system.module:457
+msgid "Clean URLs"
+msgstr "Καθαρές διευθύνσεις URLs"
+
+#: modules/system/system.admin.inc:1664
+msgid ""
+"This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> "
+"in the URL)."
+msgstr ""
+"Η επιλογή αυτή κάνει το Drupal να παράγει \"καθαρές\" διευθύνσεις URL (δηλ. "
+"χωρίς το <code>?q=</code> στη διεύθυνση URL.)"
+
+#: modules/system/system.admin.inc:1671
+msgid ""
+"Before enabling clean URLs, you must perform a test to determine if your "
+"server is properly configured. If you are able to see this page again after "
+"clicking the \"Run the clean URL test\" link, the test has succeeded and the "
+"radio buttons above will be available. If instead you are directed to a "
+"\"Page not found\" error, you will need to change the configuration of your "
+"server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"Προτού ενεργοποιήσετε τις καθαρές διευθύνσεις URL, πρέπει να εκτελέσετε ένα "
+"έλεγχο για να διαπιστωθεί αν ο διακομιστής σας έχει παραμετροποιηθεί σωστά. "
+"Αν μπορείτε να δείτε αυτή τη σελίδα κάνοντας κλικ στο \"Εκτέλεση του ελέγχου "
+"για τις καθαρές διευθύνσεις URL\" , ο έλεγχος έχει πετύχει και τα παραπάνω "
+"κουμπιά αλληλοαποκλειώμενων αλλαγών θα γίνουν διαθέσιμα. Αν αντίθετα σας "
+"εμφανιστεί ένα σφάλμα τύπου \"Δε βρέθηκε η σελίδα\", θα πρέπει να αλλάξετε "
+"τη ρύθμιση του διακομιστή σας. Η <a href=\"@handbook\">σελίδα του "
+"εγχειριδίου για τις καθαρές διευθύνσεις URL</a> περιέχει περισσότερες "
+"πληροφορίες για την εύρεση λαθών."
+
+#: modules/system/system.admin.inc:1675
+msgid "<a href=\"@clean_url\">Run the clean url test</a>."
+msgstr ""
+"<a href=\"@clean_url\">Εκτέλεση του ελέγχου για τις καθαρές διευθύνσεις url</"
+"a>."
+
+#: modules/system/system.admin.inc:1678 modules/system/system.js:0
+msgid "Your server has been successfully tested to support this feature."
+msgstr ""
+"Ο διακομιστής σας δοκιμάστηκε επιτυχώς για υποστήριξη αυτού του "
+"χαρακτηριστικού."
+
+#: modules/system/system.admin.inc:1716
+msgid "Cron ran successfully."
+msgstr "Η εκτέλεση του cron έγινε με επιτυχία."
+
+#: modules/system/system.admin.inc:1719
+msgid "Cron run failed."
+msgstr "Η εκτέλεση του cron απέτυχε."
+
+#: modules/system/system.admin.inc:1751
+msgid "Variable"
+msgstr "Μεταβλητή"
+
+#: modules/system/system.admin.inc:1751
+msgid "Value"
+msgstr "Αξία"
+
+#: modules/system/system.admin.inc:1766
+msgid "Command counters"
+msgstr "Μετρητές εντολών"
+
+#: modules/system/system.admin.inc:1768
+msgid "The number of <code>SELECT</code>-statements."
+msgstr "Το νούμερο των δηλώσεων <code>SELECT</code>."
+
+#: modules/system/system.admin.inc:1769
+msgid "The number of <code>INSERT</code>-statements."
+msgstr "Το νούμερο των δηλώσεων <code>INSERT</code>."
+
+#: modules/system/system.admin.inc:1770
+msgid "The number of <code>UPDATE</code>-statements."
+msgstr "Το νούμερο των δηλώσεων <code>UPDATE</code>."
+
+#: modules/system/system.admin.inc:1771
+msgid "The number of <code>DELETE</code>-statements."
+msgstr "Το νούμερο των δηλώσεων <code>DELETE</code>."
+
+#: modules/system/system.admin.inc:1772
+msgid "The number of table locks."
+msgstr "Ο αριθμός των κλειδωμάτων πίνακα."
+
+#: modules/system/system.admin.inc:1773
+msgid "The number of table unlocks."
+msgstr "Ο αριθμός των ξεκλειδωμάτων πίνακα."
+
+#: modules/system/system.admin.inc:1776
+msgid "Query performance"
+msgstr "Απόδοση ερωτημάτων"
+
+#: modules/system/system.admin.inc:1778
+msgid "The number of joins without an index; should be zero."
+msgstr ""
+"Ο αριθμός συξεύξεων που έγινε χωρίς να χρησιμοποιηθεί ένα ευρετήριο· πρέπει "
+"να είναι μηδέν."
+
+#: modules/system/system.admin.inc:1779
+msgid ""
+"The number of joins without keys that check for key usage after each row; "
+"should be zero."
+msgstr ""
+"Ο αριθμός συξεύξεων που έγιναν χωρίς τη χρήση κλειδιών που ελέγχουν για τη "
+"χρήση κλειδιού μετά από κάθε εγγραφή· πρέπει να είναι μηδέν."
+
+#: modules/system/system.admin.inc:1780
+msgid "The number of sorts done without using an index; should be zero."
+msgstr ""
+"Ο αριθμός ταξινομήσεων που έγινε χωρίς να χρησιμοποιηθεί ένα ευρετήριο· "
+"πρέπει να είναι μηδέν."
+
+#: modules/system/system.admin.inc:1781
+msgid "The number of times a lock could be acquired immediately."
+msgstr "Ο αριθμός των περιπτώσεων που το κλείδωμα λήφθηκε αμέσως."
+
+#: modules/system/system.admin.inc:1782
+msgid "The number of times the server had to wait for a lock."
+msgstr ""
+"Ο αριθμός των περιπτώσεων που ο διακομιστής έπρεπε να περιμένει για ένα "
+"κλείδωμα."
+
+#: modules/system/system.admin.inc:1785
+msgid "Query cache information"
+msgstr "Πληροφορίες λανθάνουσας μνήμης ερωτημάτων"
+
+#: modules/system/system.admin.inc:1786
+msgid ""
+"The MySQL query cache can improve performance of your site by storing the "
+"result of queries. Then, if an identical query is received later, the MySQL "
+"server retrieves the result from the query cache rather than parsing and "
+"executing the statement again."
+msgstr ""
+"Η λανθάνουσα μνήμη ερωτημάτων της MySQL βελτιώνει την απόδοση του ιστοτόπου "
+"σας αποθηκεύοντας τα αποτελέσματα των ερωτημάτων. Μετά, αν ένα ίδιο ερώτημα "
+"εκτελεστεί, ο διακομιστής της MySQL θα ανακτήσει τα δεδομένα από τη "
+"λανθάνουσα μνήμη ερωτημάτων παρά να αναλύσει συντακτικά και να εκτελέσει "
+"πάλι τη δήλωση."
+
+#: modules/system/system.admin.inc:1788
+msgid "The number of queries in the query cache."
+msgstr "Ο αριθμός των ερωτημάτων στη λανθάνουσα μνήμη ερωτημάτων."
+
+#: modules/system/system.admin.inc:1789
+msgid "The number of times MySQL found previous results in the cache."
+msgstr ""
+"Οι φορές που η MySQL βρήκε προηγούμενα αποτελέσματα στη λανθάνουσα μνήμη "
+"ερωτημάτων."
+
+#: modules/system/system.admin.inc:1790
+msgid "The number of times MySQL added a query to the cache (misses)."
+msgstr ""
+"Οι φορές που η MySQL πρόσθεσε ένα ερώτημα στη λανθάνουσα μνήμη ερωτημάτων "
+"(αποτυχίες)."
+
+#: modules/system/system.admin.inc:1791
+msgid ""
+"The number of times MySQL had to remove queries from the cache because it "
+"ran out of memory. Ideally should be zero."
+msgstr ""
+"Οι φορές που η MySQL έπρεπε να διαγράψει ερωτήματα από τη λανθάνουσα μνήμη "
+"γιατί δεν υπήρξε διαθέσιμη μνήμη. Ιδανικά, θα πρέπει να είναι 0."
+
+#: modules/system/system.admin.inc:1904
+msgid "Show descriptions"
+msgstr "Εμφάνιση περιγραφών"
+
+#: modules/system/system.admin.inc:1904
+msgid "Expand layout to include descriptions."
+msgstr "Επέκταση της διάταξης για τη συμπερίληψη των περιγραφών."
+
+#: modules/system/system.admin.inc:1907
+msgid "Hide descriptions"
+msgstr "Απόκρυψη περιγραφών"
+
+#: modules/system/system.admin.inc:1907
+msgid "Compress layout by hiding descriptions."
+msgstr "Συμπύκνωση της διάταξης με την απόκρυψη των περιγραφών."
+
+#: modules/system/system.admin.inc:2023;2207
+msgid "Version"
+msgstr "Έκδοση"
+
+#: modules/system/system.admin.inc:2030
+msgid "Other"
+msgstr "Άλλο"
+
+#: modules/system/system.admin.inc:2045;2050;2175;2180
+msgid "incompatible"
+msgstr "μη συμβατό"
+
+#: modules/system/system.admin.inc:2045;2175
+msgid "Incompatible with this version of Drupal core"
+msgstr "Μη συμβατό με αυτή την έκδοση πυρήνα του Drupal"
+
+#: modules/system/system.admin.inc:2046;2176
+msgid ""
+"This version is incompatible with the !core_version version of Drupal core."
+msgstr ""
+"Η έκδοση αυτή είναι ασύμβατη με την έκδοση !core_version του πυρήνα του "
+"Drupal."
+
+#: modules/system/system.admin.inc:2050;2180
+msgid "Incompatible with this version of PHP"
+msgstr "Μη συμβατό με αυτή την έκδοση της PHP"
+
+#: modules/system/system.admin.inc:2055
+msgid ""
+"This module requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Η μονάδα αυτή απαιτεί έκδοση PHP @php_required και είναι ασύμβατη με την "
+"έκδοση PHP !php_version."
+
+#: modules/system/system.admin.inc:2123
+msgid "No modules are available to uninstall."
+msgstr "Καμία μονάδα δεν μπορεί να απεγκατασταθεί."
+
+#: modules/system/system.admin.inc:2149;2207
+msgid "Screenshot"
+msgstr "Δείγμα εικόνας"
+
+#: modules/system/system.admin.inc:2185
+msgid ""
+"This theme requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Αυτή η θεματική παραλλαγή απαιτεί έκδοση PHP @php_required και είναι "
+"ασύμβατη με την έκδοση PHP !php_version."
+
+#: modules/system/system.admin.inc:833
+msgid "You must enable the @dependencies module to install @module."
+msgid_plural "You must enable the @dependencies modules to install @module."
+msgstr[0] ""
+"Πρέπει να ενεργοποιήσετε τη μονάδα @dependencies προτού εγκαταστήσετε τη "
+"μονάδα @module."
+msgstr[1] ""
+"Πρέπει να ενεργοποιήσετε τις μονάδες @dependencies προτού εγκαταστήσετε τη "
+"μονάδα @module."
+
+#: modules/system/system.module:52
+msgid ""
+"The system module is at the foundation of your Drupal website, and provides "
+"basic but extensible functionality for use by other modules and themes. Some "
+"integral elements of Drupal are contained in and managed by the system "
+"module, including caching, enabling or disabling of modules and themes, "
+"preparing and displaying the administrative page, and configuring "
+"fundamental site settings. A number of key system maintenance operations are "
+"also part of the system module."
+msgstr ""
+"Η μονάδα system υπάρχει στη βάση ενός ιστοτόπου Drupal και παρέχει τη βασική "
+"αλλά επεκτάσιμη λειτουργικότητα για τη χρήση από άλλες μονάδες και θεματικές "
+"παραλλαγές. Μερικά ζωτικά στοιχεία του Drupal περιέχονται και διαχειρίζονται "
+"από τη μονάδα system, συμπεριλαμβανομένου της λανθάνουσας μνήμης, της "
+"ενεργοποίησης ή απενεργοποίησης μονάδων και θεματικών παραλλαγών, της "
+"προετοιμασίας και της εμφάνισης της διαχειριστικής σελίδας και της "
+"παραμετροποίησης βασικών ρυθμίσεων του ιστοτόπου. Ένας αριθμός από βασικές "
+"λειτουργίες συστήματος είναι επίσης μέρος της μονάδας system."
+
+#: modules/system/system.module:53
+msgid "The system module provides:"
+msgstr "Η μονάδα system περιλαμβάνει:"
+
+#: modules/system/system.module:54
+msgid ""
+"support for enabling and disabling <a href=\"@modules\">modules</a>. Drupal "
+"comes packaged with a number of core modules; each module provides a "
+"discrete set of features and may be enabled depending on the needs of your "
+"site. A wide array of additional modules contributed by members of the "
+"Drupal community are available for download at the <a href=\"@drupal-modules"
+"\">Drupal.org module page</a>."
+msgstr ""
+"υποστήριξη για την ενεργοποίηση και απενεργοποίηση των <a href=\"@modules"
+"\">μονάδων</a>. Το Drupal έρχεται πακέτο με ένα αριθμό από μονάδες πυρήνα· "
+"κάθε μονάδα παρέχει ένα διακεκριμένο σύνολο χαρακτηριστικών και μπορεί να "
+"ενεργοποιηθεί ανάλογα με τις απαιτήσεις του ιστοτόπου σας. Ένα ευρύ σύνολο "
+"από πρόσθετες μονάδες που συνεισφέρουν τα μέλη της κοινότητας του Drupal "
+"είναι διαθέσιμα για λήψη στη <a href=\"@drupal-modules\">σελίδα των μονάδων "
+"του Drupal.org</a>."
+
+#: modules/system/system.module:55
+msgid ""
+"support for enabling and disabling <a href=\"@themes\">themes</a>, which "
+"determine the design and presentation of your site. Drupal comes packaged "
+"with several core themes and additional contributed themes are available at "
+"the <a href=\"@drupal-themes\">Drupal.org theme page</a>."
+msgstr ""
+"υποστήριξη για ενεργοποίηση και απενεργοποίηση των <a href=\"@themes"
+"\">θεματικών παραλλαγών</a>, που καθορίζουν το σχεδιασμό και παρουσίαση του "
+"ιστοτόπου σας. Το Drupal έρχεται πακέτο με διάφορες θεματικές παραλλαγές και "
+"πρόσθετες θεματικές παραλλαγές που συνεισφέρει η κοινότητα είναι διαθέσιμες "
+"στη <a href=\"@drupal-themes\">σελίδα θεματικών παραλλαγών του Drupal.org</"
+"a>."
+
+#: modules/system/system.module:56
+msgid ""
+"a robust <a href=\"@cache-settings\">caching system</a> that allows the "
+"efficient re-use of previously-constructed web pages and web page "
+"components. Drupal stores the pages requested by anonymous users in a "
+"compressed format; depending on your site configuration and the amount of "
+"your web traffic tied to anonymous visitors, Drupal's caching system may "
+"significantly increase the speed of your site."
+msgstr ""
+"ένα εύρωστο <a href=\"@cache-settings\">σύστημα λανθάνουσας μνήμης</a> που "
+"παρέχει την αποτελεσματική επανα-χρησιμοποίηση προηγούμενα δημιουργηθέντων "
+"ιστοσελίδων και συστατικών ιστοσελίδας. Το Drupal αποθηκεύει τις σελίδες που "
+"αιτούνται οι ανώνυμοι χρήστες σε μια συμπιεσμένη μορφή· ανάλογα με τις "
+"ρυθμίσεις του ιστοτόπου σας και το μέγεθος της κίνησής του, το σύστημα "
+"λανθάνουσας μνήμης του Drupal μπορεί να βελτιώσει δραματικά την ταχύτητα του "
+"ιστοτόπου σας."
+
+#: modules/system/system.module:57
+msgid ""
+"a set of routine administrative operations that rely on a correctly-"
+"configured <a href=\"@cron\">cron maintenance task</a> to run automatically. "
+"A number of other modules, including the feed aggregator, ping module and "
+"search also rely on <a href=\"@cron\">cron maintenance tasks</a>. For more "
+"information, see the online handbook entry for <a href=\"@handbook"
+"\">configuring cron jobs</a>."
+msgstr ""
+"ένα σύνολο από διαχειριστικές λειτουργίες ρουτίνας που εξαρτώνται από μια "
+"σωστά ρυθμισμένη <a href=\"@cron\">λειτουργία συντήρησης cron</a> να "
+"εκτελείται αυτόματα. Ένας αριθμός από άλλες μονάδες, συμπεριλαμβανομένων του "
+"συναθροιστή ροών, της μονάδας ping και της αναζήτησης επίσης εξαρτώνται από "
+"τις <a href=\"@cron\">λειτουργίες συντήρησης του cron</a>. Για περισσότερες "
+"πληροφορίες, δείτε τη σελίδα στο εγχειρίδιο σχετικά με την <a href="
+"\"@handbook\">ρύθμιση των εργασιών του cron</a>."
+
+#: modules/system/system.module:58
+msgid ""
+"basic configuration options for your site, including <a href=\"@date-settings"
+"\">date and time settings</a>, <a href=\"@file-system\">file system "
+"settings</a>, <a href=\"@clean-url\">clean URL support</a>, <a href=\"@site-"
+"info\">site name and other information</a>, and a <a href=\"@site-maintenance"
+"\">site maintenance</a> function for taking your site temporarily off-line."
+msgstr ""
+"βασικές επιλογές ρύθμισης του ιστοτόπου σας, συμπεριλαμβανομένου των <a href="
+"\"@date-settings\">ρυθμίσεων ημερομηνίας και ώρας</a>, <a href=\"@file-system"
+"\">ρυθμίσεων αρχείου συστήματος</a>, <a href=\"@clean-url\">υποστήριξη "
+"καθαρών διευθύνσεων URL</a>, <a href=\"@site-info\">όνομα ιστοτόπου και "
+"άλλες πληροφορίες</a> και μια λειτουργία <a href=\"@site-maintenance"
+"\">συντήρησης ιστοτόπου</a> για να θέτετε τον ιστοτόπο σας εκτός λειτουργίας."
+
+#: modules/system/system.module:59
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@system"
+"\">System module</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο στη σελίδα για τη <a "
+"href=\"@system\">μονάδα System</a>."
+
+#: modules/system/system.module:62
+msgid ""
+"Welcome to the administration section. Here you may control how your site "
+"functions."
+msgstr ""
+"Καλωσήρθατε στο τμήμα διαχείρισης. Εδώ μπορείτε να ελέγξετε τον τρόπο "
+"λειτουργίας του ιστοτόπου σας."
+
+#: modules/system/system.module:64
+msgid "This page shows you all available administration tasks for each module."
+msgstr ""
+"Αυτή η σελίδα σάς δείχνει τις πιθανές ρυθμίσεις του συστήματος ανά μονάδα."
+
+#: modules/system/system.module:66
+msgid ""
+"Select which themes are available to your users and specify the default "
+"theme. To configure site-wide display settings, click the \"configure\" task "
+"above. Alternatively, to override these settings in a specific theme, click "
+"the \"configure\" link for that theme. Note that different themes may have "
+"different regions available for displaying content; for consistency in "
+"presentation, you may wish to enable only one theme."
+msgstr ""
+"Επιλέξτε ποιες θεματικές παραλλαγές θα είναι διαθέσιμες στους χρήστες σας "
+"και ορίστε την προεπιλεγμένη. Για να παραμετροποιήσετε τις καθολικές για τον "
+"ιστοτόπο ρυθμίσεις εμφάνισης , πατήστε παραπάνω στην εργασία \"ρύθμιση\". "
+"Εναλλακτικά, για να υπερισχύσουν οι ρυθμίσεις σε μια συγκεκριμένη θεματική "
+"παραλλαγή, πατήστε στο σύνδεσμο \"ρύθμιση\" για αυτή την παραλλαγή. Πρέπει "
+"να σημειωθεί ότι διαφορετικές θεματικές παραλλαγές έχουν διαθέσιμες "
+"διαφορετικές περιοχές για την εμφάνιση περιεχομένου· για συνέπεια στην "
+"παρουσίαση, μπορείτε να ενεργοποιήσετε μία μόνο θεματική παραλλαγή."
+
+#: modules/system/system.module:67
+msgid ""
+"To change the appearance of your site, a number of <a href=\"@themes"
+"\">contributed themes</a> are available."
+msgstr ""
+"Για την αλλαγή της εμφάνισης του ιστοτόπου σας, ένας αριθμός από <a href="
+"\"@themes\">θεματικές παραλλαγές που συνεισφέρουν τρίτοι</a> είναι "
+"διαθέσιμος."
+
+#: modules/system/system.module:72
+msgid ""
+"These options control the display settings for the <code>%template</code> "
+"theme. When your site is displayed using this theme, these settings will be "
+"used. By clicking \"Reset to defaults,\" you can choose to use the <a href="
+"\"@global\">global settings</a> for this theme."
+msgstr ""
+"Οι επιλογές αυτές ελέγχουν τις ρυθμίσεις παρουσίασης για τη θεματική "
+"παραλλαγή <code>%template</code>. Όταν ο ιστοτόπος σας χρησιμοποιεί αυτή την "
+"παραλλαγή, θα χρησιμοποιούνται αυτές οι ρυθμίσεις. Πατώντας το κουμπί "
+"\"Επαναφορά αρχικών ρυθμίσεων\", μπορείτε να επιλέξετε να χρησιμοποιούνται "
+"για τη συγκεκριμένη παραλλαγή οι <a href=\"@global\">γενικές ρυθμίσεις</a>."
+
+#: modules/system/system.module:74
+msgid ""
+"These options control the default display settings for your entire site, "
+"across all themes. Unless they have been overridden by a specific theme, "
+"these settings will be used."
+msgstr ""
+"Οι επιλογές αυτές ελέγχουν τις προεπιλεγμένες ρυθμίσεις παρουσίασης για "
+"ολόκληρο τον ιστοτόπο σας, για όλες τις θεματικές παραλλαγές. Αυτές οι "
+"ρυθμίσεις θα χρησιμοποιούνται εφόσον δεν παραμερίζονται από κάποια "
+"συγκεκριμένη παραλλαγή."
+
+#: modules/system/system.module:76
+msgid ""
+"Modules are plugins that extend Drupal's core functionality. Enable modules "
+"by selecting the <em>Enabled</em> checkboxes below and clicking the <em>Save "
+"configuration</em> button. Once a module is enabled, new <a href="
+"\"@permissions\">permissions</a> may be available. To reduce server load, "
+"modules with their <em>Throttle</em> checkbox selected are temporarily "
+"disabled when your site becomes extremely busy. (Note that the <em>Throttle</"
+"em> checkbox is only available if the Throttle module is enabled.)"
+msgstr ""
+"Οι μονάδες είναι πρόσθετα που επεκτείνουν την βασική λειτουργικότητα του "
+"Drupal. Ενεργοποιήστε τις μονάδες επιλέγοντας παρακάτω τα πλαίσια επιλογών "
+"<em>Ενεργοποιημένη</em> και πατήστε στο κουμπί <em>Αποθήκευση ρυθμίσεων</"
+"em>. Αφού ενεργοποιηθεί μια μονάδα, νέες <a href=\"@permissions\">άδειες</a> "
+"μπορεί να γίνουν διαθέσιμες. Για τη μείωση του φόρτου του διακομιστή, "
+"μονάδες με το πλαίσιο επιλογής <em>Απόπνιξη</em> επιλεγμένο "
+"απενεργοποιούνται προσωρινά όταν ο ιστοτόπος σας γίνει πολύ απασχολημένος. "
+"(Πρέπει να σημειωθεί ότι το πλαίσιο επιλογής <em>Απόπνιξη</em> είναι "
+"διαθέσιμο όταν η μονάδα Throttle είναι ενεργοποιημένη.)"
+
+#: modules/system/system.module:78
+msgid ""
+"The auto-throttle functionality must be enabled on the <a href=\"@throttle"
+"\">throttle configuration page</a> after having enabled the throttle module."
+msgstr ""
+"Η λειτουργικότητα της αυτόματης απόπνιξης πρέπει να ενεργοποιηθεί στη <a "
+"href=\"@throttle\">σελίδας ρύθμισης απόπνιξης</a> αφού ενεργοποιηθεί η "
+"μονάδα της απόπνιξης."
+
+#: modules/system/system.module:81
+msgid ""
+"It is important that <a href=\"@update-php\">update.php</a> is run every "
+"time a module is updated to a newer version."
+msgstr ""
+"Είναι σημαντικό το <a href=\"@update-php\">update.php</a> να καλείται κάθε "
+"φορά που ενημερώνεται μια μονάδα σε νεώτερη έκδοση."
+
+#: modules/system/system.module:82
+msgid ""
+"You can find all administration tasks belonging to a particular module on "
+"the <a href=\"@by-module\">administration by module page</a>."
+msgstr ""
+"Μπορείτε να βρείτε όλες τις διαχειριστικές εργασίες που ανήκουν σε μια "
+"συγκεκριμένη μονάδα στη <a href=\"@by-module\">σελίδα διαχείρισης ανά "
+"μονάδα</a>."
+
+#: modules/system/system.module:83
+msgid ""
+"To extend the functionality of your site, a number of <a href=\"@modules"
+"\">contributed modules</a> are available."
+msgstr ""
+"Για την επέκταση της λειτουργικότητας του ιστοτόπου σας, ένας αριθμός από <a "
+"href=\"@modules\">μονάδες που συνεισφέρουν τρίτοι</a> είναι διαθέσιμος."
+
+#: modules/system/system.module:86
+msgid ""
+"The uninstall process removes all data related to a module. To uninstall a "
+"module, you must first disable it. Not all modules support this feature."
+msgstr ""
+"Η διαδικασία απεγκατάστασης αφαιρεί όλα τα δεδομένα μιας μονάδας. Για να "
+"απεγκαταστήσετε μια μονάδα πρέπει πρώτα να την απενεργοποιήσετε. Δεν "
+"υποστηρίζουν όλες οι μονάδες αυτή την δυνατότητα."
+
+#: modules/system/system.module:89
+msgid ""
+"The <em>Powered by Drupal</em> block is an optional link to the home page of "
+"the Drupal project. While there is absolutely no requirement that sites "
+"feature this link, it may be used to show support for Drupal."
+msgstr ""
+"Το <em>Βασισμένο στο Drupal</em> μπλοκ είναι ένας προαιρετικός σύνδεσμος που "
+"οδηγεί στην κεντρική ιστοσελίδα του έργου του Drupal. Παρόλο που δεν υπάρχει "
+"απολύτως καμία απαίτηση οι ιστοτόποι να φέρουν αυτό το σύνδεσμο, μπορεί να "
+"χρησιμοποιηθεί για να υποστηρίζει το Drupal."
+
+#: modules/system/system.module:94
+msgid ""
+"Actions are individual tasks that the system can do, such as unpublishing a "
+"piece of content or banning a user. Modules, such as the trigger module, can "
+"fire these actions when certain system events happen; for example, when a "
+"new post is added or when a user logs in. Modules may also provide "
+"additional actions."
+msgstr ""
+"Οι ενέργειες είναι ξεχωριστές διεργασίες που εκτελεί το σύστημα, όπως η άρση "
+"δημοσίευσης ενός τμήματος περιεχομένου ή η απαγόρευση ενός χρήστης. Μονάδες, "
+"όπως η μονάδα trigger, μπορούν να προκαλέσουν αυτές τις ενέργειες όταν "
+"συμβαίνουν ειδικά γεγονότα στο σύστημα· για παράδειγμα, όταν προστίθεται μια "
+"νέα καταχώρηση ή όταν ένας χρήστης εισέρχεται στο σύστημα. Οι μονάδες "
+"μπορούν επίσης να παρέχουν πρόσθετες ενέργειες."
+
+#: modules/system/system.module:95
+msgid ""
+"There are two types of actions: simple and advanced. Simple actions do not "
+"require any additional configuration, and are listed here automatically. "
+"Advanced actions can do more than simple actions; for example, send an e-"
+"mail to a specified address, or check for certain words within a piece of "
+"content. These actions need to be created and configured first before they "
+"may be used. To create an advanced action, select the action from the drop-"
+"down below and click the <em>Create</em> button."
+msgstr ""
+"Υπάρχουν δύο είδη ενεργειών: οι απλές και οι προχωρημένες. Οι απλές "
+"ενέργειες δεν απαιτούν πρόσθετη παραμετροποίηση και εμφανίζονται αυτόματα "
+"στη λίστα εδώ. Οι προχωρημένες ενέργειες μπορούν να κάνουν περισσότερα από "
+"τις απλές· για παράδειγμα, να στείλουν ένα e-mail σε μια συγκεκριμένη "
+"διεύθυνση, ή να ελέγξουν για συγκεκριμένες λέξεις μέσα στο περιεχόμενο. Οι "
+"ενέργειες αυτές πρέπει πρώτα να δημιουργηθούν και να διευθετηθούν προτού "
+"χρησιμοποιηθούν. Για να δημιουργήσετε μια προχωρημένη ενέργεια, επιλέξτε "
+"παρακάτω την ενέργεια από την αναδυόμενη λίστα και πατήστε στο πλήκτρο "
+"<em>Δημιουργία</em>."
+
+#: modules/system/system.module:97
+msgid ""
+"You may proceed to the <a href=\"@url\">Triggers</a> page to assign these "
+"actions to system events."
+msgstr ""
+"Μπορείτε να συνεχίσετε στη σελίδα των <a href=\"@url\">Σκανδάλων</a> για τον "
+"καθορισμό των ενεργειών αυτών σε συμβάντα συστήματος."
+
+#: modules/system/system.module:101
+msgid ""
+"An advanced action offers additional configuration options which may be "
+"filled out below. Changing the <em>Description</em> field is recommended, in "
+"order to better identify the precise action taking place. This description "
+"will be displayed in modules such as the trigger module when assigning "
+"actions to system events, so it is best if it is as descriptive as possible "
+"(for example, \"Send e-mail to Moderation Team\" rather than simply \"Send e-"
+"mail\")."
+msgstr ""
+"Μια προχωρημένη ενέργεια παρέχει πρόσθετες επιλογές διευθέτησης που μπορούν "
+"να συμπληρωθούν παρακάτω. Συνιστάται η αλλαγή του πεδίου της <em>Περιγραφής</"
+"em> ώστε να είναι πιο εύκολα αναγνωρίσιμη η ακριβής ενέργεια που λαμβάνει "
+"χώρα. Η περιγραφή αυτή θα εμφανίζεται σε μονάδες όπως η μονάδα trigger κατά "
+"τον καθορισμό ενεργειών σε συμβάντα συστήματος, οπότε είναι καλύτερα όταν "
+"είναι όσο πιο περιγραφική γίνεται (για παράδειγμα \"Αποστολή e-mail στην "
+"Ομάδα Συντονισμού\" αντί του απλοϊκού \"Αποστολή e-mail\")."
+
+#: modules/system/system.module:103
+msgid ""
+"Here you can find a short overview of your site's parameters as well as any "
+"problems detected with your installation. It may be useful to copy and paste "
+"this information into support requests filed on drupal.org's support forums "
+"and project issue queues."
+msgstr ""
+"Εδώ μπορείτε να βρείτε μια σύντομη σύνοψη των παραμέτρων του ιστοτόπου σας, "
+"όπως επίσης και οποιαδήποτε προβλήματα που έχουν εντοπιστεί στην εγκατάστασή "
+"σας. Είναι πιθανόν χρήσιμο να αντιγράψετε και να επικολλήσετε την πληροφορία "
+"αυτή σε αιτήσεις υποστήριξης που υποβάλλετε στα φόρα υποστήριξης του drupal."
+"org και στις ουρές θεμάτων των έργων."
+
+#: modules/system/system.module:552
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr ""
+"Με την επιλογή διαφορετικής θεματικής παραλλαγής αλλάζει η όψη και η "
+"αισθητική του ιστοτόπου."
+
+#: modules/system/system.module:564
+msgid "Time zone"
+msgstr "Ζώνη ώρας"
+
+#: modules/system/system.module:567
+msgid ""
+"Select your current local time. Dates and times throughout this site will be "
+"displayed using this time zone."
+msgstr ""
+"Επιλέξτε την τρέχουσα τοπική ώρα σας. Οι ημερομηνίες και οι ώρες σε ολόκληρο "
+"τον ιστοτόπο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
+
+#: modules/system/system.module:584
+msgid "Powered by Drupal"
+msgstr "Βασισμένο στο Drupal"
+
+#: modules/system/system.module:594
+msgid "Badge color"
+msgstr "Χρώμα διακριτικού σήματος"
+
+#: modules/system/system.module:596
+msgid "Black"
+msgstr "Μαύρο"
+
+#: modules/system/system.module:596
+msgid "Blue"
+msgstr "Μπλε"
+
+#: modules/system/system.module:596
+msgid "Gray"
+msgstr "Γκρι"
+
+#: modules/system/system.module:600
+msgid "Badge size"
+msgstr "Μέγεθος διακριτικού σήματος"
+
+#: modules/system/system.module:602
+msgid "Small"
+msgstr "Μικρό"
+
+#: modules/system/system.module:602
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: modules/system/system.module:692
+msgid "Theme configuration"
+msgstr "Διευθέτηση θεματικής παραλλαγής"
+
+#: modules/system/system.module:715
+msgid "(site default theme)"
+msgstr "(προεπιλεγμένη θεματική παραλλαγή του ιστοτόπου)"
+
+#: modules/system/system.module:1028
+msgid "The settings have not been saved because of the errors."
+msgstr "Οι ρυθμίσεις δεν αποθηκεύτηκαν επειδή υπάρχουν σφάλματα."
+
+#: modules/system/system.module:1199
+msgid "Configure permissions"
+msgstr "Ρύθμιση αδειών πρόσβασης"
+
+#: modules/system/system.module:1253
+msgid "When cron runs"
+msgstr "Κατά την εκτέλεση του cron"
+
+#: modules/system/system.module:1267
+msgid "Display a message to the user"
+msgstr "Εμφάνιση μηνύματος στο χρήστη"
+
+#: modules/system/system.module:1288
+msgid "Redirect to URL"
+msgstr "Ανακατεύθυνση σε URL"
+
+#: modules/system/system.module:1308
+msgid "Choose an advanced action"
+msgstr "Επιλογή μιας προχωρημένης ενέργειας"
+
+#: modules/system/system.module:1323
+msgid "Action type"
+msgstr "Τύπος ενέργειας"
+
+#: modules/system/system.module:1343
+msgid "Actions available to Drupal:"
+msgstr "Ενέργειες διαθέσιμες στο Drupal:"
+
+#: modules/system/system.module:1369
+msgid "Make a new advanced action available"
+msgstr "Κάντε μια νέα προχωρημένη ενέργεια διαθέσιμη"
+
+#: modules/system/system.module:1381
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: modules/system/system.module:1448
+msgid ""
+"A unique description for this advanced action. This description will be "
+"displayed in the interface of modules that integrate with actions, such as "
+"Trigger module."
+msgstr ""
+"Μια μοναδική περιγραφή για την προχωρημένη ενέργεια. Η περιγραφή αυτή θα "
+"εμφανίζεται στη διεπαφή των μονάδων που αφομοιώνονται με τις ενέργειες, όπως "
+"η μονάδα Trigger."
+
+#: modules/system/system.module:1504
+msgid "The action has been successfully saved."
+msgstr "Η ενέργεια αποθηκεύτηκε."
+
+#: modules/system/system.module:1522
+msgid "Are you sure you want to delete the action %action?"
+msgstr "Θέλετε σίγουρα να διαγράψετε την ενέργεια %action;"
+
+#: modules/system/system.module:1524
+msgid "This cannot be undone."
+msgstr "Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/system/system.module:1540
+msgid "Action %action was deleted"
+msgstr "Η ενέργεια %action διαγράφηκε"
+
+#: modules/system/system.module:1552
+msgid "Deleted orphaned action (%action)."
+msgstr "Η ορφανή ενέργεια (%action) διαγράφηκε."
+
+#: modules/system/system.module:1588
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+#: modules/system/system.module:1591
+msgid ""
+"The email address to which the message should be sent OR enter %author if "
+"you would like to send an e-mail to the author of the original post."
+msgstr ""
+"Η διεύθυνση e-mail στην οποία θα σταλεί το μήνυμα Ή εισάγετε %author αν "
+"επιθυμείτε να αποστέλλεται το e-mail στο συγγραφέα της αρχικής καταχώρησης."
+
+#: modules/system/system.module:1598
+msgid "The subject of the message."
+msgstr "Το κείμενο του μηνύματος."
+
+#: modules/system/system.module:1606
+msgid ""
+"The message that should be sent. You may include the following variables: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all "
+"variables will be available in all contexts."
+msgstr ""
+"Το μήνυμα που πρέπει να σταλεί. Μπορείτε να συμπεριλάβετε τις παρακάτω "
+"μεταβλητές: %site_name, %username, %node_url, %node_type, %title, %teaser, %"
+"body. Δεν είναι διαθέσιμες όλες οι μεταβλητές σε όλα τα γενικά πλαίσια."
+
+#: modules/system/system.module:1619
+msgid "Please enter a valid email address or %author."
+msgstr "Πρέπει να εισάγετε μια έγκυρη διεύθυνση e-mail ή %author."
+
+#: modules/system/system.module:1752
+msgid ""
+"The message to be displayed to the current user. You may include the "
+"following variables: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. Not all variables will be available in all contexts."
+msgstr ""
+"Το μήνυμα που θα εμφανιστεί στο τρέχων χρήστη. Μπορείτε να συμπεριλάβετε τις "
+"παρακάτω μεταβλητές: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. Δεν είναι διαθέσιμες όλες οι μεταβλητές σε όλα τα γενικά "
+"πλαίσια."
+
+#: modules/system/system.module:1825
+msgid ""
+"The URL to which the user should be redirected. This can be an internal URL "
+"like node/1234 or an external URL like http://drupal.org."
+msgstr ""
+"Η διεύθυνση URL στην οποία θα ανακατευθυνθεί ο χρήστης. Μπορεί να είναι "
+"εσωτερική διεύθυνση όπως node/1234 ή μια εξωτερική διεύθυνση URL όπως http://"
+"drupal.org."
+
+#: modules/system/system.module:1882;1882
+msgid "Powered by Drupal, an open source content management system"
+msgstr ""
+"Βασισμένο στο Drupal, ένα ανοικτού λογισμικού σύστημα διαχείρισης "
+"περιεχομένου"
+
+#: modules/system/system.module:1232
+msgid "Could not delete temporary file \"%path\" during garbage collection"
+msgstr ""
+"Δεν ήταν δυνατή η διαγραφή του προσωρινού αρχείου \"%path\" κατά την "
+"εκτέλεση της συλλογής απορριμάτων"
+
+#: modules/system/system.module:1539
+msgid "Deleted action %aid (%action)"
+msgstr "Η ενέργεια %aid (%action) διαγράφηκε"
+
+#: modules/system/system.module:1666
+msgid "Cannot use %author token in this context."
+msgstr ""
+"Δεν είναι δυνατή η χρησιμοποίηση του κουπονιού %author σε αυτό το γενικό "
+"πλαίσιο."
+
+#: modules/system/system.module:1697
+msgid "Sent email to %recipient"
+msgstr "Στάλθηκε e-mail στον %recipient"
+
+#: modules/system/system.module:1700
+msgid "Unable to send email to %recipient"
+msgstr "Δεν ήταν δυνατή η αποστολή e-mail στον %recipient"
+
+#: modules/system/system.module:158
+msgid "administer site configuration"
+msgstr "διαχείριση διευθέτησης ιστοτόπου"
+
+#: modules/system/system.module:158
+msgid "access administration pages"
+msgstr "πρόσβαση σε σελίδες διαχείρισης"
+
+#: modules/system/system.module:158
+msgid "administer actions"
+msgstr "διαχείριση ενεργειών"
+
+#: modules/system/system.module:158
+msgid "access site reports"
+msgstr "πρόσβαση στις αναφορές του ιστοτόπου"
+
+#: modules/system/system.module:158
+msgid "select different theme"
+msgstr "επιλογή άλλης θεματικής παραλλαγής"
+
+#: modules/system/system.module:158
+msgid "administer files"
+msgstr "διαχείριση αρχείων"
+
+#: modules/system/system.module:200
+msgid "File download"
+msgstr "Λήψη αρχείου"
+
+#: modules/system/system.module:206
+msgid "Administer"
+msgstr "Διαχείριση"
+
+#: modules/system/system.module:213
+msgid "Compact mode"
+msgstr "Συμπτυγμένη μορφή"
+
+#: modules/system/system.module:220
+msgid "By task"
+msgstr "Κατά εργασία"
+
+#: modules/system/system.module:227
+msgid "By module"
+msgstr "Κατά μονάδα"
+
+#: modules/system/system.module:235
+msgid "Content management"
+msgstr "Διαχείριση ύλης"
+
+#: modules/system/system.module:236
+msgid "Manage your site's content."
+msgstr "Διαχείριση της ύλης του ιστοτόπου."
+
+#: modules/system/system.module:246
+msgid "Site configuration"
+msgstr "Γενική διευθέτηση ιστοτόπου"
+
+#: modules/system/system.module:247
+msgid "Adjust basic site configuration options."
+msgstr "Ρύθμιση των βασικών επιλογών του ιστοτόπου."
+
+#: modules/system/system.module:255
+msgid "Site building"
+msgstr "Δημιουργία ιστοτόπου"
+
+#: modules/system/system.module:256
+msgid "Control how your site looks and feels."
+msgstr "Έλεγχος της εμφάνισης και της αισθητικής του ιστοτόπου."
+
+#: modules/system/system.module:265
+msgid "Settings for how your administrative pages should look."
+msgstr "Επιλογές για την θεματική παραλλαγή των σελίδων διαχείρισης."
+
+#: modules/system/system.module:276
+msgid "Change which theme your site uses or allows users to set."
+msgstr ""
+"Αλλαγή της θεματικής παραλλαγής που θα βλέπουν και θα ορίζουν οι χρήστες."
+
+#: modules/system/system.module:284
+msgid "Select the default theme."
+msgstr "Επιλογή προεπιλεγμένης θεματικής παραλλαγής."
+
+#: modules/system/system.module:296
+msgid "Global settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: modules/system/system.module:314
+msgid "Enable or disable add-on modules for your site."
+msgstr "Ενεργοποίηση ή απενεργοποίηση πρόσθετων μονάδων του ιστοτόπου."
+
+#: modules/system/system.module:343
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: modules/system/system.module:344;350
+msgid "Manage the actions defined for your site."
+msgstr "Διαχείριση των ενεργειών που έχουν οριστεί για τον ιστοτόπο σας."
+
+#: modules/system/system.module:349
+msgid "Manage actions"
+msgstr "Διαχείριση ενεργειών"
+
+#: modules/system/system.module:356
+msgid "Configure an advanced action"
+msgstr "Παραμετροποίηση μιας προχωρημένης ενέργειας"
+
+#: modules/system/system.module:363
+msgid "Delete action"
+msgstr "Διαγραφή ενέργειας"
+
+#: modules/system/system.module:364
+msgid "Delete an action."
+msgstr "Διαγραφή μιας ενέργειας."
+
+#: modules/system/system.module:371
+msgid "Remove orphans"
+msgstr "Αφαίρεση ορφανών"
+
+#: modules/system/system.module:379
+msgid "Site information"
+msgstr "Πληροφορίες ιστοτόπου"
+
+#: modules/system/system.module:380
+msgid ""
+"Change basic site information, such as the site name, slogan, e-mail "
+"address, mission, front page and more."
+msgstr ""
+"Αλλαγή των βασικών πληροφοριών του ιστοτόπου, όπως, όνομα, αποστολή, "
+"διεύθυνση e-mail, αρχική σελίδα κ.ά."
+
+#: modules/system/system.module:388
+msgid ""
+"Control how Drupal deals with errors including 403/404 errors as well as PHP "
+"error reporting."
+msgstr ""
+"Έλεγχος του πώς το Drupal θα χειρίζεται τα σφάλματα, συμπεριλαμβανομένων "
+"αυτών των 403/404 και των αναφορών σφαλμάτων της PHP."
+
+#: modules/system/system.module:395
+msgid "Logging and alerts"
+msgstr "Ημερολόγιο και συναγερμοί"
+
+#: modules/system/system.module:396
+msgid ""
+"Settings for logging and alerts modules. Various modules can route Drupal's "
+"system events to different destination, such as syslog, database, email, ..."
+"etc."
+msgstr ""
+"Ρυθμίσεις για τις μονάδες καταγραφής συμβάντων και συναγερμών. Διάφορες "
+"μονάδες μπορούν να δρομολογήσουν τα συμβάντα συστήματος του Drupal σε "
+"διαφορετικό προορισμό, όπως το syslog, μια βάση δεδομένων, e-mail, ..., κτλ."
+
+#: modules/system/system.module:402
+msgid "Performance"
+msgstr "Απόδοση"
+
+#: modules/system/system.module:403
+msgid ""
+"Enable or disable page caching for anonymous users and set CSS and JS "
+"bandwidth optimization options."
+msgstr ""
+"Ενεργοποίηση ή απενεργοποίηση της λανθάνουσας μνήμης σελίδας για τους "
+"ανώνυμους χρήστες και ορισμός των ρυθμίσεων βελτιστοποίησης εύρους ζώνης "
+"δικτύου των CSS και JS."
+
+#: (duplicate) modules/system/system.module:410
+#: modules/system/system.install:184
+msgid "File system"
+msgstr "Σύστημα αρχείων"
+
+#: modules/system/system.module:411
+msgid "Tell Drupal where to store uploaded files and how they are accessed."
+msgstr ""
+"Καθορισμός του Drupal για το που θα αποθηκεύει τα απεσταλμένα αρχεία και του "
+"τρόπου πρόσβασής τους."
+
+#: modules/system/system.module:418
+msgid "Image toolkit"
+msgstr "Εργαλειοθήκη εικόνων"
+
+#: modules/system/system.module:419
+msgid ""
+"Choose which image toolkit to use if you have installed optional toolkits."
+msgstr ""
+"Επιλογή της εργαλειοθήκης εικόνων που θα χρησιμοποιηθεί αν είναι "
+"εγκατεστημένες εναλλακτικές εργαλειοθήκες."
+
+#: modules/system/system.module:426
+msgid "RSS publishing"
+msgstr "Δημοσίευση RSS"
+
+#: modules/system/system.module:427
+msgid ""
+"Configure the number of items per feed and whether feeds should be titles/"
+"teasers/full-text."
+msgstr ""
+"Προσδιορισμός του αριθμού των αντικειμένων ανά ροή και του αν οι ροές θα "
+"είναι τίτλος/περίληψη/πλήρες κείμενο."
+
+#: modules/system/system.module:434
+msgid "Date and time"
+msgstr "Ημερομηνία και ώρα"
+
+#: modules/system/system.module:435
+msgid ""
+"Settings for how Drupal displays date and time, as well as the system's "
+"default timezone."
+msgstr ""
+"Επιλογές για το πώς το Drupal θα εμφανίζει τις ημερομηνίες και την ώρα, όπως "
+"και την προεπιλεγμένη ώρας ζώνης του συστήματος."
+
+#: modules/system/system.module:442
+msgid "Date and time lookup"
+msgstr "Ημερομηνία και ώρα αναζήτησης"
+
+#: modules/system/system.module:449
+msgid "Site maintenance"
+msgstr "Συντήρηση ιστοτόπου"
+
+#: modules/system/system.module:450
+msgid "Take the site off-line for maintenance or bring it back online."
+msgstr ""
+"Απενεργοποίηση του ιστοτόπου για συντήρηση ή επαναφορά του σε λειτουργία."
+
+#: modules/system/system.module:458
+msgid "Enable or disable clean URLs for your site."
+msgstr ""
+"Ενεργοποίηση η απενεργοποίηση των καθαρών διευθύνσεων URL για τον ιστοτόπο."
+
+#: modules/system/system.module:465
+msgid "Clean URL check"
+msgstr "Έλεγχος καθαρών διευθύνσεων URL"
+
+#: modules/system/system.module:474
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: modules/system/system.module:475
+msgid "View reports from system logs and other status information."
+msgstr ""
+"Εμφάνιση αναφορών από τα ημερολόγια συστήματος και άλλων πληροφοριών "
+"κατάστασης."
+
+#: modules/system/system.module:483
+msgid "Status report"
+msgstr "Αναφορά κατάστασης"
+
+#: modules/system/system.module:484
+msgid ""
+"Get a status report about your site's operation and any detected problems."
+msgstr "Αναφορά κατάστασης λειτουργίας του ιστοτόπου και αναφορά σφαλμάτων."
+
+#: modules/system/system.module:491
+msgid "Run cron"
+msgstr "Εκτέλεση του cron"
+
+#: (duplicate) modules/system/system.module:498
+#: modules/system/system.install:36
+msgid "PHP"
+msgstr "PHP"
+
+#: modules/system/system.module:505
+msgid "SQL"
+msgstr "SQL"
+
+#: modules/system/system.module:0
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: modules/system/system.install:67
+msgid "-1 (Unlimited)"
+msgstr "-1 (Άπειρα)"
+
+#: modules/system/system.install:497
+msgid ""
+"Stores details about batches (processes that run in multiple HTTP requests)."
+msgstr ""
+"Αποθηκεύει πληροφορίες σχετικά με τα batch (διεργασίες που εκτελούνται σε "
+"πολλαπλές αιτήσεις HTTP)."
+
+#: (duplicate) modules/system/system.install:20
+msgid "Drupal"
+msgstr "Drupal"
+
+#: (duplicate) modules/system/system.install:30
+msgid "Web server"
+msgstr "Διακομιστής ιστοσελίδων"
+
+#: (duplicate) modules/system/system.install:40
+msgid ""
+"Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr ""
+"Η εγκατεστημένη έκδοση PHP είναι πολύ παλιά. Το Drupal απαιτεί τουλάχιστον "
+"PHP %version."
+
+#: (duplicate) modules/system/system.install:46
+msgid "PHP register globals"
+msgstr "PHP register globals"
+
+#: (duplicate) modules/system/system.install:55
+msgid ""
+"<em>register_globals</em> is enabled. Drupal requires this configuration "
+"directive to be disabled. Your site may not be secure when "
+"<em>register_globals</em> is enabled. The PHP manual has instructions for <a "
+"href=\"http://php.net/configuration.changes\">how to change configuration "
+"settings</a>."
+msgstr ""
+"Το <em>register_globals</em> είναι ενεργοποιημένο. το Drupal απαιτεί η "
+"συγκεκριμένη μεταβλητή να είναι απενεργοποιημένη. Ο ιστότοπός σας μπορεί να "
+"μην είναι ασφαλής όταν η <em>register_globals</em> είναι ενεργοποιημένη. Το "
+"εγχειρίδιο της γλώσσας PHP παρέχει οδηγίες για <a href=\"http://php.net/"
+"configuration.changes\">το πως θα τροποποιήσετε τις συγκεκριμένες ρυθμίσεις</"
+"a>."
+
+# το system/system.install:57 αναφέρεται σε σφάλμα όταν register_globals είναι ενεργοποιημένο
+#: (duplicate) modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr "Ενεργοποιημένο ('@value')"
+
+#: (duplicate) modules/system/system.install:66
+msgid "PHP memory limit"
+msgstr "Όριο μνήμης PHP"
+
+#: (duplicate) modules/system/system.install:73
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the installation process."
+msgstr ""
+"Εξετάστε το ενδεχόμενο αύξησης του ορίου μνήμης της PHP σας σε %"
+"memory_minimum_limit για να αποφύγετε πιθανά σφάλματα κατά τη διάρκεια της "
+"διαδικασίας εγκατάστασης."
+
+#: (duplicate) modules/system/system.install:76
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the update process."
+msgstr ""
+"Εξετάστε το ενδεχόμενο αύξησης του ορίου μνήμης της PHP σας σε %"
+"memory_minimum_limit για να αποφύγετε πιθανά σφάλματα κατά τη διάρκεια της "
+"διαδικασίας ενημέρωσης."
+
+#: (duplicate) modules/system/system.install:79
+msgid ""
+"Depending on your configuration, Drupal can run with a %memory_limit PHP "
+"memory limit. However, a %memory_minimum_limit PHP memory limit or above is "
+"recommended, especially if your site uses additional custom or contributed "
+"modules."
+msgstr ""
+"Ανάλογα με τις ρυθμίσεις, το Drupal μπορεί να εκτελείται με ένα όριο μνήμης %"
+"memory_limit της PHP. Ωστόσο, προτείνεται ένα όριο της τάξης %memory_limit "
+"για το όριο μνήμης της PHP, ειδικότερα αν ο ιστοτόπος σας χρησιμοποιεί "
+"πρόσθετες προσαρμοσμένες ή παρεχόμενες από την κοινότητα μονάδες."
+
+#: (duplicate) modules/system/system.install:84
+msgid ""
+"Increase the memory limit by editing the memory_limit parameter in the file %"
+"configuration-file and then restart your web server (or contact your system "
+"administrator or hosting provider for assistance)."
+msgstr ""
+"Αυξήστε το όριο μνήμης μέσω επεξεργασίας της παραμέτρου memory_limit στο "
+"αρχείο %configuration-file και μετά επανεκκινήστε τον διακομιστή ιστοσελίδων "
+"σας (ή επικοινωνήστε με το διαχειριστή συστήματος ή παροχέα φιλοξενίας "
+"ιστοσελίδων σας για βοήθεια)."
+
+#: (duplicate) modules/system/system.install:87
+msgid ""
+"Contact your system administrator or hosting provider for assistance with "
+"increasing your PHP memory limit."
+msgstr ""
+"Επικοινωνήστε με τον διαχειριστή συστήματος ή παροχέα φιλοξενίας ιστοσελίδων "
+"σας για βοήθεια περί αύξησης του ορίου μνήμης PHP."
+
+#: (duplicate) modules/system/system.install:90
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr ""
+"Συμβουλευτείτε τις <a href=\"@url\">απαιτήσεις Drupal</a> για περισσότερες "
+"πληροφορίες."
+
+#: (duplicate) modules/system/system.install:107 ;254
+msgid "Not protected"
+msgstr "Μη προστατευμένο"
+
+#: (duplicate) modules/system/system.install:112
+msgid ""
+"The directory %file is not protected from modifications and poses a security "
+"risk. You must change the directory's permissions to be non-writable. "
+msgstr ""
+"Ο κατάλογος %file δεν είναι προστατευμένος από εγγραφή και αποτελεί κενό "
+"ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του καταλόγου σε μη εγγράψιμο."
+
+#: (duplicate) modules/system/system.install:115
+msgid ""
+"The file %file is not protected from modifications and poses a security "
+"risk. You must change the file's permissions to be non-writable."
+msgstr ""
+"Το αρχείο %file δεν είναι προστατευμένο από εγγραφή και αποτελεί κενό "
+"ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
+
+#: (duplicate) modules/system/system.install:120 ;261
+msgid "Protected"
+msgstr "Προστατευμένο"
+
+#: (duplicate) modules/system/system.install:123
+msgid "Configuration file"
+msgstr "Αρχείο ρυθμίσεων"
+
+#: (duplicate) modules/system/system.install:133
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@cron-"
+"handbook\">configuring cron jobs</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου για τη <a "
+"href=\"@cron-handbook\">ρύθμιση εργασιών cron</a>."
+
+#: (duplicate) modules/system/system.install:157
+msgid ""
+"Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
+"more information."
+msgstr ""
+"To cron δεν έχει τρέξει. Ελέγξτε την <a href=\"@status\">αναφορά κατάστασης</"
+"a> για περισσότερες πληροφορίες."
+
+#: (duplicate) modules/system/system.install:162
+msgid "Never run"
+msgstr "Δεν εκτελέστηκε ποτέ"
+
+#: (duplicate) modules/system/system.install:163
+msgid "Cron has not run."
+msgstr "To cron δεν έχει εκτελεστεί."
+
+#: (duplicate) modules/system/system.install:166
+msgid "Last run !time ago"
+msgstr "Τελευταία εκτέλεση πριν από !time"
+
+#: (duplicate) modules/system/system.install:169
+msgid "Cron has not run recently."
+msgstr "Το cron δεν έχει εκτελεστεί πρόσφατα."
+
+#: (duplicate) modules/system/system.install:174
+msgid "Cron maintenance tasks"
+msgstr "Λειτουργίες συντήρησης του cron"
+
+#: (duplicate) modules/system/system.install:177
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr "Μπορείτε να <a href=\"@cron\">εκτελέσετε το cron χειροκίνητα</a>."
+
+#: (duplicate) modules/system/system.install:196
+msgid "Not writable"
+msgstr "Μη εγγράψιμο"
+
+#: (duplicate) modules/system/system.install:201
+msgid "The directory %directory is not writable."
+msgstr "Ο κατάλογος %directory δεν είναι εγγράψιμος."
+
+#: (duplicate) modules/system/system.install:205
+msgid ""
+"You may need to set the correct directory at the <a href=\"@admin-file-system"
+"\">file system settings page</a> or change the current directory's "
+"permissions so that it is writable."
+msgstr ""
+"Ίσως χρειαστεί να ορίσετε το σωστό κατάλογο στη <a href=\"@admin-file-system"
+"\">σελίδα ρύθμισης των αρχείων συστήματος</a> ή να αλλάξετε τα δικαιώματα "
+"ώστε ο κατάλογος να είναι εγγράψιμος."
+
+#: (duplicate) modules/system/system.install:210
+msgid ""
+"An automated attempt to create this directory failed, possibly due to a "
+"permissions problem. To proceed with the installation, either create the "
+"directory and modify its permissions manually, or ensure that the installer "
+"has the permissions to create it automatically. For more information, please "
+"see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
+msgstr ""
+"Η αυτοματοποιημένη προσπάθεια δημιουργίας του καταλόγου απέτυχε, πιθανώς "
+"λόγω κάποιου προβλήματος αδειών. Για να συνεχίσετε την εγκατάσταση είτε "
+"δημιουργήστε τον κατάλογο και τροποποιήστε τις άδειές του χειροκίνητα, είτε "
+"βεβαιωθείτε ότι ο εγκαταστάτης έχει τις άδειες να το δημιουργήσει αυτόματα. "
+"Για περισσότερες πληροφορίες συμβουλευτείτε το INSTALL.txt ή το <a href="
+"\"@handbook_url\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>."
+
+#: (duplicate) modules/system/system.install:220
+msgid "Writable (<em>public</em> download method)"
+msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος λήψης)"
+
+#: (duplicate) modules/system/system.install:223
+msgid "Writable (<em>private</em> download method)"
+msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος λήψης)"
+
+#: (duplicate) modules/system/system.install:230
+msgid "Database updates"
+msgstr "Ενημέρωση βάσης δεδομένων"
+
+#: (duplicate) modules/system/system.install:243
+msgid ""
+"Some modules have database schema updates to install. You should run the <a "
+"href=\"@update\">database update script</a> immediately."
+msgstr ""
+"Μερικές μονάδες έχουν να εγκαταστήσουν ενημερώσεις σχηματικών παραστάσεων "
+"στη βάση δεδομένων. Θα πρέπει να εκτελέσετε αμέσως την <a href=\"@update"
+"\">ενημέρωση βάσης δεδομένων</a>."
+
+#: (duplicate) modules/system/system.install:256
+msgid ""
+"The update.php script is accessible to everyone without authentication "
+"check, which is a security risk. You must change the $update_free_access "
+"value in your settings.php back to FALSE."
+msgstr ""
+"Το σενάριο update.php είναι προσπελάσιμο από όλους χωρίς έλεγχο "
+"πιστοποίησης, το οποίο αποτελεί ρίσκο ασφαλείας. Πρέπει να επαναφέρετε την "
+"τιμή $update_free_access στο settings.php σε FALSE."
+
+#: (duplicate) modules/system/system.install:264
+msgid "Access to update.php"
+msgstr "Πρόσβαση στο update.php"
+
+#: (duplicate) modules/system/system.install:275
+msgid "Not enabled"
+msgstr "Απενεργοποιημένο"
+
+#: (duplicate) modules/system/system.install:277
+msgid ""
+"Update notifications are not enabled. It is <strong>highly recommended</"
+"strong> that you enable the update status module from the <a href=\"@module"
+"\">module administration page</a> in order to stay up-to-date on new "
+"releases. For more information please read the <a href=\"@update\">Update "
+"status handbook page</a>."
+msgstr ""
+"Οι ειδοποιήσεις ενημερώσεων δεν είναι ενεργποιημένες. Είναι <strong>έντονα "
+"προτεινόμενο</strong> να ενεργοποιήσετε τη μονάδα αναφοράς ενημερώσεων μέσα "
+"από τη <a href=\"@module\">σελίδα διαχείρισης μονάδων</a> ώστε να είστε "
+"ενημερωμένοι για νέες εκδόσεις. Για περισσότερες πληροφορίες παρακαλείσθε να "
+"συμβουλευτείτε τη <a href=\"@update\">σελίδα εγχειριδίου αναφοράς "
+"ενημερώσεων</a>."
+
+#: (duplicate) modules/system/system.install:285
+msgid "Update notifications"
+msgstr "Ειδοποιήσεις ενημερώσεων"
+
+#: (duplicate) modules/system/system.install:290
+msgid "HTTP request status"
+msgstr "Αναφορά αίτησης HTTP"
+
+#: (duplicate) modules/system/system.install:291
+msgid "Fails"
+msgstr "Αποτυχαίνει"
+
+#: (duplicate) modules/system/system.install:293
+msgid ""
+"Your system or network configuration does not allow Drupal to access web "
+"pages, resulting in reduced functionality. This could be due to your "
+"webserver configuration or PHP settings, and should be resolved in order to "
+"download information about available updates, fetch aggregator feeds, sign "
+"in via OpenID, or use other network-dependent services."
+msgstr ""
+"Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση "
+"σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες "
+"πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας "
+"ιστοσελίδων ή της PHP και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη "
+"πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, "
+"είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
+
+#: modules/system/system.js:0
+msgid "Testing clean URLs..."
+msgstr "Δοκιμή καθαρών διευθύνσεων URL..."
+
+#: modules/system/system.js:0
+msgid ""
+"Your system configuration does not currently support this feature. The <a "
+"href=\"http://drupal.org/node/15365\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"Η διαμόρφωση του συστήματός σας δεν υποστηρίζει αυτό το χαρακτηριστικό αυτή "
+"τη στιγμή. Η <a href=\"http://drupal.org/node/15365\">σελίδα του εγχειριδίου "
+"περί Καθαρών Διευθύνσεων URL</a> περιλαμβάνει περισσότερες πληροφορίες "
+"αποκατάστασης."
