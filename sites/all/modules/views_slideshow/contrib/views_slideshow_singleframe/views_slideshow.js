@@ -1,4 +1,4 @@
-// $Id: views_slideshow.js,v 1.1.2.1.2.27 2010/04/19 22:44:33 redndahead Exp $
+// $Id: views_slideshow.js,v 1.1.2.1.2.34 2010/05/18 05:16:07 redndahead Exp $
 
 /**
  *  @file
@@ -22,13 +22,20 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
       sync:settings.sync==1,
       random:settings.random==1,
       pause:false,
-      allowPagerClickBubble:settings.pager_hover==1,
-      prev:(settings.controls > 0)?'#views_slideshow_singleframe_prev_' + settings.id:null,
-      next:(settings.controls > 0)?'#views_slideshow_singleframe_next_' + settings.id:null,
-      pager:(settings.pager > 0)?'#views_slideshow_singleframe_pager_' + settings.id:null,
+      allowPagerClickBubble:(settings.pager_hover==1 || settings.pager_click_to_page),
+      prev:(settings.controls > 0)?'#views_slideshow_singleframe_prev_' + settings.vss_id:null,
+      next:(settings.controls > 0)?'#views_slideshow_singleframe_next_' + settings.vss_id:null,
+      pager:(settings.pager > 0)?'#views_slideshow_singleframe_pager_' + settings.vss_id:null,
       nowrap:parseInt(settings.nowrap),
       pagerAnchorBuilder: function(idx, slide) {
         var classes = 'pager-item pager-num-' + (idx+1);
+        if (idx == 0) {
+          classes += ' first';
+        }
+        if ($(slide).siblings().length == idx) {
+          classes += ' last';
+        }
+
         if (idx % 2) {
           classes += ' odd';
         }
@@ -37,16 +44,22 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
         }
         
         var theme = 'viewsSlideshowPager' + settings.pager_type;
-        return Drupal.theme.prototype[theme] ? Drupal.theme(theme, classes, idx, slide) : '';
+        return Drupal.theme.prototype[theme] ? Drupal.theme(theme, classes, idx, slide, settings) : '';
       },
       after:function(curr, next, opts) {
         // Used for Image Counter.
         if (settings.image_count) {
-          $('#views_slideshow_singleframe_image_count_' + settings.id + ' span.num').html(opts.currSlide + 1);
-          $('#views_slideshow_singleframe_image_count_' + settings.id + ' span.total').html(opts.slideCount);
+          $('#views_slideshow_singleframe_image_count_' + settings.vss_id + ' span.num').html(opts.currSlide + 1);
+          $('#views_slideshow_singleframe_image_count_' + settings.vss_id + ' span.total').html(opts.slideCount);
         }
       },
       before:function(curr, next, opts) {
+        // Remember last slide.
+        if (settings.remember_slide) {
+          createCookie(settings.vss_id, opts.currSlide + 1, settings.remember_slide_days);
+        }
+
+        // Make variable height.
         if (settings.fixed_height == 0) {
           //get the height of the current slide
           var $ht = $(this).height();
@@ -58,11 +71,20 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
       cleartypeNoBg:(settings.ie.cleartypenobg == 'true')? true : false
     }
     
+    // Set the starting slide if we are supposed to remember the slide
+    if (settings.remember_slide) {
+      var startSlide = readCookie(settings.vss_id);
+      if (startSlide == null) {
+        startSlide = 0;
+      }
+      settings.opts.startingSlide =  startSlide;
+    }
+
     if (settings.pager_hover == 1) {
       settings.opts.pagerEvent = 'mouseover';
       settings.opts.pauseOnPagerHover = true;
     }
-    
+
     if (settings.effect == 'none') {
       settings.opts.speed = 1;
     }
@@ -72,7 +94,7 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
 
     // Pause on hover.
     if (settings.pause == 1) {
-      $('#views_slideshow_singleframe_teaser_section_' + settings.id).hover(function() {
+      $('#views_slideshow_singleframe_teaser_section_' + settings.vss_id).hover(function() {
         $(settings.targetId).cycle('pause');
       }, function() {
         if (settings.paused == false) {
@@ -83,7 +105,7 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
 
     // Pause on clicking of the slide.
     if (settings.pause_on_click == 1) {
-      $('#views_slideshow_singleframe_teaser_section_' + settings.id).click(function() { 
+      $('#views_slideshow_singleframe_teaser_section_' + settings.vss_id).click(function() { 
         viewsSlideshowPause(settings);
       });
     }
@@ -136,15 +158,20 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
     }
     
     $(settings.targetId).cycle(settings.opts);
-    
+
+    // Start Paused
+    if (settings.start_pause) {
+      viewsSlideshowSingleFramePause(settings);
+    }
+
     // Show image count for people who have js enabled.
-    $('#views_slideshow_singleframe_image_count_' + settings.id).show();
-    
+    $('#views_slideshow_singleframe_image_count_' + settings.vss_id).show();
+
     if (settings.controls > 0) {
       // Show controls for people who have js enabled browsers.
-      $('#views_slideshow_singleframe_controls_' + settings.id).show();
+      $('#views_slideshow_singleframe_controls_' + settings.vss_id).show();
       
-      $('#views_slideshow_singleframe_playpause_' + settings.id).click(function(e) {
+      $('#views_slideshow_singleframe_playpause_' + settings.vss_id).click(function(e) {
       	if (settings.paused) {
       	  viewsSlideshowSingleFrameResume(settings);
       	}
@@ -159,14 +186,17 @@ Drupal.behaviors.viewsSlideshowSingleFrame = function (context) {
 
 // Pause the slideshow 
 viewsSlideshowSingleFramePause = function (settings) {
+  //make Resume translatable
+  var resume = Drupal.t('Resume');
+
   $(settings.targetId).cycle('pause');
   if (settings.controls > 0) {
-    $('#views_slideshow_singleframe_playpause_' + settings.id)
+    $('#views_slideshow_singleframe_playpause_' + settings.vss_id)
       .addClass('views_slideshow_singleframe_play')
       .addClass('views_slideshow_play')
       .removeClass('views_slideshow_singleframe_pause')
       .removeClass('views_slideshow_pause')
-      .text('Resume');
+      .text(resume);
   }
   settings.paused = true;
 }
@@ -175,7 +205,7 @@ viewsSlideshowSingleFramePause = function (settings) {
 viewsSlideshowSingleFrameResume = function (settings) {
   $(settings.targetId).cycle('resume');
   if (settings.controls > 0) {
-    $('#views_slideshow_singleframe_playpause_' + settings.id)
+    $('#views_slideshow_singleframe_playpause_' + settings.vss_id)
       .addClass('views_slideshow_singleframe_pause')
       .addClass('views_slideshow_pause')
       .removeClass('views_slideshow_singleframe_play')
@@ -185,8 +215,12 @@ viewsSlideshowSingleFrameResume = function (settings) {
   settings.paused = false;
 }
 
-Drupal.theme.prototype.viewsSlideshowPagerThumbnails = function (classes, idx, slide) {
-  return '<div class="' + classes + '"><a href="#"><img src="' + $(slide).find('img').attr('src') + '" /></a></div>';
+Drupal.theme.prototype.viewsSlideshowPagerThumbnails = function (classes, idx, slide, settings) {
+  var href = '#';
+  if (settings.pager_click_to_page) {
+    href = $(slide).find('a').attr('href');
+  }
+  return '<div class="' + classes + '"><a href="' + href + '"><img src="' + $(slide).find('img').attr('src') + '" /></a></div>';
 }
 
 Drupal.theme.prototype.viewsSlideshowPagerNumbered = function (classes, idx, slide) {
@@ -206,4 +240,36 @@ function IsNumeric(sText) {
     }
   }
   return IsNumber;
+}
+
+/**
+ * Cookie Handling Functions
+ */
+function createCookie(name,value,days) {
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime()+(days*24*60*60*1000));
+    var expires = "; expires="+date.toGMTString();
+  }
+  else {
+    var expires = "";
+  }
+  document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) {
+      return c.substring(nameEQ.length,c.length);
+    }
+  }
+  return null;
+}
+
+function eraseCookie(name) {
+  createCookie(name,"",-1);
 }
