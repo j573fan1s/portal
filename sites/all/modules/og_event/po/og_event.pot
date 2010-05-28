@@ -1,0 +1,141 @@
+# $Id: og_event.pot,v 1.1 2008/10/09 07:52:21 pounard Exp $
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  og_event.module: n/a
+#  og_event.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-08-22 12:23+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: og_event.module:22
+msgid "OG Event settings"
+msgstr ""
+
+#: og_event.module:23
+msgid "Configure OG Event default behavior, and some UI details."
+msgstr ""
+
+#: og_event.module:71;204
+msgid "Participants"
+msgstr ""
+
+#: og_event.module:92
+msgid "Group event settings"
+msgstr ""
+
+#: og_event.module:105;259
+msgid "Members can participate"
+msgstr ""
+
+#: og_event.module:108
+msgid "If you select this option, group members can subscribe to event participants list."
+msgstr ""
+
+#: og_event.module:111;260
+msgid "Members can edit"
+msgstr ""
+
+#: og_event.module:114
+msgid "If you select this option, group members can edit all the event settings."
+msgstr ""
+
+#: og_event.module:117;261
+msgid "Participants can enter a role"
+msgstr ""
+
+#: og_event.module:120
+msgid "If you select this option, participants will be able to enter the role they want to accomplish <i>(eg.: 'bring the food')</i>."
+msgstr ""
+
+#: og_event.module:138;524;627
+msgid "Subscribe"
+msgstr ""
+
+#: og_event.module:145
+msgid "Unsubscribe"
+msgstr ""
+
+#: og_event.module:156;164
+msgid "View participants"
+msgstr ""
+
+#: og_event.module:235
+msgid "UI settings"
+msgstr ""
+
+#: og_event.module:241
+msgid "Default behavior"
+msgstr ""
+
+#: og_event.module:248
+msgid "See participants tab on node view page"
+msgstr ""
+
+#: og_event.module:253
+msgid "See participants list in node content"
+msgstr ""
+
+#: og_event.module:255
+msgid "This setting disable the participant list tab"
+msgstr ""
+
+#: og_event.module:265
+msgid "Default selected options for new event form"
+msgstr ""
+
+#: og_event.module:494
+msgid "Participants for !event"
+msgstr ""
+
+#: og_event.module:514;638
+msgid "Role"
+msgstr ""
+
+#: og_event.module:515
+msgid "Enter here the role you want to assume for this event.<br/>Leave null if you are just a visitor."
+msgstr ""
+
+#: og_event.module:626
+msgid "There is no participants registered."
+msgstr ""
+
+#: og_event.module:636
+msgid "User"
+msgstr ""
+
+#: og_event.module:641
+msgid "Edit"
+msgstr ""
+
+#: og_event.module:655
+msgid "unsubscribe"
+msgstr ""
+
+#: og_event.module:0
+msgid "og_event"
+msgstr ""
+
+#: og_event.info:0
+msgid "OG Event"
+msgstr ""
+
+#: og_event.info:0
+msgid "Maitain a list of participant on any event node that is posted into a group."
+msgstr ""
+
+#: og_event.info:0
+msgid "Organic groups"
+msgstr ""
+

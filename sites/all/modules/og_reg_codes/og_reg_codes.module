@@ -1,0 +1,369 @@
+<?php
+// $Id: og_reg_codes.module,v 1.5 2008/11/14 01:22:16 marcp Exp $
+/**
+ * @file
+ * Provides registration codes for organic groups.
+ */
+
+/**
+ * Implementation of hook_help
+ * 
+ */
+function og_reg_codes_help($path, $arg) {
+  global $user;
+  
+  switch ($path) {
+    case 'admin/og/og-reg-codes':
+      $output =  '<p>'. t('Settings for Organic Groups registration codes.  A new user will be auto-approved as member of a group when they supply a group code at registration.  Users may also visit the "join a group" page to join a group using a code.');
+      $output .= '</p><p>'. t('You may combine this feature with the usual use of groups in the registration form.'). '</p>';
+      return $output;
+    case 'og/use-code':
+      $output = '<p>'. t('You may check a group code by entering it below.');
+      if ($user->uid) {
+        $output .= ' '. t('You may also join a group by submitting its code.');
+      }
+      return $output. '</p>';
+
+  }
+}
+
+/**
+ * Implementation of hook_menu
+ * 
+ */
+function og_reg_codes_menu() {
+  $items = array();
+  
+  $items['admin/og/og-reg-codes'] = array(
+    'title' => 'OG registration codes',
+    'description' => 'Configure group registration codes.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('og_reg_codes_set'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer site configuration'),
+   );  
+  $items['og/use-code'] = array(
+    'title' => 'Use group code',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('og_reg_codes_join'),
+    'access callback' => 'user_is_logged_in',
+    'weight' => 10,
+    'type' => MENU_LOCAL_TASK,
+   );
+   
+  return $items;
+}
+
+/**
+ * Implementation of hook_form_alter.
+ */
+function og_reg_codes_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'og_invite_form') {
+    $code = og_reg_codes_get_code($form['gid']['#value']);
+    $form['pmessage']['#default_value'] .= strtr(_og_reg_codes_message(), array('%reg_code' => $code)). "\n\n";
+  }
+  else if ($form_id == 'user_register') {
+    if (!isset($form['og_register'])) {
+      $form['og_register'] = array('#type' => 'fieldset', '#title' => t('Groups'));
+    }
+    $form['og_register']['og_reg_code'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Group registration code'),
+      '#required' => variable_get('og_reg_code_required', TRUE),
+      '#description' => t('Enter the group registration code that you received from a current group member or site administrator.'),
+      '#suffix' => t('Before registering, you can <a href="!url">check your group code</a>.', array('!url' => url('og/use-code')))
+    );
+  }
+}
+
+/**
+ * Implementation of hook_user
+ * 
+ */
+function og_reg_codes_user($op, &$edit, &$account, $category = NULL) {
+  
+  if (!module_exists('og')) {
+    return;
+  }
+  global $user;
+
+  switch ($op) {
+    case 'validate':
+      if (isset($edit['og_reg_code'])) { //only present during registration
+        if (variable_get('og_reg_code_required', TRUE) || $edit['og_reg_code'] != '') {
+          if (!og_reg_codes_valid_code($edit['og_reg_code'])) {
+            form_set_error('og_reg_code', "Not a valid group registration code.");
+          }
+        }
+      }
+      break;    
+    case 'insert':
+      if (isset($edit['og_reg_code']) && og_reg_codes_valid_code($edit['og_reg_code'])) { //only present during registration
+        $gid = og_reg_codes_get_gid($edit['og_reg_code']);
+        $return = og_subscribe_user($gid, $account);
+        if (!empty($return['message'])) {
+          drupal_set_message($return['message']);
+        }
+        $rid = variable_get('og_reg_codes_role', DRUPAL_AUTHENTICATED_RID);
+        if (!in_array($rid, array(DRUPAL_ANONYMOUS_RID, DRUPAL_AUTHENTICATED_RID))) {
+          db_query('INSERT INTO {users_roles} (uid, rid) VALUES (%d, %d)', $account->uid, $rid);
+        } 
+      }
+      break;
+    case 'view':
+      // only show to self and admins
+      if ($account->uid == $user->uid || user_access('administer organic groups')) {
+        if ($account->og_groups) {
+          $nids = $rows = $open_groups = array();
+          foreach ($account->og_groups as $key => $val) {
+            $nids[] = $key;
+          }
+          if (count($nids)) {
+            $result = db_query("SELECT nid FROM {og} WHERE nid in (". implode(',', $nids).") AND (og_selective = %d OR og_selective = %d)", OG_OPEN, OG_MODERATED);
+            while ($r = db_fetch_array($result)) {
+              $open_groups[] = $r['nid'];
+            }
+          }
+          if (count($open_groups)) {
+            foreach ($open_groups as $key) {
+              $val = $account->og_groups[$key];
+              $rows[] = array(
+                l($val['title'], "node/$key") . theme('og_format_subscriber_status', $val),
+                og_reg_codes_get_code($key),
+              );
+            }
+            if (count($rows)) {
+              $header = array(t('Group'), t('Registration code'));
+              
+              $account->content['summary']['og_registration_codes'] = array(
+                '#type' => 'item',
+                '#title' => t('Registration codes'),
+                '#value' => theme('table', $header, $rows),
+                '#description' => t('You may share these codes to enable others to easily join your groups'),
+                '#attributes' => array('class' => 'og_registration_codes'),
+                // Only show list of groups to self and admins. TOOD: Make this configurable or doable via Views.
+                '#access' => TRUE,
+                '#weight' => 1
+              );
+              
+              
+              
+            }
+          }
+        }
+      }
+      break;
+  }
+}
+
+/**
+ * Menu callback function for settings form
+ * 
+ */
+function og_reg_codes_set() {
+
+  $form['og_reg_code_required'] = array(
+    '#type' => 'checkbox', 
+    '#title' => t('Is a registration code required for new users to register at this site?.'), 
+    '#default_value' => variable_get('og_reg_code_required', TRUE),
+    '#description' => t("If this is checked, no user will be able to register without a code at /user/register/"),
+  );
+
+  $roles = user_roles(TRUE);
+  $roles[DRUPAL_AUTHENTICATED_RID] = '<'. t('None') .'>'; 
+
+  $form['og_reg_codes_role'] = array(
+    '#type' => 'select',
+    '#title' => t('Role for new registrants'),
+    '#default_value' => variable_get('og_reg_codes_role', DRUPAL_AUTHENTICATED_RID),
+    '#options' => $roles,
+    '#description' => t('Pick an additional user role that will be assigned to all new users registering with a valid group registration code.'),
+  );
+
+  $form['og_reg_codes_message'] = array(
+      '#type' => 'textarea', 
+      '#title' => t('Text to be added to group invitation e-mails'),
+      '#default_value' => _og_reg_codes_message(),
+      '#required' => TRUE,
+      '#description' => t("The token '%reg_code' must be included and will be replaced by the group's registration code."),
+  );
+
+  $date = format_date(_og_reg_codes_get_salt('timestamp'));
+
+  $form['reset_salt'] = array(
+    '#type' => 'submit', 
+    '#value' => t('Reset codes'),
+    '#suffix' => '<p>'.t("All existing codes will be invalidated.  The last date that new codes were initiated was !date", array('!date' => $date)).'</p>',
+  );
+
+  return system_settings_form($form);
+}
+
+function og_reg_codes_set_validate($form, &$form_state) {
+  $op = isset($form_state['values']['op']) ? $form_state['values']['op'] : '';
+  
+  if ($op == t('Save configuration') && !strstr($form_state['values']['og_reg_codes_message'], '%reg_code')) {
+    form_set_error('og_reg_codes_message', t("You must include in your message the token '%reg_code'"));
+  }
+}
+
+function og_reg_codes_set_submit($form, &$form_state) {
+  if ($form_state['values']['op'] == t('Reset codes')) {
+    variable_del('og_reg_codes_salt');
+    drupal_set_message(t('All registration codes have been reset and given new values.')); 
+  }
+  else {
+    unset($form_state['values']['reset_salt']);
+    system_settings_form_submit($form, $form_state['values']);
+  }
+}
+
+/**
+ *  Menu callback function for "check group" and "join a group" page.
+ */
+function og_reg_codes_join() {
+  global $user;
+
+  $form['og_reg_code'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Group registration code'),
+    '#required' => TRUE,
+    '#size' => 25,
+  );
+  
+  $form['#after_build'] = array('og_reg_codes_add_preview'); 
+  
+  $form['preview'] = array('#type' => 'button', '#value' => t('Check code'));
+  
+  if ($user->uid > 0) {
+    $form['submit'] = array('#type' => 'submit', '#value' => t('Submit and join') );
+  }
+  return $form;
+}
+
+function og_reg_codes_add_preview($form, &$form_state) {
+  $op = isset($form['#post']['op']) ? $form['#post']['op'] : '';
+  if ($op == t('Check code')) { 
+    drupal_validate_form($form['form_id']['#value'], $form, $form_state);
+    if (!form_get_errors()) {
+      $gid = og_reg_codes_get_gid($form['og_reg_code']['#value']);
+      $node = node_load(array('nid' => $gid));
+      $preview = theme('og_reg_codes_join_preview', $node);
+      $form['#prefix'] = isset($form['#prefix']) ? $preview . $form['#prefix'] : $preview;
+    }
+  }
+  return $form;
+}
+
+function og_reg_codes_join_validate($form, &$form_state) {
+  if (!og_reg_codes_valid_code($form_state['values']['og_reg_code'])) {
+    form_set_error('og_reg_code', "Not a valid group registration code.");
+  }
+}
+
+function og_reg_codes_join_submit($form, &$form_state) {
+  global $user;
+  
+  if ($user->uid) {
+    $gid = og_reg_codes_get_gid($form_state['values']['og_reg_code']);
+    $return = og_subscribe_user($gid, $user);
+    drupal_set_message($return['message']);
+  }
+  else {
+    drupal_access_denied();
+  }
+}
+
+function theme_og_reg_codes_join_preview($node) {
+  $output = '<div class="preview">';
+  $output .= '<h3>'. t('By submitting this code, you will join this group:') .'</h3>';
+  $output .= node_view($node, TRUE, FALSE, FALSE);
+  $output .= "</div>\n";
+  
+  return $output;
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function og_reg_codes_theme() {
+  return array(
+    'og_reg_codes_join_preview' => array(
+      'arguments' => array('node' => NULL),
+    ),
+  );
+}
+
+/**
+ * @name og_reg_codes utility
+ * @{
+ * Utility functions for this module
+ */
+
+function _og_reg_codes_message() {
+  return variable_get('og_reg_codes_message', t("To join this group, use the registration code %reg_code"));
+}
+
+/**
+ * Returns the gid part of a registration code, or 0 if the code is 
+ * not properly formatted.
+ */
+function og_reg_codes_get_gid($code) {
+  $parts = explode('-', $code);
+  if (isset($parts[1]) && is_numeric($parts[1])) {
+    return $parts[1];
+  }
+  return 0;
+}
+
+/**
+ * Return a salt to generate the registration code hash, or the
+ * timestamp corresponding to the last time the salt was set.
+ */
+function _og_reg_codes_get_salt($op = 'salt') {
+
+  $salt = variable_get('og_reg_codes_salt', FALSE);
+  if (!$salt) {
+    $salt = uniqid(mt_rand(), TRUE);
+    variable_set('og_reg_codes_salt', $salt);
+    variable_set('og_reg_codes_salt_timestamp', time());
+  }
+  if ($op == 'salt') {
+    return $salt;
+  }
+  elseif ($op == 'timestamp') {
+    return variable_get('og_reg_codes_salt_timestamp', 0);
+  }
+}
+
+/**
+ * Returns a registration code given a gid. 
+ * API function; no validation is done on the gid.
+ */
+function og_reg_codes_get_code($gid) {
+
+  $hash = strtoupper(substr(md5($gid. _og_reg_codes_get_salt()), 11, 6));
+  return $hash. '-'. $gid;
+}
+
+/**
+ * Returns TRUE if the code has a valid hash, and if it corresponds to a
+ * group that is open or moderated. Returns FALSE otherwise. 
+ */
+function og_reg_codes_valid_code($code) {
+  $code = strtoupper(trim($code));
+  $gid = og_reg_codes_get_gid($code);
+  if ($gid && og_reg_codes_get_code($gid) == $code) {
+    $group = node_load($gid);
+    if (!empty($group) && isset($group->og_selective)) {
+      if ($group->og_selective == OG_OPEN || $group->og_selective == OG_MODERATED) {
+        return TRUE;
+      }
+    }
+  }
+  return FALSE;
+}
+
+/**
+ * @} End of "og_reg_codes utility".
+ */

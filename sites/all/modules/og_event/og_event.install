@@ -1,0 +1,76 @@
+<?php
+// $Id: og_event.install,v 1.1.2.1 2009/07/29 23:29:45 pounard Exp $
+
+/**
+ * Implementation of hook_install().
+ */
+function og_event_install() {
+  drupal_install_schema('og_event');
+}
+
+/**
+ * Implementation of hook_schema().
+ */
+function og_event_schema() {
+  $schema = array();
+
+  $schema['og_event_node'] = array(
+    'description' => 'Stores information about each group.',
+    'fields' => array(
+      'nid' => array(
+        'description' => 'The event {node}.nid.',
+        'type' => 'int',
+        'size' => 'normal',
+        'not null' => TRUE),
+      'open_reg' => array(
+        'description' => 'Is the event registration open to all?',
+        'type' => 'int',
+        'size' => 'small',
+        'not null' => TRUE,
+        'default' => 0),
+      'open_edit' => array(
+        'description' => 'Does the participant can edit the node?',
+        'type' => 'int',
+        'size' => 'small',
+        'not null' => TRUE,
+        'default' => 0),
+      'open_role' => array(
+        'description' => 'Can participant assign themselves a role?',
+        'type' => 'int',
+        'size' => 'small',
+        'not null' => TRUE,
+        'default' => 0)
+     ),
+    'primary key' => array('nid')
+  );
+
+  $schema['og_event_participant'] = array(
+    'description' => 'Stores information about each group.',
+    'fields' => array(
+      'nid' => array(
+        'description' => 'The event {node}.nid',
+        'type' => 'int',
+        'size' => 'normal',
+        'not null' => TRUE),
+      'uid' => array(
+        'description' => 'The participant {users}.uid',
+        'type' => 'int',
+        'size' => 'normal',
+        'not null' => TRUE),
+      'role' => array(
+        'description' => 'Arbitrary role assign by user to himself',
+        'type' => 'varchar',
+        'length' => 255)
+     ),
+    'primary key' => array('nid', 'uid')
+  );
+
+  return $schema;
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function og_event_uninstall() {
+  drupal_uninstall_schema('og_event');
+}
