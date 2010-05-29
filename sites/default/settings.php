@@ -89,8 +89,13 @@
  *   $db_url = 'mysqli://username:password@localhost/databasename';
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
-$db_url = 'mysqli://root:g%40t0p0rdi@localhost/portal';
+$db_url = 'mysqli://portal_hag:qwe123qwe123@localhost/portal';
 $db_prefix = '';
+
+ini_set('meemory_limit', '128M');
+ini_set('post_max_size', '96M');
+ini_set('upload_max_filesize', '96M');
+
 
 /**
  * Access control for update.php script
